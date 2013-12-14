@@ -2,7 +2,7 @@ The-Art-Of-Programming-By-July
 ==============================
 
 ## 关于
-本项目是July的《程序员编程艺术》的电子书版本
+本项目是July的《程序员编程艺术》的电子书版本，July 的 Bolg 地址是 [程序员编程艺术第一~三十七章集锦](http://blog.csdn.net/v_july_v/article/details/17303459)
 
 ## 前言
 
@@ -17,5 +17,20 @@ The-Art-Of-Programming-By-July
  
  
 愿我们能共同享受编程和思考的乐趣，thanks。
+
+
+## 开始阅读
+
+[开始阅读](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/preface.md>)
+
+## Todo List
+
+请参考本书[目录]((<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/preface.md>))未完成的章节
+
+## 贡献
+
+大家快给我发 pull request 吧！ 我一个人搞不定 T_T
+
+
 
 
