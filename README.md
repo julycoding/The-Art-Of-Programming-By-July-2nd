@@ -29,7 +29,7 @@ The-Art-Of-Programming-By-July
 
 ## 贡献
 
-大家快给我发 pull request 吧！ 我一个人搞不定 T_T
+欢迎大家一起不断改进、优化本编程艺术系列。
 
 
 
