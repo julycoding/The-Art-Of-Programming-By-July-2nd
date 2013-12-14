@@ -25,7 +25,7 @@ The-Art-Of-Programming-By-July
 
 ## Todo List
 
-请参考本书[目录]((<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/preface.md>)未完成的章节
+请参考本书[目录](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/preface.md>)未完成的章节
 
 ## 贡献
 
