@@ -33,7 +33,7 @@ The-Art-Of-Programming-By-July
 
 贡献名单:
 
-*[fz1989](https://github.com/fz1989)
+* [fz1989](https://github.com/fz1989)
 
 
 
