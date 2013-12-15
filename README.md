@@ -34,4 +34,4 @@ The-Art-Of-Programming-By-July
  * [fz1989](https://github.com/fz1989)
  * [xmpy](https://github.com/xmpy)
 
-凡是本《程序员编程艺术》的贡献者，且被收录到了贡献名单，可以随时向July索取他博客内所有博文集锦的最新CHM文件，或任何一个系列的最新PDF或WORD，联系July：<a href="http://weibo.com/julyweibo" target="_blank">@研究者July</a>。
+凡是本《程序员编程艺术》的贡献者，且被收录到了贡献名单，可以随时向July索取他博客内所有博文集锦的最新CHM文件，或任何一个系列的最新PDF或WORD，联系July：<a href="http://weibo.com/julyweibo" target="_blank">@研究者July</a>，以示鼓励。
