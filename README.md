@@ -20,9 +20,9 @@ The-Art-Of-Programming-By-July
 
  1、添补剩下的章节，即把博客上的原文[程序员编程艺术第一~三十七章](<http://blog.csdn.net/v_july_v/article/details/17303459/blob/master/ebook/preface.md>)同步移到本github上；
  
- 2、指正bug
+ 2、指正bug；
  
- 3、优化代码
+ 3、优化代码；
  
  4..任何你想做的事情
  
