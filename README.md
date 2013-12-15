@@ -18,13 +18,12 @@ The-Art-Of-Programming-By-July
 
 ## Todo List
 
+ 1、添补剩下的章节，即把博客上的原文[程序员编程艺术第一~三十七章](<http://blog.csdn.net/v_july_v/article/details/17303459/preface.md>)同步移到本github上；
+ 2、指正bug
+ 3、优化代码
+ 4..任何你想做的事情
  请参考本书[目录](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/preface.md>)未完成的章节
 
 
 ## 贡献名单
  * [fz1989](https://github.com/fz1989)
-
-
-
-
-
