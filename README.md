@@ -25,7 +25,7 @@ The-Art-Of-Programming-By-July
  
  3、优化代码；
  
- 4..任何你想做的事情
+ 4.任何你想做的事情
  
  请参考本书[目录](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/preface.md>)未完成的章节
 
