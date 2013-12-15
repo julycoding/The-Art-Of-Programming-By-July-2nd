@@ -3,7 +3,7 @@ The-Art-Of-Programming-By-July
 
 ## 项目说明
 
-  看过 <a href="http://blog.csdn.net/v_july_v" target="_blank">结构之法算法之道blog</a>
+  看过<a href="http://blog.csdn.net/v_july_v" target="_blank">结构之法算法之道blog</a>
 的朋友可能知道，从2010年10月起，July开始整理一个微软面试100题的系列，他在整理这个系列的过程当中，越来越强烈的感觉到，可以从那100题中精选一些更为典型的题，每一题详细阐述成章，不断优化，于此，便成了程序员编程艺术系列。
 
   原编程艺术系列从2011年4月至今，写了37个编程问题，在创作的过程当中，得到了很多朋友的支持，特别是博客上随时都会有朋友不断留言，或提出改进建议，或show出自己的思路、代码，或指正bug。
@@ -22,7 +22,7 @@ The-Art-Of-Programming-By-July
 
 ## Todo List
 
- 1、添补剩下的章节，即把博客上的原文[程序员编程艺术第一~三十七章](<http://blog.csdn.net/v_july_v/article/details/17303459/>)同步移到本github上，请参考本书[目录](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/preface.md>)未完成的章节；
+ 1、添补剩下的章节，即把博客上的原文<a href="http://blog.csdn.net/v_july_v/article/details/17303459"target="_blank">程序员编程艺术第一~三十七章</a>同步移到本github上，请参考本书[目录](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/preface.md>)未完成的章节；
  
  2、指正bug；
  
@@ -35,3 +35,5 @@ The-Art-Of-Programming-By-July
 ## 贡献名单
  * [fz1989](https://github.com/fz1989)
  * [xmpy](https://github.com/xmpy)
+
+凡是本《程序员编程艺术》的贡献者，且被收录到了贡献名单，可以随时向July索取他博客内所有博文集锦的最新CHM文件，或任何一个系列的最新PDF或WORD，联系July：<a href="http://weibo.com/julyweibo" target="_blank"/a>，感谢各位。
