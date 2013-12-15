@@ -1,4 +1,5 @@
 The-Art-Of-Programming-By-July
+=============================
 
 ## 项目说明
 
@@ -18,7 +19,7 @@ The-Art-Of-Programming-By-July
 
 ## Todo List
 
- 1、添补剩下的章节，即把博客上的原文[程序员编程艺术第一~三十七章](<http://blog.csdn.net/v_july_v/article/details/17303459/blob/master/ebook/preface.md>)同步移到本github上；
+ 1、添补剩下的章节，即把博客上的原文[程序员编程艺术第一~三十七章](<http://blog.csdn.net/v_july_v/article/details/17303459/>)同步移到本github上；
  
  2、指正bug；
  
