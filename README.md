@@ -30,8 +30,14 @@ The-Art-Of-Programming-By-July
  
 
 ## 贡献名单
+ * 本github创建者：[nateriver520](https://github.com/nateriver520)
+ * 本《程序员编程艺术》系列作者：[July](https://github.com/julykill)
  * [fz1989](https://github.com/fz1989)
  * [xmpy](https://github.com/xmpy)
  * [badnotes](https://github.com/badnotes)
+ * [HailinGuo](https://github.com/hazirguo)
+
+
+为示鼓励，所有贡献了本github的朋友，可以随时向July索取他博客内所有博文集锦的最新CHM文件，或任何一个系列的最新PDF或WORD，thanks各位。
 
 孤军奋战的时代早已远去，我们只有团结起来，才能帮助到更多更无数的人。<a href="http://weibo.com/julyweibo" target="_blank">@研究者July</a>，二零一三年十二月。
