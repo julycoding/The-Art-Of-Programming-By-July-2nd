@@ -34,4 +34,6 @@ The-Art-Of-Programming-By-July
  * [xmpy](https://github.com/xmpy)
  * [badnotes](https://github.com/badnotes)
 
-孤军奋战的时代早已远去，我们只有团结起来，才能帮助到更多更无数的人。为示感谢，所有贡献了本github的朋友，可以随时向我索取我博客内所有博文集锦的最新CHM文件，或任何一个系列的最新PDF或WORD，thanks各位<a href="http://weibo.com/julyweibo" target="_blank">@研究者July</a>，二零一三年十二月。
+
+为视鼓励，所有贡献了本github的朋友，可以随时向我索取我博客内所有博文集锦的最新CHM文件，或任何一个系列的最新PDF或WORD，thanks各位。
+孤军奋战的时代早已远去，我们只有团结起来，才能帮助到更多更无数的人。<a href="http://weibo.com/julyweibo" target="_blank">@研究者July</a>，二零一三年十二月。
