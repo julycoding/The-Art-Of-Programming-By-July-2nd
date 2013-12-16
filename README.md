@@ -32,5 +32,6 @@ The-Art-Of-Programming-By-July
 ## 贡献名单
  * [fz1989](https://github.com/fz1989)
  * [xmpy](https://github.com/xmpy)
+ * [badnotes](https://github.com/badnotes)
 
 孤军奋战的时代早已远去，我们只有团结起来，才能帮助到更多更无数的人。<a href="http://weibo.com/julyweibo" target="_blank">@研究者July</a>，二零一三年十二月。
