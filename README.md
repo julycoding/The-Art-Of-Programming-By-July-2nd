@@ -30,8 +30,8 @@ The-Art-Of-Programming-By-July
  
 
 ## 贡献名单
- * [本github创建者：nateriver520](https://github.com/nateriver520)
- * [本编程艺术作者：July](https://github.com/julykill)
+ * 本github创建者：[nateriver520](https://github.com/nateriver520)
+ * 本编程艺术作者：[July](https://github.com/julykill)
  * [fz1989](https://github.com/fz1989)
  * [xmpy](https://github.com/xmpy)
  * [badnotes](https://github.com/badnotes)
