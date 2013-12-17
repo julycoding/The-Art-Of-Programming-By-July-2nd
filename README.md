@@ -36,7 +36,7 @@ The-Art-Of-Programming-By-July
  * [xmpy](https://github.com/xmpy)
  * [badnotes](https://github.com/badnotes)
  * [HailinGuo](https://github.com/hazirguo)
-
+ * [sallen450](https://github.com/sallen450)
 
 为示鼓励，所有贡献了本github的朋友，可以随时向July索取他博客内所有博文集锦的最新CHM文件，或任何一个系列的最新PDF或WORD，thanks各位。
 
