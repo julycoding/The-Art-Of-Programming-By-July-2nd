@@ -14,8 +14,8 @@ The-Art-Of-Programming-By-July
 
 ## Start reading 
 
- [点击阅读](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/zh/preface.md>)
- [English Version](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/en/preface.md>) 
+ * [点击阅读](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/zh/preface.md>)
+ * [English Version](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/en/preface.md>) 
 
 
 ## Todo List
