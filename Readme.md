@@ -25,6 +25,7 @@ The-Art-Of-Programming-By-July
  * 优化原有代码；
  * 改写原有代码，如改写成C、C++、Java、C#、python、PHP等代码；
  * 翻译成英文版，参考[中文目录](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/zh/preface.md>)，把翻译后的文章编辑到这[English Version](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/en/preface.md>),注：不必逐字翻译，精简大气即可；
+ * 自己主导续写新的章节，如第三十八章；
  * 任何你想做的事情
  
  
