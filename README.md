@@ -1,7 +1,7 @@
 The-Art-Of-Programming-By-July
 =============================
 
-## 项目说明
+## What?
 
   看过<a href="http://blog.csdn.net/v_july_v"target="_blank">结构之法算法之道blog</a>的朋友可能知道，从2010年10月起，July开始整理一个微软面试100题的系列，他在整理这个系列的过程当中，越来越强烈的感觉到，可以从那100题中精选一些更为典型的题，每一题详细阐述成章，不断优化，于此，便成了程序员编程艺术系列。
 
@@ -12,9 +12,10 @@ The-Art-Of-Programming-By-July
   if not you，who？if not now，when？开始吧，一起享受协作编程的乐趣，have fun！
 
 
-## 开始阅读
+## Start reading 
 
  [点击阅读](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/zh/preface.md>)
+ [English Version](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/en/preface.md>) 
 
 
 ## Todo List
@@ -29,7 +30,7 @@ The-Art-Of-Programming-By-July
  
  
 
-## 贡献名单
+## Contribution List
  * 本github创建者：[nateriver520](https://github.com/nateriver520)
  * 本《程序员编程艺术》系列作者：[July](https://github.com/julykill)
  * [fz1989](https://github.com/fz1989)
