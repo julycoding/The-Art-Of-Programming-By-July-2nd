@@ -14,7 +14,7 @@ The-Art-Of-Programming-By-July
 
 ## Start reading 
 
- * [点击阅读](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/zh/preface.md>)
+ * [中文目录](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/zh/preface.md>)
  * [English Version](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/en/preface.md>) 
 
 
@@ -26,7 +26,7 @@ The-Art-Of-Programming-By-July
  
  3、优化代码；
  
- 4、参考中文目录，把本编程艺术系列翻译成英文版，放在这(<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/en/preface.md>)
+ 4、参考[中文目录](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/zh/preface.md>)，把本编程艺术系列翻译成英文版，放在这[English Version](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/en/preface.md>)
  
  4.任何你想做的事情
  
