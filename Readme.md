@@ -18,7 +18,7 @@ The-Art-Of-Programming-By-July
  * [English Version](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/en/preface.md>)    to do
 
 
-## Todo List
+## You Cadn Do
 
  * 添补剩下的章节，即把博客上的原文<a href="http://blog.csdn.net/v_july_v/article/details/17303459"target="_blank">程序员编程艺术第一~三十七章</a>同步移到本github上，请参考本书[中文目录](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/zh/preface.md>)未完成的章节；
  * 指正bug；
