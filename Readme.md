@@ -14,34 +14,32 @@ The-Art-Of-Programming-By-July
 
 ## Start reading 
 
- * [中文目录](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/zh/preface.md>)
- * [English Version](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/en/preface.md>) 
+ * [中文目录](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/zh/preface.md>)    doing
+ * [English Version](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/en/preface.md>)    to do
 
 
-## Todo List
+## You Can Do
 
- 1、添补剩下的章节，即把博客上的原文<a href="http://blog.csdn.net/v_july_v/article/details/17303459"target="_blank">程序员编程艺术第一~三十七章</a>同步移到本github上，请参考本书[中文目录](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/zh/preface.md>)未完成的章节；
- 
- 2、指正bug；
- 
- 3、优化代码；
- 
- 4、翻译成英文版，参考[中文目录](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/zh/preface.md>)，把翻译后的文章编辑到这[English Version](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/en/preface.md>),注：不必逐字翻译，精简大气即可；
- 
- 5、任何你想做的事情
+ * 添补剩下的章节，即把博客上的原文<a href="http://blog.csdn.net/v_july_v/article/details/17303459"target="_blank">程序员编程艺术第一~三十七章</a>同步移到本github上，请参考本书[中文目录](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/zh/preface.md>)未完成的章节；
+ * 指正bug；
+ * 优化原有代码，可以直接在原代码上进行修改优化；
+ * 改写原有代码，可以直接在原文上添加另一种语言的代码（比如若只有C代码，则添加C++、Java、C#、python、PHP等代码），或另起一篇文章也行；
+ * 翻译成英文版，参考[中文目录](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/zh/preface.md>)，把翻译后的文章编辑到这[English Version](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/en/preface.md>),注：不必逐字翻译，精简大气即可；
+ * 自己主导续写新的章节，如第三十八章；
+ * 任何你想做的事情
  
  
 
 ## Contribution List
- * 本github最初的创建者：[nateriver520](https://github.com/nateriver520)
- * 本《程序员编程艺术》系列作者：[July](https://github.com/julykill)
+ * [July](https://github.com/julykill)
+ * [nateriver520](https://github.com/nateriver520) 
  * [fz1989](https://github.com/fz1989)
  * [xmpy](https://github.com/xmpy)
  * [badnotes](https://github.com/badnotes)
  * [HailinGuo](https://github.com/hazirguo)
  * [sallen450](https://github.com/sallen450)
- * [eclipselu](https://github.com/eclipselu)，所作贡献：fix code highlight & wrong image
- * 
+ * [eclipselu](https://github.com/eclipselu)
+ * [lidashuang](https://github.com/lidashuang)
 
 为示鼓励，所有贡献了本github的朋友，可以随时向July索取他博客内所有博文集锦的最新CHM文件，或任何一个系列的最新PDF或WORD，thanks各位。
 
