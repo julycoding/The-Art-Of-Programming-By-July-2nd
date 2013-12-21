@@ -31,7 +31,7 @@ The-Art-Of-Programming-By-July
  
 
 ## Contribution List
- * [July](https://github.com/julykill)
+ * [July](https://github.com/julycoding)
  * [nateriver520](https://github.com/nateriver520) 
  * [fz1989](https://github.com/fz1989)
  * [xmpy](https://github.com/xmpy)
