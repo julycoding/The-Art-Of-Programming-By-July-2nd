@@ -41,6 +41,8 @@ The-Art-Of-Programming-By-July
  * [eclipselu](https://github.com/eclipselu)
  * [lidashuang](https://github.com/lidashuang)
  * [diseng](https://github.com/diseng)
+ * [Boshen](https://github.com/Boshen)
+ * [denganliang](https://github.com/denganliang)
 
 为示鼓励，所有贡献了本github的朋友，可以随时向July索取他博客内所有博文集锦的最新CHM文件，或任何一个系列的最新PDF或WORD，thanks各位。
 
