@@ -45,6 +45,8 @@ The-Art-Of-Programming-By-July
  * [denganliang](https://github.com/denganliang)
  * [Benjamin-T](https://github.com/Benjamin-T)
  * [daiyl0320](https://github.com/daiyl0320)
+
+
 为示鼓励，所有贡献了本github的朋友，可以随时向July索取他博客内所有博文集锦的最新CHM文件，或任何一个系列的最新PDF或WORD，thanks各位。
 
 孤军奋战的时代早已远去，我们只有团结起来，才能帮助到更多更无数的人。<a href="http://weibo.com/julyweibo" target="_blank">@研究者July</a>，二零一三年十二月。
