@@ -23,7 +23,6 @@ The-Art-Of-Programming-By-July
  * 添补剩下的章节，即把博客上的原文<a href="http://blog.csdn.net/v_july_v/article/details/17303459"target="_blank">程序员编程艺术第一~三十七章</a>同步移到本github上，请参考本书[中文目录](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/zh/preface.md>)未完成的章节；
  * 指正bug；
  * 优化原有代码，可以直接在原代码上进行修改优化；
- * 改写原有代码，可以直接在原文上添加另一种语言的代码（比如若只有C代码，则添加C++、Java、C#、python、PHP等代码），或另起一篇文章也行；
  * 翻译成英文版，参考[中文目录](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/zh/preface.md>)，把翻译后的文章编辑到这[English Version](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/en/preface.md>),注：不必逐字翻译，精简大气即可；
  * 自己主导续写新的章节，如第三十八章；
  * 任何你想做的事情
