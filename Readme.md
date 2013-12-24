@@ -27,7 +27,7 @@ The-Art-Of-Programming-By-July
  * 自己主导续写新的章节，如第三十八章；
  * 任何你想做的事情
  
- 有其它的问题，咱们可以讨论：(<https://github.com/julycoding/The-Art-Of-Programming-by-July/issues?state=open>)。
+ 有其它的问题，咱们可以讨论：<https://github.com/julycoding/The-Art-Of-Programming-by-July/issues?state=open>。
 
 ## Contribution List
  * [July](https://github.com/julycoding)
