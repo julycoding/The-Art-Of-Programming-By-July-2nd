@@ -44,6 +44,7 @@ The-Art-Of-Programming-By-July
  * [denganliang](https://github.com/denganliang)
  * [Benjamin-T](https://github.com/Benjamin-T)
  * [daiyl0320](https://github.com/daiyl0320)
+ * [xtlx2000](https://github.com/xtlx2000)
 
 
 为示鼓励，所有贡献了本github的朋友，可以随时向July索取他博客内所有博文集锦的最新CHM文件，或任何一个系列的最新PDF或WORD，thanks各位。
