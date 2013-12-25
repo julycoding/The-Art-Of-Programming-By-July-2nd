@@ -260,8 +260,6 @@ void rotate_7(char *begin, char *mid, char *end)
 /* 3 step rotation */
 //Copyright@ 小桥流水 && July
 //c代码实现，已测试正确。
-//http://www.smallbridge.co.cc/2011/03/13/100%E9%A2%98
-//_21-%E5%B7%A6%E6%97%8B%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.html
 //July、updated，2011.04.17。
 char *invert(char *start, char *end)
 {
@@ -338,10 +336,16 @@ int main () {
     rotate_6(s, shift);
     cout << "after  shift: " << s << endl << endl;
 
-    char str[] = "abcdefghi";
+    char str1[] = "abcdefghi";
+    cout << "testing rotate_7" << endl;
+    cout << "before shift: " << str1 << endl;
+    rotate_7(&str1[0], &str1[shift], &str1[9]);
+    cout << "after  shift: " << str1 << endl << endl;
+
+    char str2[] = "abcdefghi";
     cout << "testing rotate_8" << endl;
-    cout << "before shift: " << str << endl;
-    cout << "after  shift: " << rotate_8(str, 9, shift) << endl;
+    cout << "before shift: " << str2 << endl;
+    cout << "after  shift: " << rotate_8(str2, 9, shift) << endl;
 
     return 0;
 }
