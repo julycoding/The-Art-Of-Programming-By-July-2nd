@@ -26,7 +26,8 @@ The-Art-Of-Programming-By-July
  * 翻译成英文版，参考[中文目录](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/zh/preface.md>)，把翻译后的文章编辑到这[English Version](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/en/preface.md>),注：不必逐字翻译，精简大气即可；
  * 自己主导续写新的章节，如第三十八章；
  * 任何你想做的事情。
- 有其它的问题，咱们可以讨论：<https://github.com/julycoding/The-Art-Of-Programming-by-July/issues?state=open>。
+ 
+有其它的问题，咱们可以讨论：<https://github.com/julycoding/The-Art-Of-Programming-by-July/issues?state=open>。
 
 ## Contribution List
  * [July](https://github.com/julycoding)
