@@ -22,7 +22,7 @@ The-Art-Of-Programming-By-July
  * 添补剩下的章节，即把博客上的原文<a href="http://blog.csdn.net/v_july_v/article/details/17303459"target="_blank">程序员编程艺术第一~三十七章</a>同步移到本github上，请参考本书[中文目录](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/zh/preface.md>)未完成的章节；
  * 指正 bug；
  * 优化原有代码，可以直接在原代码上进行修改优化；
- * 重绘所有的图片（可以考虑使用的工具：①TikZ - 通吃各种绘图，依赖 LaTeX ，需要LaTeX基础；②Asymptote -通吃各种绘图，甚至可以绘制3D，语法类似 OpenGL ；③Graphviz - 线、框图；④Visio；④简单的图也可以直接上 ASCII 图）；
+ * 重绘所有的图片（可以考虑使用的工具：①TikZ - 通吃各种绘图，依赖 LaTeX ，需要LaTeX基础；②Asymptote -通吃各种绘图，甚至可以绘制3D，语法类似 OpenGL ；③Graphviz - 线、框图；④Visio；④⑤单的图也可以直接上 ASCII 图）；
  * 若添加其它语言的代码，勿直接添加在原文上，可以放在 ebook/code 的代码文件夹内；
  * 翻译成英文版，参考[中文目录](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/zh/preface.md>)，把翻译后的文章编辑到这[English Version](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/en/preface.md>),注：不必逐字翻译，精简大气即可；
  * 自己主导续写新的章节，如第三十九章；
