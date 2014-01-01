@@ -51,4 +51,4 @@ The-Art-Of-Programming-By-July
 
 为示鼓励，所有贡献了本 github 的朋友，可以随时向 July 索取他博客内所有博文集锦的最新CHM文件，或任何一个系列的最新PDF或WORD，thanks 各位。
 
-孤军奋战的时代早已远去，我们只有团结起来，才能帮助到更多更无数的人。<a href="http://weibo.com/julyweibo" target="_blank">@研究者July</a>，二零一三年十二月十四日。
+孤军奋战的时代早已远去，我们只有团结起来，才能帮助到更多更无数的人。<a href="http://weibo.com/julyweibo" target="_blank">@研究者July</a>，始于二零一三年十二月十四日。
