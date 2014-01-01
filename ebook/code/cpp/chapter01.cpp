@@ -6,6 +6,7 @@ using namespace std;
 void leftShiftOne(string &str) 
 {
     int n = str.length();
+    if (n < 2) return; // args check
     char t = str[0];  //保存第一个字符
     for (int i = 1; i < n; ++i) 
     {
