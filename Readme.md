@@ -15,8 +15,8 @@ The author also decided to make an English version so our collaborative work can
 为了方便大家更好的改进、优化编程艺术系列，特把原来博客上的系列文章同步到此，邀请各位一起协作：若发现本编程艺术系列任何问题、错误、bug，或可以优化的每一段代码，欢迎随时贡献。
 
 # 乘
- * [中文](https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/zh/preface.md) Enhancement in progress
- * [English Version](https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/en/preface.md) Translation in progress
+ * [中文目录](https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/zh/preface.md) Enhancement in progress
+ * [English Contents](https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/en/preface.md) Translation in progress
 
 
 # 转
