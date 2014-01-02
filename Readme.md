@@ -37,4 +37,4 @@ The author also decided to make an English version so our collaborative work can
 
 孤军奋战的时代早已远去，我们只有团结起来，才能帮助到更多更无数的人。[@研究者July](http://weibo.com/julyweibo)，始于二零一三年十二月十四日。
 
-最后， 感谢所有贡献的朋友，并非常期待你的加入：https://github.com/julycoding/The-Art-Of-Programming-by-July/graphs/contributors。
+最后， 感谢所有贡献的朋友，并非常期待你的加入：https://github.com/julycoding/The-Art-Of-Programming-by-July/graphs/contributors 。
