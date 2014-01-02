@@ -24,7 +24,7 @@ The-Art-Of-Programming-By-July
  * 优化原有代码，可以直接在原代码上进行修改优化；
  * 重绘所有的图片：https://github.com/julycoding/The-Art-Of-Programming-by-July/issues/80；
  * 若添加其它语言的代码，勿直接添加在原文上，可以放在 ebook/code 的代码文件夹内；
- * 翻译成英文版，参考[中文目录](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/zh/preface.md>)，把翻译后的文章编辑到这[English Version](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/en/preface.md>),注：不必逐字翻译，精简大气即可（如有兴趣翻译，请到这里领取感兴趣的章节翻译：https://github.com/julycoding/The-Art-Of-Programming-by-July/issues/84）；
+ * 翻译成英文版，参考[中文目录](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/zh/preface.md>)，把翻译后的文章编辑到这[English Version](<https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/en/preface.md>),注：不必逐字翻译，精简大气即可（如有兴趣翻译，请到这里领取感兴趣的章节翻译：https://github.com/julycoding/The-Art-Of-Programming-by-July/issues/84 ）；
  * 自己主导续写新的章节，如第三十九章；
  * 任何你想做的事情。
  
