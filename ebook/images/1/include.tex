@@ -1,0 +1,38 @@
+\tikzset{
+  text node/.style={
+    align=left,
+    text height=1em,text depth=.5em,
+    inner sep=0pt,
+    text width=\textwidth
+  },
+  split node/.style={
+    draw, align=center,
+    text height=1em,text depth=.5em,
+    inner sep=0pt,text width=12ex,
+    rectangle split,rectangle split horizontal,
+    rectangle split part align=base,
+    start chain=going right
+  },
+  arrowshift/.style={yshift=1.5em},
+  textshift/.style={xshift=-.8em, yshift=.8em}
+}
+
+\newcommand{\nodeparts}[9]{
+  \nodepart{one}   #1 
+  \nodepart{two}   #2
+  \nodepart{three} #3 
+  \nodepart{four}  #4 
+  \nodepart{five}  #5 
+  \nodepart{six}   #6 
+  \nodepart{seven} #7 
+  \nodepart{eight} #8 
+  \nodepart{nine}  #9 
+}
+
+\newcommand{\arrowtext}[2]{
+  \draw [-latex] ([arrowshift] #1 north) -- (#1 north);
+  \node[textshift] at (#1 north) {$p_1$};
+  \draw [-latex] ([arrowshift] #2 north) -- (#2 north);
+  \node[textshift] at (#2 north) {$p_2$};
+}
+
