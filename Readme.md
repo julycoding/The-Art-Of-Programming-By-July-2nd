@@ -3,6 +3,9 @@ The 'Art Of Programming' project is a result of a well-known Chinese blog focuse
 
 An English version is also provided to collaborate with non-Chinese speakers.
 
+# License
+The project is under MIT, please see opensource.org/licenses/MIT for details
+
 # 起
 看过[结构之法算法之道blog](http://blog.csdn.net/v_july_v)的朋友可能知道，从2010年10月起，[July](http://weibo.com/julyweibo)开始整理一个微软面试100题的系列，他在整理这个系列的过程当中，越来越强烈的感觉到，可以从那100题中精选一些更为典型的题，每一题详细阐述成章，不断优化，于此，便成了程序员编程艺术系列。
 
