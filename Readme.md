@@ -1,11 +1,11 @@
 # About
-This project is an ebook version of a famous Chinese blog that writes about classic programming questions.
+This project is an ebook version of a famous Chinese blog that writes about classic programming problems.
 
-The blog received over 5.5 million page views since October 2010 and a considerable amount of questions and improvements have been suggested during the years.
+Started from October 2010, the blog received over 5.5 million page views as well as a large number of questions and improvement suggestions.
 
 The author (July) felt that he can no longer answer all the questions and review all the improvements alone so he decided to create this project where everyone can enhance and expand the contents of his blog.
 
-The author also decided to make an English version so our collaborative work can be shared with the world.
+The author also decided to compose an English version so our collaborative work can be shared with the world.
 
 # 启
 看过[结构之法算法之道blog](http://blog.csdn.net/v_july_v)的朋友可能知道，从2010年10月起，[July](http://weibo.com/julyweibo)开始整理一个微软面试100题的系列，他在整理这个系列的过程当中，越来越强烈的感觉到，可以从那100题中精选一些更为典型的题，每一题详细阐述成章，不断优化，于此，便成了程序员编程艺术系列。
