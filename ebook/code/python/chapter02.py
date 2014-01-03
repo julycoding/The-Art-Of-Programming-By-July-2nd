@@ -179,14 +179,19 @@ def compare_6(long_string, short_string):
     return True
 
 
+def compare_7(long_string, short_string):
+    return set(short_string) - set(long_string) == set([])
+
+
 if __name__ == '__main__':
     long = "ABCDEFGHLMNOPQRS"
-    short = "DXCGSRQP"
+    short = "DCGSRQPX"
 
     print compare_1(long, short)
     print compare_2(long, short)
     print compare_3(long, short)
-    #print compare_3('ABCDAK', 'AA')
+    # print compare_3('ABCDAK', 'AA')
     print compare_4(long, short)
     print compare_5(long, short)
     print compare_6(long, short)
+    print compare_7(long, short)
