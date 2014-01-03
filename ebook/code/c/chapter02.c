@@ -160,14 +160,14 @@ bool contain3(char * stra,char * strb){
 	return false;
   }
 }
-//bit法,只能处理大写A等价小写a
+//bit法,区分大小写
 bool contain4(char * stra,char * strb){
-  unsigned int bitA = 0,bitB = 0;
+  unsigned long long bitA = 0,bitB = 0; //必须用long long,64位才不会溢出
   while(*stra){
-	bitA |= 1 << (*stra++ & 0x3f); //取8位中的后6位,a:97 A:65
+	bitA |= (unsigned long long)(1l << (*stra++ & 0x3f)); //取8位中的后6位,a:97:01100001b	A:65:01000001b 0x3f:00111111b;
   }
   while(*strb){
-	bitB |= 1 << (*strb++ & 0x3f);
+	bitB |= (unsigned long long)(1l << (*strb++ & 0x3f));
   }
   return !((bitA ^ bitB) & bitB); //bitA ^ bitB 之后的结果,对于bitB中非0位,为1的话表示A中与B中某位不同,所以不包含
 }
