@@ -1,5 +1,5 @@
 # About
-The 'Art Of Programming' project is a result of popular Chinese blog dedicates on classic programming problems. Ever since October 2010, the blog receives over 5.5 million unique visits with an incredible amount of positive feedbacks. Due to its popularity, the author (July) can no longer keep up with growing number of question and decided to branch out and open source this project so that everyone contribute.
+The 'Art Of Programming' project is a result of a well-known Chinese blog focuses on classic programming problems. Ever since October 2010, the blog receives over 5.5 million unique visits with an incredible amount of positive feedbacks. Due to its popularity, the author (July) can no longer keep up with growing number of question and decided to branch out and open source this project so that everyone contribute.
 
 An English version is also provided to collaborate with non-Chinese speakers.
 
