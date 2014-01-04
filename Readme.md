@@ -16,7 +16,7 @@ An English version is also provided to collaborate with non-Chinese speakers.
 
 
 # 转
- * 添补剩下的章节，即把博客上的原文[序员编程艺术第一~三十八章](http://blog.csdn.net/v_july_v/article/details/17303459)同步移到本github上，请参考本书[中文目录](https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/zh/preface.md)未完成的章节
+ * 添补剩下的章节，即把博客上的原文[程序员编程艺术第一~三十八章](http://blog.csdn.net/v_july_v/article/details/17303459)同步移到本github上，请参考本书[中文目录](https://github.com/nateriver520/The-Art-Of-Programming-By-July/blob/master/ebook/zh/preface.md)未完成的章节
  * 指正 bug
  * 优化原有代码，可以直接在原代码上进行修改优化
  * 重绘所有的图片：https://github.com/julycoding/The-Art-Of-Programming-by-July/issues/80
