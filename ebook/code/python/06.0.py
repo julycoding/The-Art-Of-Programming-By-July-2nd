@@ -1,52 +1,44 @@
-from common.mymath import *
+import math
 
-n = 100000
-Plst = PrimeLst(n)
 
-def primefactorLst(n):
-    lst = []
-    for i in Plst:
-        if n == 1:
+def PrimeList(n):
+    lst = range(0, n + 1)
+    lst[1] = 0
+    thres = int(math.sqrt(n))
+    for i in xrange(2, thres + 1):
+        if lst[i] == 0:
+            continue
+        for j in range(i * 2, len(lst), i):
+            lst[j] = 0
+    return [i for i in lst if i != 0]
+
+
+def sumDivisors(n,primelst):
+    s = 1
+    for p in primelst:
+        if p * p > n:
             break
-        if n%i==0:
-            cnt = 0
-            while n%i==0:
-                cnt += 1
-                n = n/i
-            item = (i,cnt)
-            lst.append(item)
-    return lst
-
-import operator
-def factorlstIn(l):
-    if len(l)==0:
-        return [1]
-    lz = factorlstIn(l[1:])
-    (p, e) = l[0]
-    return reduce(operator.add,[[p**i*j for j in lz] for i in range(0,e+1)],[])
+        if n % p == 0:
+            j = p * p
+            n = n / p
+            while n % p == 0:
+                j = j * p
+                n = n / p
+            s = s * (j - 1) / (p - 1)
+    if n > 1:
+        s = s * (n + 1)
+    return s
 
 
-def factorlst(n):
-    l = primefactorLst(n)
-    return factorlstIn(l)
+def getSumDiv(n, primelst):
+    return sumDivisors(n, primelst) - n
 
-def getSumDiv(n):
-    if n<=1:
-        return 0
-    return sum(factorlst(n)) - n
-
-def isAmi(n):
-    m = getSumDiv(n)
-    nn = getSumDiv(m)
-    if n == nn and m!=n:
-        print n,m
-        return True
-    return False
-
-s = []
-for i in range(2,10000+1):
-    if isAmi(i):
-        s.append(i)
-
-print s
-print sum(s)
+if __name__ == "__main__":
+    N = 500 * 10000
+    primelst = PrimeList(N)
+    for n in range(2, N + 1):
+        m = getSumDiv(n, primelst)
+        if m > n:
+            nn = getSumDiv(m, primelst)
+            if n == nn:
+                print n, m
