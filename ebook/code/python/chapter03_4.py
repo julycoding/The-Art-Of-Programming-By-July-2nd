@@ -15,7 +15,7 @@ class topk():
             heapq.heappushpop(self.h, val)
 
     def result(self):
-        return map(lambda x:-x,self.h)
+        return map(lambda x: -x, self.h)
 
 
 if __name__ == "__main__":
