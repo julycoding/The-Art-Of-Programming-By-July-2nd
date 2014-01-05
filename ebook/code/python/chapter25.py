@@ -9,3 +9,9 @@ def binary_search(lst, n):
         else:
             return mid
     return -1
+
+
+if __name__ == '__main__':
+    a = [1, 3, 5, 7, 9]
+    assert(binary_search(a, 3) == 1)
+    assert(binary_search(a, 4) == -1)
