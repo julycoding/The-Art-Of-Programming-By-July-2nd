@@ -8,7 +8,7 @@ def leftshift_5(s, n):
     n = n % len(s)
     head = strreverse(s[0:n])
     tail = strreverse(s[n:])
-    ret = strreverse(head+tail)
+    ret = strreverse(head + tail)
     return ret
 
 if __name__ == "__main__":
