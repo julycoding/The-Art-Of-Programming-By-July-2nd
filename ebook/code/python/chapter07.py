@@ -1,13 +1,11 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 '''
-File: chapter07.1.py
 Author: tdoly
-Description: https://github.com/julycoding/The-Art-Of-Programming-by-July/blob/master/ebook/zh/07.0.md 求子数组的最大和
 '''
 
-def maxSum(ls):
+
+def max_sum(ls):
     #判断列表
     if len(ls) > 0:
         #将列表的第一个元素赋值给result,用以判断全为负数的情况,mark初始值为0
@@ -25,15 +23,16 @@ def maxSum(ls):
             result = mark
     return result
 
+
 def test():
     lss = [[1, -2, 3, 10, -4, 7, 2, -5],
            [1, 3, 10, -4, 7, 2],
            [-2, -2, -1, -1, -2],
            [-10, -3, -2, -14, 2],
-           []
-          ]
+           []]
     for ls in lss:
-        print maxSum(ls)
+        print max_sum(ls)
+
 
 if __name__ == '__main__':
     test()
