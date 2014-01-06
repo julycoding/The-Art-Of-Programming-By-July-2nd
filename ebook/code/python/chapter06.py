@@ -1,7 +1,7 @@
 import math
 
 
-def PrimeList(n):
+def prime_list(n):
     lst = range(0, n + 1)
     lst[1] = 0
     thres = int(math.sqrt(n))
@@ -13,7 +13,7 @@ def PrimeList(n):
     return [i for i in lst if i != 0]
 
 
-def sumDivisors(n,primelst):
+def sum_divisors(n, primelst):
     s = 1
     for p in primelst:
         if p * p > n:
@@ -30,15 +30,15 @@ def sumDivisors(n,primelst):
     return s
 
 
-def getSumDiv(n, primelst):
-    return sumDivisors(n, primelst) - n
+def get_sum_div(n, primelst):
+    return sum_divisors(n, primelst) - n
 
 if __name__ == "__main__":
     N = 500 * 10000
-    primelst = PrimeList(N)
+    primelst = prime_list(N)
     for n in range(2, N + 1):
-        m = getSumDiv(n, primelst)
+        m = get_sum_div(n, primelst)
         if m > n:
-            nn = getSumDiv(m, primelst)
+            nn = get_sum_div(m, primelst)
             if n == nn:
                 print n, m
