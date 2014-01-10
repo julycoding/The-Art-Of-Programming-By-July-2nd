@@ -4,14 +4,14 @@ import copy
 # 整体函数接口说明：
 #
 # Args:
-# 	s: 给定需要移位的list
-#	m: 需要移动的位数
+#   s: 给定需要移位的list
+#   m: 需要移动的位数
 #
 # Returns:
-# 	无。直接修改传入的list
+#   无。直接修改传入的list
 #
 # Author:
-# 	Jasonwbw(Jasonwbw@yahoo.com)
+#   Jasonwbw(Jasonwbw@yahoo.com)
 
 ##########################################################################
 # Tools
