@@ -8,6 +8,16 @@
 
 This will generate TAOP_July.epub for you.
 
+##Notice
+
+The script will **reset** your repo's status. Please **commit** before start generating.
+
+Reason for that:
+
+*	some **image link** in .md file ended with **?raw=true**
+*	while `pandoc` processing convert, it will **failed** to read such file
+*	So, this script do some preprocess, remove all that tail of image link
+*	After generation, `git reset` is performed to reset those files
 
 
 ##Bugs
