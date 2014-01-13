@@ -1,0 +1,18 @@
+---
+title:
+- type: main
+  text: The Art of Programming By July
+- type: subtitle
+  text: somestuff
+creator:
+- role: author
+  text: July
+contributor:
+- role: author
+  text: co sdfds
+date: 2014
+language: zh_CN
+description: 
+cover-image: TAOP.png
+stylesheet: style.css
+...
