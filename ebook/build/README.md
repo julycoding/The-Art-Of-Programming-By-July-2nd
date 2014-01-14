@@ -24,7 +24,6 @@ To make specific format, use `make (format)`, e: `make epub`
 ##Bugs
 
 *	when reading in ibooks, error reported in several chapter(Maybe due to informal format)
-	*	第二十二章：最短摘要的生成
 	*	第二十六章：基于给定的文档生成倒排索引的编码与实践
 	*	第二十八章：最大连续乘积子串
 	*	第二十九章：字符串编辑距离
