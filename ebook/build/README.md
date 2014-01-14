@@ -24,8 +24,6 @@ To make specific format, use `make (format)`, e: `make epub`
 ##Bugs
 
 *	when reading in ibooks, error reported in several chapter(Maybe due to informal format)
-	* 	第三章再续：快速选择SELECT算法的深入分析与实现
-	*	第三章：寻找最小的 k 个数
 	*	第三章：寻找最小的 k 个数
 	*	第五章：寻找和为定值的两个或多个数
 	*	第十一章：最长公共子序列（LCS）问题
