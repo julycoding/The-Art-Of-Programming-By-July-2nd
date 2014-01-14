@@ -2,11 +2,21 @@
 
 ##Requirement
 *	pandoc
+*	git
+*	make(OS X users should install XCode command line tools(xcode-select --install)
+*	latex (OS X users should probably install MacTex.)
 
 ##Usage
-*	chmod +x generate.sh
 
-This will generate TAOP_July.epub for you.
+Now scripts support three format generation:
+
+*	epub
+*	html
+*	pdf(need latex support)
+
+To make all three format, use `make`.
+
+To make specific format, use `make (format)`, e: `make epub`
 
 
 ##Bugs
@@ -27,3 +37,7 @@ This will generate TAOP_July.epub for you.
 	*	第三十三章：木块砌墙
 	*	第三十五章：完美洗牌算法
 	
+	
+##TODO
+
+support .mobi
