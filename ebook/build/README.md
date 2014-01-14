@@ -24,7 +24,6 @@ To make specific format, use `make (format)`, e: `make epub`
 ##Bugs
 
 *	when reading in ibooks, error reported in several chapter(Maybe due to informal format)
-	*	第三十章：字符串转换成整数
 	*	第三十一章：带通配符的字符串匹配问题
 	*	第三十二章：最小操作数
 	*	第三十三章：木块砌墙
