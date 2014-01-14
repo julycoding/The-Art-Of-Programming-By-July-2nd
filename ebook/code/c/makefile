@@ -1,19 +1,15 @@
 CC = gcc
-CFLAGS = -Wall
+CPPFLAGS = -Wall
 
-all: chapter01 chapter02 chapter03
+FILE_SUFFIX = c
 
-chapter01:  chapter01.c
-	$(CC) $(CFLAGS) chapter01.c -o chapter01
+SRCS := $(wildcard *.$(FILE_SUFFIX))
+EXES := $(patsubst %.$(FILE_SUFFIX),%,$(SRCS))
 
-chapter02:  chapter02.c
-	$(CC) $(CFLAGS) chapter02.c -o chapter02
+all:$(EXES)
 
-chapter03:  chapter03.c
-	$(CC) $(CFLAGS) chapter03.c -o chapter03
-
+$(EXES): % : %.$(FILE_SUFFIX)
+	$(CC) $(CPPFLAGS) $< -o $@
 
 clean:
-	rm chapter01
-	rm chapter02
-	rm chapter03
+	rm -rf $(EXES)
