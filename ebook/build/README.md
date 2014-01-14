@@ -24,7 +24,6 @@ To make specific format, use `make (format)`, e: `make epub`
 ##Bugs
 
 *	when reading in ibooks, error reported in several chapter(Maybe due to informal format)
-	*	第二十八章：最大连续乘积子串
 	*	第二十九章：字符串编辑距离
 	*	第三十章：字符串转换成整数
 	*	第三十一章：带通配符的字符串匹配问题
