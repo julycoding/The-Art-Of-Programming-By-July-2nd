@@ -2,36 +2,27 @@
 
 ##Requirement
 *	pandoc
+*	git
+*	make(OS X users should install XCode command line tools(xcode-select --install)
+*	latex (OS X users should probably install MacTex.)
+*	calibre(For mobi)
 
 ##Usage
-*	chmod +x generate.sh
 
-This will generate TAOP_July.epub for you.
+Now scripts support three format generation:
 
-##Notice
+*	epub
+*	html
+*	pdf(need latex support)
+*	mobi([calibre](http://www.calibre-ebook.com/) is needed, and install command line tools)
 
-The script will **reset** your repo's status. Please **commit** before start generating.
+To make all three format, use `make`.
 
-注意: 这个脚本由于使用了`git reset`, 会重置你的库的状态.如果在生成前对库里的文件有任何的修改,请先`commit`提交后再调用生成脚本.
-
-Reason for that:
-
-*	some **image link** in .md file ended with **?raw=true**
-*	while `pandoc` processing convert, it will **failed** to read such file
-*	So, this script do some preprocess, remove all that tail of image link
-*	After generation, `git reset` is performed to reset those files
-
-原因:
-
-*	有些图片在引用时的路径添加上了?raw=true
-*	当pandoc处理时,其读取不到相应的文件,导致无法继承图片到图书中
-*	为了解决这个问题,生成脚本做了一些预处理,删除掉了图片链接中的?raw=true
-*	在生成后,脚本调用了`git reset`,来重置这些预处理
+To make specific format, use `make (format)`, e: `make epub`
 
 
 ##Bugs
-*	03.04.md
-	* image lost in 03.04.md(because of img wrapped in \<img\>)
+
 *	when reading in ibooks, error reported in several chapter(Maybe due to informal format)
 	* 	第三章再续：快速选择SELECT算法的深入分析与实现
 	*	第三章：寻找最小的 k 个数
@@ -48,3 +39,5 @@ Reason for that:
 	*	第三十三章：木块砌墙
 	*	第三十五章：完美洗牌算法
 	
+	
+##TODO
