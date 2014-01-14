@@ -4,12 +4,12 @@ BOOKNAME = TAOP_July
 METADATA = metadata.yaml
 SRC_DIR = ../zh/
 #CHAPTERS = ch01.md ch02.md
-TOC = --toc --toc-depth=2
+TOC = --toc
 LATEX_CLASS = report
 
 all: book
 
-book: epub mobi html pdf
+book: epub mobi html
 
 clean:
 	rm -r $(BUILD)
