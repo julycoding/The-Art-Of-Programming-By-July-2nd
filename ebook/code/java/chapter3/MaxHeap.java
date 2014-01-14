@@ -1,52 +1,58 @@
+/**
+ * a simple max heap with fixed length
+ **/
+
+import java.util.Arrays;
 
 public class MaxHeap {
-
-    private int[] data;
     
-    public MaxHeap(int size) {
-        this.data = new int[size];
+    private int[] data;
+    private int size = 0;
+
+    public MaxHeap(int capacity) {
+        data = new int[capacity];
+        Arrays.fill(data, Integer.MAX_VALUE);
     }
     
+    // return all the element in the heap
+    public int[] getAll() {
+        return Arrays.copyOfRange(data, data.length - size, data.length);
+    }
+
+    public void insert(int m) {
+        if (data.length > 0 && m < data[0]) { // only if the element is less than the heap top, we will do the insertion
+            data[0] = m;
+            maxHeapify(0);
+            if (size < data.length) {
+                size++;
+            }
+        }
+    }    
+
     private void maxHeapify(int n) {
         if (n < 0 || n >= data.length) {
             return;
         }   
-        int nLeft = getLeft(n);
-        int nRight = getRight(n);
-        int nBiggerChild = -1;
+        int nLeft = n * 2;
+        int nRight = n * 2 + 1;
+        int pLargest = n;
 
-        if (nLeft != -1 && data[nLeft] > data[n]) {
-            swap(nLeft, n);
-            nBiggerChild = nLeft;
+        if (nLeft < data.length && data[pLargest] < data[nLeft]) {
+            pLargest = nLeft;
         }
 
-        if (nRight != -1 && data[nRight] > data[n]) {
-            swap(nRight, n)a
-            nBiggerChild = data[nRight] < data[nLeft] ? nRight : nLeft;
+        if (nRight < data.length && data[pLargest] < data[nRight]) {
+            pLargest = nRight;
         }
-
-        maxHeapify(nBiggerChild);
+        if (pLargest != n) {
+            swap(pLargest, n);
+            maxHeapify(pLargest);
+        }
     }
 
     private void swap(int i, int j) {
-
-    }
-    
-    private int getLeft(int n) {
-        int index = n << 1;
-        if (index < data.length) {
-            return index;
-        } ellse {
-            return -1;
-        }
-    }
-
-    private int getRight(int n) {
-        int index = n << 1 + 1;
-        if (index < data.length) {
-            return index;
-        } else {
-            return -1;
-        }
+        int temp = data[j];
+        data[j] = data[i];
+        data[i] = temp;
     }
 }
