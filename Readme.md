@@ -16,7 +16,7 @@ An English version is also being provided so non-Chinese speakers can also contr
 
 
 # 转
- * 添补剩下的章节，即把博客上的原文[程序员编程艺术第一~三十八章](http://blog.csdn.net/v_july_v/article/details/17303459)同步移到本github上，请参考本书[中文目录](ebook/zh/Readme.md)未完成的章节
+ * 添补剩下的章节，参考本书[中文目录](ebook/zh/Readme.md)未完成的章节。除了第三章需要重新编辑外，其余文章已全部同步完成
  * 指正 bug
  * 优化原文章上的C/C++ 代码，可以添加在原代码的后面，或者放到[ebook/code](ebook/code/)文件夹内
  * 添加其它语言如Java、python、go 的代码，放在[ebook/code](ebook/code/)文件夹内
