@@ -4,7 +4,7 @@ BOOKNAME = TAOP_July
 METADATA = metadata.yaml
 SRC_DIR = ../zh/
 #CHAPTERS = ch01.md ch02.md
-TOC = --toc
+TOC = --toc --toc-depth=1
 LATEX_CLASS = report
 
 all: book
@@ -60,7 +60,6 @@ $(BUILD)/mobi/$(BOOKNAME).mobi: $(TITLE)
 		--cover TAOP.png \
 		--authors July \
 		--level1-toc 'h1'\
-		--level2-toc 'h2' \
 		--language zh_CN ;
 
 .PHONY: all book clean epub html pdf mobi
