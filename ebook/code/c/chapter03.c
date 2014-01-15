@@ -26,7 +26,7 @@ void swap(int * a, int * b)
 void _adjustForMaxHeap(int * arr, int len, int pos)
 {
     int key = *(arr + pos);
-    int i, j;
+    int i;
     for (i = pos * 2; i <= len; i *= 2) //找各个儿子
     {
         if (i < len && *(arr + i) < * (arr + i + 1))
@@ -52,7 +52,7 @@ void _adjustForMaxHeap(int * arr, int len, int pos)
 void _adjustForMinHeap(int * arr, int len, int pos)
 {
     int key = *(arr + pos);
-    int i, j;
+    int i;
     for (i = pos * 2; i <= len; i *= 2) //找各个儿子
     {
         if (i < len && *(arr + i) > *(arr + i + 1))
