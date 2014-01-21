@@ -12,13 +12,13 @@
 
 
 # You can do
- * 添补剩下的章节，参考本书[中文目录](ebook/zh/Readme.md)未完成的章节。目前除了第三章需要重新编辑外，其余文章已全部同步完成
+ * 添补剩下的章节，参考本书[中文目录](ebook/zh/Readme.md)未完成的章节。
  * 指正 bug
  * 优化原文章上的C/C++ 代码，可以添加在原代码的后面，或者放到[ebook/code](ebook/code/)文件夹内。目前第一、二章的优化基本完成
  * 添加其它语言如Java、python、go 的代码，放在[ebook/code](ebook/code/)文件夹内
  * 重绘所有的图片：https://github.com/julycoding/The-Art-Of-Programming-by-July/issues/80
  * 翻译成英文版，参考[中文目录](ebook/zh/Readme.md)，把翻译后的文章编辑到这[English Version](ebook/en/Readme.md),注：不必逐字翻译，精简大气即可（如有兴趣翻译，请到这里领取感兴趣的章节翻译：https://github.com/julycoding/The-Art-Of-Programming-by-July/issues/84 )
- * 自己主导续写新的章节，如第三十九章；
+ * 自己主导续写新的章节，如第四十一章；
  * 任何你想做的事情。
 
 你可以做以上任何一件或几件事情，如遇到任何问题或疑惑，咱们可以随时讨论：
