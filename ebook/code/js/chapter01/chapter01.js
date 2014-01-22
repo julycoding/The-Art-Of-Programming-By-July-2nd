@@ -14,6 +14,8 @@
 function leftShift1(s, m) {
     var arr = s.split(''), length = arr.length;
 
+    m %= length;
+    
     while (m--) {
         shiftHeadToEnd(arr, length);
     }
@@ -79,12 +81,19 @@ function reverse(arr, start, end) {
     }
 }
 
-
 // 测试
 // 1. 暴力移位法
 console.log('暴力移位法：');
+console.log('abcdef 左旋转 0 位变成： ' + leftShift1('abcdef', 0));
 console.log('abcdef 左旋转 2 位变成： ' + leftShift1('abcdef', 2));
+console.log('abcdef 左旋转 6 位变成 (等价于不变)： ' + leftShift1('abcdef', 6));
+console.log('abcdef 左旋转 8 位变成 (等价于左旋转 2 位)： ' + leftShift1('abcdef', 8));
+console.log('abcdef 左旋转 15 位变成 (等价于左旋转 3 位)： ' + leftShift1('abcdef', 15));
 
 // 2. 三步翻转法
 console.log('三步翻转法：');
+console.log('abcdef 左旋转 0 位变成： ' + leftShift2('abcdef', 0));
 console.log('abcdef 左旋转 2 位变成： ' + leftShift2('abcdef', 2));
+console.log('abcdef 左旋转 6 位变成 (等价于不变)： ' + leftShift2('abcdef', 6));
+console.log('abcdef 左旋转 8 位变成 (等价于左旋转 2 位)： ' + leftShift2('abcdef', 8));
+console.log('abcdef 左旋转 15 位变成 (等价于左旋转 3 位)： ' + leftShift2('abcdef', 15));
