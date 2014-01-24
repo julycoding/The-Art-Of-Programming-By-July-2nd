@@ -40,10 +40,10 @@ def left_shift_one(s, i, j):
         i : 索引位置i
         j : 索引位置j
     '''
-    t = s[i]
-    for k in xrange(i, j - 1):
-        s[k] = s[k + 1]
-    s[j - 1] = t
+    if i == 0 or i >= j or j >= len(s):
+        return None
+    t = s.pop(i-1)
+    s.insert(j-1,t)
 
 ##########################################################################
 # 思路零
