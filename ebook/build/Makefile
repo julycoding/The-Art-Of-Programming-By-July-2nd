@@ -1,18 +1,13 @@
-
 BUILD = build
 BOOKNAME = TAOP_July
 METADATA = metadata.yaml
 SRC_DIR = ../zh/
-#CHAPTERS = ch01.md ch02.md
 TOC = --toc --toc-depth=1
 LATEX_CLASS = report
 
 all: book
 
 book: epub mobi html
-
-clean:
-	rm -r $(BUILD)
 
 epub: $(BUILD)/epub/$(BOOKNAME).epub
 
@@ -21,6 +16,9 @@ html: $(BUILD)/html/$(BOOKNAME).html
 pdf: $(BUILD)/pdf/$(BOOKNAME).pdf
 
 mobi: $(BUILD)/mobi/$(BOOKNAME).mobi
+
+clean:
+	rm -r $(BUILD)
 
 #pandoc generate great TOC for epub, html, pdf
 #so In this makefile, we will omit Readme.md
