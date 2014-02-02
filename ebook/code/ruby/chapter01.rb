@@ -22,8 +22,8 @@ def left_shift(s, m)
   (0...m).each{ left_shift_one(s, 0, s.length)}
 end
 
-def invert(s, _start, _end)
-  (0...(_end - _start + 1) / 2).each{|k| s[_start + k ], s[_end - k] = s[_end - k], s[_start + k]}
+def invert(s, from, to)
+  (0...(to - from + 1) / 2).each{|i| s[from + i], s[to - i] = s[to - i], s[from + i]}
 end
 
 
@@ -35,36 +35,33 @@ def invert_solution(s, m)
 end
 
 if __FILE__== $0
-  a1 = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i']
-  a2 = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
-  a3 = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+  a1 = "abcdefghi"
+  a2 = "abcdefgh"
+  a3 = "abcdefg"
   point = 3
-  a0_1 = a1.clone
-  a0_2 = a2.clone
-  a0_3 = a3.clone
-  simple_shift(a0_1, point)
-  simple_shift(a0_2, point)
-  simple_shift(a0_3, point)
-  p 'simple_shift:', a0_1, a0_2, a0_3
+  test_results = [a1, a2, a3].map do |s|
+    s = s.dup
+	simple_shift s, point
+	s
+  end
+
+  puts 'simple_shift:', test_results
   puts
   
-  a1_1 = a1.clone
-  a1_2 = a2.clone
-  a1_3 = a3.clone
-  left_shift(a1_1, point)
-  left_shift(a1_2, point)
-  left_shift(a1_3, point)
-  p 'left_shift:', a1_1, a1_2, a1_3
+  test_results = [a1, a2, a3].map do |s|
+    s = s.dup
+	left_shift s, point
+	s
+  end
+  puts 'left_shift:', test_results
   puts
 
-  a2_1 = a1.clone
-  a2_2 = a2.clone
-  a2_3 = a3.clone
-  invert_solution(a2_1, point)
-  invert_solution(a2_2, point)
-  invert_solution(a2_3, point)
-  p 'invert_solution:', a2_1, a2_2, a2_3
+  test_results = [a1, a2, a3].map do |s|
+    s = s.dup
+	invert_solution s, point
+	s
+  end
+  puts 'invert_solution:', test_results
   puts
 
 end
-
