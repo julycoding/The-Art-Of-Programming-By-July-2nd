@@ -7,14 +7,6 @@
 推荐阅读：Left-Leaning Red-Black Trees, Dagstuhl Workshop on Data Structures, Wadern, Germany, February, 2008.   
 直接下载：<http://www.cs.princeton.edu/~rs/talks/LLRB/RedBlack.pdf>。  
 
-红黑树系列，六篇文章于今日已经完成：  
-
-[1、教你透彻了解红黑树](http://blog.csdn.net/v_JULY_v/article/details/6105630)  
-[2、红黑树算法的实现与剖析](http://blog.csdn.net/v_JULY_v/article/details/6109153)  
-[3、红黑树的c源码实现与剖析](http://blog.csdn.net/v_JULY_v/article/details/6114226)  
-[4、一步一图一代码，R-B Tree](http://blog.csdn.net/v_JULY_v/article/details/6124989)  
-[5、红黑树插入和删除结点的全程演示](http://blog.csdn.net/v_JULY_v/article/details/6284050)  
-[6、红黑树的c++完整实现源码](http://blog.csdn.net/v_JULY_v/article/details/6285620)  
 
 ## 一、红黑树的介绍
 
@@ -379,16 +371,3 @@ ok，只贴俩张，更多，参考我写的关于红黑树的第二篇文章：
 或者，saturnman的这篇文章： <http://saturnman.blog.163.com/blog/static/5576112010969420383/>。  
 
 July、二零一零年十二月三十一日、最后更新。  
-
-
-1. [教你透彻了解红黑树](http://blog.csdn.net/v_JULY_v/article/details/6105630)  
-2. [红黑树算法的实现与剖析](http://blog.csdn.net/v_JULY_v/article/details/6109153)  
-3. [红黑树的c源码实现与剖析](http://blog.csdn.net/v_JULY_v/article/details/6114226)  
-4. [一步一图一代码，R-B Tree](http://blog.csdn.net/v_JULY_v/article/details/6124989)  
-5. [红黑树插入和删除结点的全程演示](http://blog.csdn.net/v_JULY_v/article/details/6284050)  
-6. [红黑树的c++完整实现源码](http://blog.csdn.net/v_JULY_v/article/details/6285620)  
-7. <http://hi.baidu.com/sangwf/item/f158d83e7b0bc5be124b1422>  
-
-## 版权声明
-
-本BLOG内的此红黑树系列，总计六篇文章，是整个国内有史以来有关红黑树的最具代表性，最具完整性，最具参考价值的资料，转载请注明出处，谢谢。
