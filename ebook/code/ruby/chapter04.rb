@@ -21,6 +21,7 @@ class String
   #Ruby 1.9 maintains hash order 
   #For Ruby 1.8 find orderedhash http://rubygems.org/gems/orderedhash
   #find first letter who's count is count
+  #This supports UTF-8
   def o_first_count_letter(count = 1)
     hash = Hash.new(0)
     each_char{|c|

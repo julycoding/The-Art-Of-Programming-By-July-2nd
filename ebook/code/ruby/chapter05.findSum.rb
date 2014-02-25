@@ -49,9 +49,9 @@ def find_sum_with_two(array, sum)
   print "find_03  ", array.find_03(sum), "\n"
   
   Benchmark.bm(10) do |x|
-    x.report("find_01:")   { 10000.times{ array.find_01(sum) } }
-    x.report("find_02:")   { 10000.times{ array.find_02(sum) } }
-    x.report("find_03:")   { 10000.times{ array.find_03(sum) } }
+    x.report("find_01:") { 10000.times{ array.find_01(sum) } }
+    x.report("find_02:") { 10000.times{ array.find_02(sum) } }
+    x.report("find_03:") { 10000.times{ array.find_03(sum) } }
   end
 end
 

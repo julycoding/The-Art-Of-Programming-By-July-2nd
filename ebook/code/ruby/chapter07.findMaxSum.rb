@@ -14,24 +14,20 @@ def max_sum(arr)
   [max, max_sub]
 end
 
-def max(*ar)
-  return ar.max
-end
-
-def max_sum_2(arr)
+def max_sum_dp(arr)
   sum = Array.new(arr.length){0}
   sum[0] = arr[0]
   1.upto(arr.length - 1){|i|
-    sum[i] = max( arr[i], sum[i-1] + arr[i]) 
+    sum[i] = [ arr[i], sum[i-1] + arr[i]].max
   }
   sum.max
 end
  
 
 if __FILE__ == $0
-  p max_sum([-1,-2,-3,-4])
-  p max_sum([1, -2, 3, 10, -4, 7, 2, -5]) 
   
-  p max_sum_2([-1,-2,-3,-4])
-  p max_sum_2([1, -2, 3, 10, -4, 7, 2, -5]) 
+  [ [-1,-2,-3,-4] , [1, -2, 3, 10, -4, 7, 2, -5] ] .each{ |ar|
+    p ar, max_sum(ar), max_sum_dp(ar)  
+  }
+ 
 end
