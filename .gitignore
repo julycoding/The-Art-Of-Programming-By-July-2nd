@@ -43,3 +43,4 @@ Thumbs.db
 
 # python compiled binary
 *.pyc
+ebook/build/build/
