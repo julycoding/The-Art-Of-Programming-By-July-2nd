@@ -32,6 +32,7 @@
 # Copyright
 本《程序员编程艺术》的版权属于July 等原作者们，严禁其他任何人出版，严禁用于任何商业用途，违者必究法律责任。July、二零一四年一月二十一日晨。
 
-# July 资料库
-* 支持向量机通俗导论（理解SVM的三层境界）Latex版PDF：http://vdisk.weibo.com/s/zrFL6OXKgnlcp。
-* 程序员编程艺术第一~三十七章PDF：http://download.csdn.net/detail/v_july_v/6694053。
+# July资料库
+* 支持向量机通俗导论（理解SVM的三层境界）Latex版PDF：http://vdisk.weibo.com/s/zrFL6OXKgnlcp
+* 程序员编程艺术第一~三十七章PDF：http://download.csdn.net/detail/v_july_v/6694053
+* 持续更新..
