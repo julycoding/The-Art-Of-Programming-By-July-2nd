@@ -12,7 +12,7 @@
 
 
 # How To Contribute
- * 添补剩下的章节，参考本书[中文目录](ebook/zh/Readme.md)未完成的章节。「必选」
+ * 添补剩下的章节，参考本书[中文目录](ebook/zh/Readme.md)未完成的章节。「必选，目前优先级最高」
  * 指正 bug 「必选」
  * 优化原文章上的C/C++ 代码，可以添加在原代码的后面，或者放到[ebook/code](ebook/code/)文件夹内。 「必选」
  * 添加其它语言如Java、python、go 的代码，放在[ebook/code](ebook/code/)文件夹内 「可选」
