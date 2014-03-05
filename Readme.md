@@ -13,7 +13,7 @@
 
 # How To Contribute
  * 添补剩下的章节，参考本书[中文目录](ebook/zh/Readme.md)未完成的章节。「必选，优先级最高，目前剩9篇文章尚未同步：https://github.com/julycoding/The-Art-Of-Programming-By-July/issues/182 」
- * 指正 bug 「必选」
+ * 指正 bug，修正错误 「必选」
  * 优化原文章上的C/C++ 代码，可以添加在原代码的后面，或者放到[ebook/code](ebook/code/)文件夹内。 「必选」
  * 添加其它语言如Java、python、go 的代码，放在[ebook/code](ebook/code/)文件夹内。 「可选」
  * 重绘所有的图片：https://github.com/julycoding/The-Art-Of-Programming-by-July/issues/80
