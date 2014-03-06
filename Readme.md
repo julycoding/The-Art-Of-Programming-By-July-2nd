@@ -23,6 +23,7 @@
 
 你可以做以上任何一件或几件事情，如遇到任何问题或疑惑，咱们可以随时讨论：
 <https://github.com/julycoding/The-Art-Of-Programming-by-July/issues?state=open>。
+「如不知如何在github上提交及同步作者的更新，可参考此文：http://www.cnblogs.com/rubylouvre/archive/2013/01/24/2874694.html」
 
 # Contributors
 为示鼓励，所有贡献了本 github 的朋友，可以随时向 July 索取他博客内所有博文集锦的最新CHM文件，或任何一个系列的最新PDF或WORD，甚者，本系列集结出版成书后，愿赠送所有contributors 一人一本新书，以此感谢所有贡献的朋友：https://github.com/julycoding/The-Art-Of-Programming-by-July/graphs/contributors ，并非常期待你的加入，thanks。
