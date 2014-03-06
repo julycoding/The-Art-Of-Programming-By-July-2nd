@@ -1,9 +1,11 @@
-;author lmdyyh 3/6/2014
-;compiled with guile,executed the cod using 1m38.903s with array size of 5000000,if you don't have guile,you can delete these two lines below then compile it with the compiler what you have installed.  ./chapter36
 #!/usr/bin/guile -s
 !#
+
+;author lmdyyh 3/6/2014
+;compiled with guile,executed the cod using 1m38.903s with array size of 5000000,if you don't have guile,you can delete these two lines below then compile it with the compiler what you have installed.  ./chapter36
 ;vector initialized with 1
-(define SIZE 5000000)
+
+(define SIZE 50000)
 (define sum (make-vector SIZE 1))
 
 (define (all-sum i)
@@ -16,7 +18,6 @@
        (estra (+ i i))
        (all-sum (+ i 1)))
     ))
-;
 (all-sum 2)
 
 (define (amiable i)
