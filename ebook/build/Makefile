@@ -4,6 +4,8 @@ METADATA = metadata.yaml
 SRC_DIR = ../zh/
 TOC = --toc --toc-depth=1
 LATEX_CLASS = report
+GHUSER = 
+GHPASS = 
 
 all: book
 
@@ -29,7 +31,10 @@ $(BUILD)/epub/$(BOOKNAME).epub: $(TITLE)
 $(BUILD)/html/$(BOOKNAME).html:
 	mkdir -p $(BUILD)/html
 	cp -r ../images/ $(BUILD)/images
-	pandoc $(TOC) --standalone --to=html5 -o $@ `ls $(SRC_DIR)*.md | grep "$(SRC_DIR)[0-9]"`
+	cp TAOP.png $(BUILD)/html
+	@tmpdir=`pwd`;\
+		cd $(BUILD)/html;\
+		mdtogh --css --user=$(GHUSER) --pass=$(GHPASS) --toc --book=$$tmpdir/book.json --file_reg='^\d.+\.md$$' $$tmpdir/$(SRC_DIR);
 
 $(BUILD)/pdf/$(BOOKNAME).pdf: $(TITLE)
 	mkdir -p $(BUILD)/pdf

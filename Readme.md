@@ -12,10 +12,10 @@
 
 
 # How To Contribute
- * 添补剩下的章节，参考本书[中文目录](ebook/zh/Readme.md)未完成的章节。
- * 指正 bug
- * 优化原文章上的C/C++ 代码，可以添加在原代码的后面，或者放到[ebook/code](ebook/code/)文件夹内。目前第一、二章的优化基本完成
- * 添加其它语言如Java、python、go 的代码，放在[ebook/code](ebook/code/)文件夹内
+ * 添补剩下的章节，参考本书[中文目录](ebook/zh/Readme.md)未完成的章节。「必选，优先级最高，目前剩9篇文章尚未同步：https://github.com/julycoding/The-Art-Of-Programming-By-July/issues/182 」
+ * 指正 bug，修正错误。 「必选」
+ * 优化原文章上的C/C++ 代码，可以添加在原代码的后面，或者放到[ebook/code](ebook/code/)文件夹内。 「必选」
+ * 添加其它语言如Java、python、go 的代码，放在[ebook/code](ebook/code/)文件夹内。 「可选」
  * 重绘所有的图片：https://github.com/julycoding/The-Art-Of-Programming-by-July/issues/80
  * 翻译成英文版，参考[中文目录](ebook/zh/Readme.md)，把翻译后的文章编辑到这[English Version](ebook/en/Readme.md),注：不必逐字翻译，精简大气即可（如有兴趣翻译，请到这里领取感兴趣的章节翻译：https://github.com/julycoding/The-Art-Of-Programming-by-July/issues/84 )
  * 自己主导续写新的章节，如第四十一章；
@@ -25,7 +25,7 @@
 <https://github.com/julycoding/The-Art-Of-Programming-by-July/issues?state=open>。
 
 # Contributors
-为示鼓励，所有贡献了本 github 的朋友，可以随时向 July 索取他博客内所有博文集锦的最新CHM文件，或任何一个系列的最新PDF或WORD，以此感谢所有贡献的朋友：https://github.com/julycoding/The-Art-Of-Programming-by-July/graphs/contributors ，并非常期待你的加入，thanks。
+为示鼓励，所有贡献了本 github 的朋友，可以随时向 July 索取他博客内所有博文集锦的最新CHM文件，或任何一个系列的最新PDF或WORD，甚者，本系列集结出版成书后，愿赠送所有contributors 一人一本新书，以此感谢所有贡献的朋友：https://github.com/julycoding/The-Art-Of-Programming-by-July/graphs/contributors ，并非常期待你的加入，thanks。
 
 孤军奋战的时代早已远去，我们只有团结起来，才能帮助到更多更无数的人。[@研究者July](http://weibo.com/julyweibo)，始于二零一三年十二月十四日。
 
@@ -37,4 +37,5 @@
 * 程序员编程艺术第一~三十七章PDF：http://download.csdn.net/detail/v_july_v/6694053 ，本github上的文章已经对此PDF进行了极大的优化和改进。
 * 微软面试100题系列之PDF：http://download.csdn.net/detail/v_july_v/4583815
 * 十五个经典算法研究与总结之PDF：http://download.csdn.net/detail/v_july_v/4478027
+* 编程艺术HTML网页版：http://taop.marchtea.com/
 * 持续更新....
