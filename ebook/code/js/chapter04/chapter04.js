@@ -24,6 +24,7 @@ function solution1(arr, number) {
 }
 
 // 2. 二分查找
+
 /*
  * @param {Array} arr 目标数组
  * @param {Number} number 在数组中查找两个数，使得其和为 number
@@ -66,6 +67,7 @@ function binarySearch(arr, key, low, high) {
 }
 
 // 3. 双数组指针扫描
+
 /*
  * @param {Array} arr 目标数组
  * @param {Number} number 在数组中查找两个数，使得其和为 number
@@ -103,6 +105,7 @@ function solution3(arr, number) {
 }
 
 // 4. 借助 hash
+
 /*
  * @param {Array} arr 目标数组
  * @param {Number} number 在数组中查找两个数，使得其和为 number
@@ -126,6 +129,7 @@ function solution4(arr, number) {
 }
 
 // 5. 双指针两端扫描
+
 /*
  * @param {Array} arr 目标数组
  * @param {Number} number 在数组中查找两个数，使得其和为 number
