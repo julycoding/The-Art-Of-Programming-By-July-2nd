@@ -34,7 +34,7 @@ $(BUILD)/html/$(BOOKNAME).html:
 	cp TAOP.png $(BUILD)/html
 	@tmpdir=`pwd`;\
 		cd $(BUILD)/html;\
-		mdtogh --css --user=$(GHUSER) --pass=$(GHPASS) --toc --book=$$tmpdir/book.json --file_reg='^\d.+\.md$$' $$tmpdir/$(SRC_DIR);
+		mdtogh --css --user=$(GHUSER) --pass=$(GHPASS) --toc --toc_file=$$tmpdir/$(SRC_DIR)Readme.md --book=$$tmpdir/book.json --file_reg='^\d.+\.md$$' $$tmpdir/$(SRC_DIR);
 
 $(BUILD)/pdf/$(BOOKNAME).pdf: $(TITLE)
 	mkdir -p $(BUILD)/pdf
