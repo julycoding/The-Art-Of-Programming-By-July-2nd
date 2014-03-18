@@ -8,7 +8,7 @@
  * 	Version:	0.1
  * 	Created:	Tue Mar 18 21:25:58 2014
  * 
- * 	Author(s):	Liang Wang<fairywell28@gmail.com>
+ * 	Author(s):	Liang Wang<fairywell28@yahoo.com>
  *          	eriol c++ version 0.1 2011
  *          	July c++ version 0.2 2014
  * 
