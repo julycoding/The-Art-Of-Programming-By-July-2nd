@@ -72,7 +72,7 @@ void rotate_3(string &str, int m)
     int n = str.length();
 
     // 处理m大于n
-    if (m % n == 0)
+    if (m > n)
         return;
 
     // 循环直至p2到达字符串末尾

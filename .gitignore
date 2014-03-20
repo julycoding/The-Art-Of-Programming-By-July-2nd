@@ -6,6 +6,7 @@
 *.exe
 *.o
 *.so
+ebook/build/build
 
 # Packages #
 ############
@@ -42,3 +43,4 @@ Thumbs.db
 
 # python compiled binary
 *.pyc
+ebook/build/build/
