@@ -12,7 +12,7 @@
 
 
 # How To Contribute
- * 添补剩下的章节，参考本书[中文目录](ebook/zh/Readme.md)未完成的章节。「必选，目前剩3篇文章尚未同步：https://github.com/julycoding/The-Art-Of-Programming-By-July/issues/182 」
+ * 添补剩下的章节，参考本书[中文目录](ebook/zh/Readme.md)未完成的章节。「必选，目前剩2篇文章尚未同步：https://github.com/julycoding/The-Art-Of-Programming-By-July/issues/182 」
  * 一章一章的测试所有代码，指正 bug，修正错误。 「必选，可到这里认领：https://github.com/julycoding/The-Art-Of-Programming-By-July/issues/210 」
  * 优化原文章上的C/C++ 代码，优化后的代码可以放到[ebook/code](ebook/code/)文件夹内。 「必选」
  * 添加其它语言如Java、python、go 的代码，放在[ebook/code](ebook/code/)文件夹内。 「可选」
@@ -28,7 +28,7 @@
 # Contributors
 为示鼓励，所有贡献了本 github 的朋友，可以随时向 July 索取他博客内所有博文集锦的最新CHM文件，或任何一个系列的最新PDF或WORD，甚者，本系列集结出版成书后，愿赠送所有contributors 一人一本新书，以此感谢所有贡献的朋友：https://github.com/julycoding/The-Art-Of-Programming-by-July/graphs/contributors ，并非常期待你的加入，thanks。
 
-集结令：欢迎所有已经贡献过本github的65位朋友加入此QQ群：149638123，验证信息为你贡献本项目时用的github昵称。
+集结令：欢迎所有已经贡献过本github的66位朋友加入此QQ群：149638123，验证信息为你贡献本项目时用的github昵称。
 
 孤军奋战的时代早已远去，我们只有团结起来，才能帮助到更多更无数的人。[@研究者July](http://weibo.com/julyweibo)，始于二零一三年十二月十四日。
 
