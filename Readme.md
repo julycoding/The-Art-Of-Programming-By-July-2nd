@@ -19,7 +19,7 @@
  * 重绘所有的图片：https://github.com/julycoding/The-Art-Of-Programming-by-July/issues/80
  * 翻译成英文版，参考[中文目录](ebook/zh/Readme.md)，把翻译后的文章编辑到这[English Version](ebook/en/Readme.md),注：不必逐字翻译，精简大气即可（如有兴趣翻译，请到这里领取感兴趣的章节翻译：https://github.com/julycoding/The-Art-Of-Programming-by-July/issues/84 )
  * 自己主导续写新的章节；
- * 任何你想做的事情。
+ * 任何你想做的事情，包括痛批你觉得写的烂的章节，所有你的意见都将改进此系列。
 
 你可以做以上任何一件或几件事情，如遇到任何问题或疑惑，咱们可以随时讨论：
 <https://github.com/julycoding/The-Art-Of-Programming-by-July/issues?state=open>。
