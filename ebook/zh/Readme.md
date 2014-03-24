@@ -61,7 +61,7 @@
  - [9.2：set/map和hashtable/hash_map](09.02.md)
  - [9.3：分而治之/hash映射](09.03.md)
  - [9.4：双层桶划分](09.04.md)
- - [9.5：Bloom filter/Bitmap](09.05.md)
+ - [9.5：Bloom filter和Bitmap](09.05.md)
  - [9.6：Trie树/数据库/倒排索引](09.06.md)
  - [9.7：外排序](09.07.md)
  - [9.8：分布式处理之Hadoop/Mapreduce](09.08.md)
