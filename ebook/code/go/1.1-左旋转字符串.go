@@ -1,3 +1,7 @@
+//1.1 左旋转字符串
+//@author leiyonglin <leiyonglin@gmail.com>
+//http://play.golang.org/p/SxiFC1eRsE
+
 package main
 
 import (
