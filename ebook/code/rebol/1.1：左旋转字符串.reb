@@ -12,9 +12,10 @@ leftShift1: func[
                 m  [ integer! ] ;要左旋的位数
 ][ 
     while[ m > 0] [
-      left_shift_one str
-      -- m
-    ]
+          left_shift_one str
+          -- m
+     ]
+     return str
 ]
 
  left_shift_one:  func [   
@@ -41,6 +42,8 @@ leftShift2: func[
      reverse str 1 m
      reverse str m + 1 length? str
      reverse str 1 length? str
+
+     return str
 ]
 
 reverse: func[
@@ -57,3 +60,8 @@ reverse: func[
         -- end
     ]
 ]
+
+str: "abcdefghijk"
+print [ "The origin str is " str ]
+print [ "Left Shift  V1 :" leftShift1 str 6 ]
+print [ "Left Shift  V2 :" leftShift2 str 6 ]
