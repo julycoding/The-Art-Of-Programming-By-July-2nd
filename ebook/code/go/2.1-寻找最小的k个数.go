@@ -1,6 +1,6 @@
 //2.1 寻找最小的k个数
 //@author leiyonglin <leiyonglin@gmail.com>
-//
+//http://play.golang.org/p/41xfLFuTYq
 
 package main
 
