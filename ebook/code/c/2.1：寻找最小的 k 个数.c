@@ -1,234 +1,68 @@
-/*
- *  Zaks Wang
- *  ultimate010@gmail.com
- *  ultimate010.tk
- *  2013-1-3
- */
-//寻找最大或最小k个数,以及堆排序,利用最小或最大堆实现
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+//解法四
+//copyright@ mark allen weiss  
+//July、updated，2011.05.05凌晨.  
 
+//q_select places the kth smallest element in a[k]  
+void q_select( input_type a[], int k, int left, int right )  
+{  
+	int i, j;
+	input_type pivot;
+	if( left + CUTOFF <= right )  
+	{
+		pivot = median3( a, left, right );
+		//取三数中值作为枢纽元，可以消除最坏情况而保证此算法是O（N）的。不过，这还只局限在理论意义上。  
+		//稍后，除了下文的第二节的随机选取枢纽元，在第四节末，您将看到另一种选取枢纽元的方法。  
 
-void swap(int * a, int * b)
-{
-    int tmp = *a;
-    *a = *b;
-    *b = tmp;
+		i=left; j=right-1;
+		for(;;)
+		{
+			while( a[++i] < pivot );
+			while( a[--j] > pivot );
+			if (i < j )
+				swap( &a[i], &a[j] );
+			else
+				break;
+		}
+		swap( &a[i], &a[right-1] ); /* restore pivot */
+		if( k < i)
+			q_select( a, k, left, i-1 );
+		else
+			if( k > i )
+				q-select( a, k, i+1, right );
+	}  
+	else
+		insert_sort(a, left, right );
 }
 
-/*
- * 最大堆筛选过程
- * @arr 数组头指针,调整后的指针
- * @len 数组长度,注意最后一位表示方法为*(arr + len),不是*(arr + len -1);
- * @pos 调整位置,1开始
- */
-void _adjustForMaxHeap(int * arr, int len, int pos)
-{
-    int key = *(arr + pos);
-    int i;
-    for (i = pos * 2; i <= len; i *= 2) //找各个儿子
-    {
-        if (i < len && *(arr + i) < * (arr + i + 1))
-        {
-            i++; //左右儿子中找最大的
-        }
-        if (key >= *(arr + i))
-        {
-            break; //调整完成,因为当前节点比所有儿子都大
-        }
-        *(arr + pos) = *(arr + i);
-        pos = i; //此时pos指针移动到,新的放key位置,就是儿子的位置
-    }
-    *(arr + pos) = key; //仅仅最后插入key
-}
 
-/*
- * 最小堆筛选过程
- * @arr 数组头指针,调整后的指针
- * @len 数组长度,注意最后一位表示方法为*(arr + len),不是*(arr + len -1);
- * @pos 调整位置,1开始
- */
-void _adjustForMinHeap(int * arr, int len, int pos)
-{
-    int key = *(arr + pos);
-    int i;
-    for (i = pos * 2; i <= len; i *= 2) //找各个儿子
-    {
-        if (i < len && *(arr + i) > *(arr + i + 1))
-        {
-            i++; //左右儿子中找最小的
-        }
-        if (key <= *(arr + i))
-        {
-            break; //调整完成,因为当前节点比所有儿子都大
-        }
-        *(arr + pos) = *(arr + i);
-        pos = i; //此时pos指针移动到,新的放key位置,就是儿子的位置
-    }
-    *(arr + pos) = key; //仅仅最后插入key
-}
-/*
- * 建立最大堆
- * @arr 数组头指针
- * @len 数组长度
- */
-void buildMaxHeap(int * arr, int len)
-{
-    int i;
-    --arr; //将arr指针前移一位,从0开始转换为1开始
-    for (i = (len / 2); i > 0; i--) //len / 2 to 1
-    {
-        _adjustForMaxHeap(arr, len, i);
-    }
-}
-/*
- * 建立最小堆
- * @arr 数组头指针
- * @len 数组长度
- */
-void buildMinHeap(int * arr, int len)
-{
-    int i;
-    --arr; //将arr指针前移一位,从0开始转换为1开始
-    for (i = (len / 2); i > 0; i--) //len / 2 to 1
-    {
-        _adjustForMinHeap(arr, len, i);
-    }
-}
-/*
- *最小K个数
- *@arr 数组头指针
- *@len 数组长度
- *@k k个数
- */
-void printMinKNum(int * arr, int len, int k)
-{
-    int * tmpArr = (int *) malloc(len * sizeof(int));
-    memcpy(tmpArr, arr, len);
-    buildMaxHeap(arr, k); //建立k个节点的最大堆
-    int i;
-    for (i = k; i < len; i++)
-    {
-        if (*(arr + i) < *arr) //当前数据比堆中最大的数据小,那么当前数据应该是K个数之一
-        {
-            swap(arr, arr + i);
-            _adjustForMaxHeap(arr - 1, k, k / 2); //前K个数据重新调整
-            //buildMaxHeap(arr,k); //或者重新建堆
-        }
-    }
-    printf("The min k number is:\n");
-    for (i = 0; i < k; i++)
-    {
-        printf("%d\t", *(arr + i));
-    }
-    printf("\n");
-    free(tmpArr);
-}
-/*
- *最大K个数
- *@arr 数组头指针
- *@len 数组长度
- *@k k个数
- */
-void printMaxKNum(int * arr, int len, int k)
-{
-    int * tmpArr = (int *) malloc(len * sizeof(int));
-    memcpy(tmpArr, arr, len);
-    buildMinHeap(arr, k);
-    int i;
-    for (i = k; i < len; i++)
-    {
-        if (*(arr + i) > *arr) //当前数据比堆中最小的数据大,那么当前数据应该是K个数之一
-        {
-            swap(arr, arr + i);
-            //_adjustForMinHeap(arr - 1,k,k / 2);
-            buildMinHeap(arr, k);
-        }
-    }
-    printf("The max k number is:\n");
-    for (i = 0; i < k; i++)
-    {
-        printf("%d\t", *(arr + i));
-    }
-    printf("\n");
-    free(tmpArr);
-}
-/*
- * 堆排序,升序
- *@arr 数组头指针
- *@len 数组长度
- */
-void heapSortAsc(int * arr, int len)
-{
-    int i;
-    for (i = len; i > 0;) //len to 1
-    {
-        buildMaxHeap(arr, i);
-        swap(arr, arr + --i);
-    }
-}
-/*
- * 堆排序,降序
- *@arr 数组头指针
- *@len 数组长度
- */
-void heapSortDsc(int * arr, int len)
-{
-    int i;
-    for (i = len; i > 0;) //len to 1
-    {
-        buildMinHeap(arr, i);
-        swap(arr, arr + --i);
-    }
-}
-int main()
-{
-    int arr[6] = {1, 234, 12, 132, 12, 321};
-    int i = 6;
-    printf("The arr is :\n");
-    while (i--)
-    {
-        printf("%d\t", arr[i]);
-    }
-    printf("\n");
-    printMinKNum(arr, 6, 3);
-    printMaxKNum(arr, 6, 3);
+//解法五
+PARTITION(A, p, r)         //partition过程 p为第一个数，r为最后一个数
+	1  x ← A[r]               //以最后一个元素作为主元
+2  i ← p - 1
+	3  for j ← p to r - 1
+	4       do if A[j] ≤ x
+	5             then i ← i + 1
+	6                  exchange A[i] <-> A[j]
+7  exchange A[i + 1] <-> A[r]
+8  return i + 1
 
-    int sortArr[24] = {0};
-    for (i = 0; i < 24; i++)
-    {
-        sortArr[i]  = i;
-    }
-    sortArr[20] = 3;
-    printf("The sortarr is :\n");
-    i = 0;
-    while (i < 24)
-    {
-        printf("%d\t", sortArr[i++]);
-    }
-    printf("\n");
+	RANDOMIZED-PARTITION(A, p, r)      //随机快排的partition过程
+	1  i ← RANDOM(p, r)                                 //i  随机取p到r中个一个值
+	2  exchange A[r] <-> A[i]                         //以随机的 i作为主元
+3  return PARTITION(A, p, r)            //调用上述原来的partition过程
 
-    heapSortAsc(sortArr, 24);
+	RANDOMIZED-SELECT(A, p, r, i)       //以线性时间做选择，目的是返回数组A[p..r]中的第i 小的元素
+	1  if p = r          //p=r，序列中只有一个元素
+	2      then return A[p]
+3  q ← RANDOMIZED-PARTITION(A, p, r)   //随机选取的元素q作为主元
+	4  k ← q - p + 1                     //k表示子数组 A[p…q]内的元素个数，处于划分低区的元素个数加上一个主元元素
+	5  if i == k                        //检查要查找的i 等于子数组中A[p....q]中的元素个数k
+	6      then return A[q]        //则直接返回A[q]
+7  else if i < k
+	8      then return RANDOMIZED-SELECT(A, p, q - 1, i)
+	//得到的k 大于要查找的i 的大小，则递归到低区间A[p，q-1]中去查找
+	9  else return RANDOMIZED-SELECT(A, q + 1, r, i - k)
+	//得到的k 小于要查找的i 的大小，则递归到高区间A[q+1，r]中去查找。  
 
-    printf("After sort,the sortarr is :\n");
-    i = 0;
-    while (i < 24)
-    {
-        printf("%d\t", sortArr[i++]);
-    }
-    printf("\n");
 
-    heapSortDsc(sortArr, 24);
-
-    printf("After sort,the sortarr is :\n");
-    i = 0;
-    while (i < 24)
-    {
-        printf("%d\t", sortArr[i++]);
-    }
-    printf("\n");
-
-    return 0;
-}
-
+//...
