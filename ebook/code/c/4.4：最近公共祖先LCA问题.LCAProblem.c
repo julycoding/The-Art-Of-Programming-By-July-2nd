@@ -30,17 +30,27 @@
  */
 Node* FindLowestCommonAncestorBst(Node* root, Node* u, Node* v)
 {
+    
+    // 参数检查
+    if (NULL == root || NULL == u || NULL == v) {
+        fprintf(stderr, "Wrong input data! Exit!");
+        return NULL;
+    }
+    
+     if (root == u || root == v) {
+         return root;
+     }
+     if (u == v) {
+         return u;
+     }
+    
+    //这段必须放在参数检查之后，不然有空指针异常
+    
     int left_value = u->value;    
     int right_value = v->value;    
     Node* parent_node = NULL;
     Node* cur_node = root;
     
-    // 参数检查
-    if (NULL == root || NULL == u || NULL == v
-        || root == u || root == v || u == v) {
-        fprintf(stderr, "Wrong input data! Exit!");
-        return NULL;
-    }
 
     // 调整左右节点值到正确
     if (left_value > right_value) {    
