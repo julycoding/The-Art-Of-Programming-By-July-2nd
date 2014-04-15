@@ -99,7 +99,7 @@ contain4: func[
    ]
    while [ all [ index-a <= length? stra  count > 0 ] ] [
         char_to_int: to-integer to-char stra/:index-a
-        index-hash: char_to_int + 65 - 1
+        index-hash: char_to_int - 65 + 1
         unless not not hash/:index-hash [ -- count ]
         ++ index-a
    ]
@@ -119,13 +119,48 @@ contain5: func[
         index-a: index-b: bigNumber: 1
         while [ index-a <= length? stra ] [
             char_to_int: to-integer to-char stra/:index-a
-            index-prime: char_to_int - 65 +1 
-            bigNumber: bigNumber  * arrPrime/:index-prime
+            index-prime: char_to_int - 65 + 1
+            print bigNumber 
+            bigNumber: bigNumber * arrPrime/:index-prime
             ++ index-a
         ]
-        print arrPrime
-        print bigNumber
+        while [ index-b <= length? strb] [
+            char_to_int: to-integer to-char strb/:index-b
+            index-prime: char_to_int - 65 + 1
+            either 0 != remainder bigNumber arrPrime/:index-prime [
+                       ++ index-b 
+            ] [
+                       return false 
+            ]
+        ]
+        return true
 ]
+
+contain6: func[
+                "位运算,实质上把hash测试法对应的数组用一个整数代替。"
+                stra [ string! ] 
+                strb [ string! ]
+                /local index-a index-b index-hash hash  char_to_int  
+                ;index-a、index-b、index-hash分别用于轮询stra、strb、整数hash
+                ;hash 整数,用于表示stra中各字符的"签名" char_to_int 把字符转化为数字
+][
+   hash: 0
+   index-a: index-b: 1
+   while [ index-a <= length? stra] [
+        char_to_int: to-integer to-char stra/:index-a
+        index-have: char_to_int - 65 + 1  ;整数索引从1开始
+        have/:index-have: 1 ;将stra中的字符按字母表相应位置置1
+        ++ index-a
+   ]
+   while [ index-b <= length? strb ] [
+        char_to_int: to-integer to-char strb/:index-b
+        index-have: char_to_int - 65 + 1
+        if not have/:index-have   [ return false ] ;利用not  把不是逻辑的none转化为true
+        ++ index-b
+   ]
+    return true
+]
+
 stra: "ABCDEFGHLMNOPQRS"
 strb: "DCGSRQPO"
 print [ "stra:" stra  ]
@@ -134,5 +169,6 @@ print [ "暴力轮询 :"  either contain1 stra strb [ "stra contains strb "] [ "
 print [ "排序比较 :"  either contain2 stra strb [ "stra contains strb "] [ "stra not contains strb "] ]
 print [ "计数比较 :"  either contain3 stra strb [ "stra contains strb "] [ "stra not contains strb "] ]
 print [ "hash测试 :"  either contain4 stra strb [ "stra contains strb "] [ "stra not contains strb "] ]
-print [ "素数相乘 :"  either contain5 stra strb [ "stra contains strb "] [ "stra not contains strb "] ]
+;素数相乘因溢出问题只给出实现代码,没有测试代码
+print [ "位运算 :"  either contain6 stra strb [ "stra contains strb "] [ "stra not contains strb "] ]
 
