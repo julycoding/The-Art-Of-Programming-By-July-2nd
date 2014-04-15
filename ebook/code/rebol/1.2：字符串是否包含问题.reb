@@ -140,25 +140,25 @@ contain6: func[
                 "位运算,实质上把hash测试法对应的数组用一个整数代替。"
                 stra [ string! ] 
                 strb [ string! ]
-                /local index-a index-b index-hash hash  char_to_int  
-                ;index-a、index-b、index-hash分别用于轮询stra、strb、整数hash
-                ;hash 整数,用于表示stra中各字符的"签名" char_to_int 把字符转化为数字
+                /local index-a index-b index-bit bitsetA  char_to_int  
+                ;index-a、index-b、index-bit分别用于轮询stra、strb、bitsetA
+                ;bitsetA,用于表示stra中各字符的"签名" char_to_int 把字符转化为数字
 ][
-   hash: 0
+   bitsetA: to-bitset to-binary 0
    index-a: index-b: 1
-   while [ index-a <= length? stra] [
-        char_to_int: to-integer to-char stra/:index-a
-        index-have: char_to_int - 65 + 1  ;整数索引从1开始
-        have/:index-have: 1 ;将stra中的字符按字母表相应位置置1
+   while [ index-a <= length? stra ] [
+        char_to_int: to-integer to-char stra/:index-a 
+        index-bit: char_to_int - 65              ;由于下面将用到位运算,故索引从0开始
+        bitsetA: bitsetA | to-bitset to-binary shift 1 index-bit
         ++ index-a
    ]
    while [ index-b <= length? strb ] [
-        char_to_int: to-integer to-char strb/:index-b
-        index-have: char_to_int - 65 + 1
-        if not have/:index-have   [ return false ] ;利用not  把不是逻辑的none转化为true
-        ++ index-b
+       char_to_int: to-integer to-char strb/:index-b
+       index-bit: char_to_int - 65 
+       if 0 = to-integer to-binary bitsetA & to-bitset to-binary shift 1 index-bit [ return false ]
+       ++ index-b
    ]
-    return true
+   return true
 ]
 
 stra: "ABCDEFGHLMNOPQRS"
