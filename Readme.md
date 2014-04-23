@@ -28,7 +28,7 @@
 # Contributors
 为示鼓励，所有贡献了本 github 的朋友，可以随时向 July 索取他博客内所有博文集锦的最新CHM文件，或任何一个系列的最新PDF或WORD，甚者，本系列集结出版成书后，愿赠送所有contributors 一人一本新书，以此感谢所有贡献的朋友：https://github.com/julycoding/The-Art-Of-Programming-by-July/graphs/contributors ，并非常期待你的加入，thanks。
 
-集结令：欢迎所有已经贡献过本github的66位朋友加入程序员编程艺术室QQ群：149638123，验证信息为你贡献本项目时用的github昵称。
+集结令：欢迎所有已经贡献过本github的70位朋友加入程序员编程艺术室QQ群：149638123，验证信息为你贡献本项目时用的github昵称。
 
 孤军奋战的时代早已远去，我们只有团结起来，才能帮助到更多更无数的人。[@研究者July](http://weibo.com/julyweibo)，始于二零一三年十二月十四日。
 
@@ -36,7 +36,7 @@
 本电子书的版权属于July 等原作者们，严禁其他任何人出版，严禁用于任何商业用途，违者必究法律责任。July、二零一四年一月二十一日晨。
 
 # July' PDF
-* 支持向量机通俗导论（理解SVM的三层境界）Latex版PDF：http://vdisk.weibo.com/s/zrFL6OXKgnlcp
+* 支持向量机通俗导论（理解SVM的三层境界）Latex排版精细版：http://vdisk.weibo.com/s/zrFL6OXKgnlcp ；Latex版本②：https://raw.githubusercontent.com/liuzheng712/Intro2SVM/master/Intro2SVM.pdf 。
 * 程序员编程艺术第一~三十七章PDF：http://download.csdn.net/detail/v_july_v/6694053 ，本github上的文章已经对此PDF进行了极大的优化和改进。
 * 微软面试100题系列之PDF：http://download.csdn.net/detail/v_july_v/4583815
 * 十五个经典算法研究与总结之PDF：http://download.csdn.net/detail/v_july_v/4478027
