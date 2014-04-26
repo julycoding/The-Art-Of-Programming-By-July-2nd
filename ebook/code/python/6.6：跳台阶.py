@@ -9,4 +9,5 @@ def fib(n):
             n -= 1
     return b
 
-print fib(10)
+for i in range(10):
+	print fib(i)
