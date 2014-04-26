@@ -9,5 +9,13 @@ def fib(n):
             n -= 1
     return b
 
-for i in range(10):
-	print fib(i)
+# A simple version by @sfdye
+def fib2(n):
+    a = 0
+    b = 1
+    for i in xrange(n):
+        a, b = b, a+b
+    return a
+
+print fib(10)
+print fib2(10)
