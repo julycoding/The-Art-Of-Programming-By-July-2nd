@@ -41,5 +41,4 @@
 * 微软面试100题系列之PDF：http://download.csdn.net/detail/v_july_v/4583815
 * 十五个经典算法研究与总结之PDF：http://download.csdn.net/detail/v_july_v/4478027
 * 编程艺术HTML网页版：http://taop.marchtea.com/
-* 持续更新....
-* 
+* 持续更新..
