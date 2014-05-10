@@ -1,8 +1,8 @@
-Contents
+#Contents
 ==============================
-# Preliminary
+## Preliminary
 
-# Part I  Insights on Interview 
+## Part I  Insights on Interview 
 * Chapter 1  Feature of Charactors
  - [1.1 - Left Rotating String](01.0.md)
 
@@ -22,7 +22,7 @@ Contents
 * Chapter 6  Detail Implementing
 * Chapter 7  System Designing  
 
-# Part II  Inspirations on Algorithm
+## Part II  Inspirations on Algorithm
 * Chapter 8  Data Structures
 * Chapter 9  Massive Data
 * Chapter 10  Image Processing
