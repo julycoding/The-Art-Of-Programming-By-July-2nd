@@ -1,7 +1,7 @@
 #include <cassert>
 //二分查找V0.1实现版
-//copyright@2011
-//copyright@2014-05-09 caopengcs
+//copyright@2011 July
+//updated@2014-05-09 caopengcs
 
 //首先要把握下面几个要点：
 //right = n-1 => while(left <= right) => right = middle-1;
@@ -30,4 +30,3 @@ int binary_search(int array[], int n, int value) {
     }
     return -1;
 }
-
