@@ -33,7 +33,7 @@
 孤军奋战的时代早已远去，我们只有团结起来，才能帮助到更多更无数的人。[@研究者July](http://weibo.com/julyweibo)，始于二零一三年十二月十四日。
 
 # Copyright
-本电子书的版权属于July 等原作者们，严禁其他任何人出版，严禁用于任何商业用途，违者必究法律责任。July、二零一四年一月二十一日晨。
+本电子书的版权属于July 本人，严禁其他任何人出版，严禁用于任何商业用途，违者必究法律责任。July、二零一四年五月十一日晚。
 
 # July' PDF
 * 支持向量机通俗导论（理解SVM的三层境界）Latex排版精细版：http://vdisk.weibo.com/s/zrFL6OXKgnlcp ；Latex版本②：https://raw.githubusercontent.com/liuzheng712/Intro2SVM/master/Intro2SVM.pdf 。
