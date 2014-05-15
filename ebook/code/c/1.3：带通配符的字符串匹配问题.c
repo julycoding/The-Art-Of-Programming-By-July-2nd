@@ -176,24 +176,27 @@ char* my_find(char input[], char rule[])
 			}
 			else
 			{
-            			dp[i][j] = -1;
-            			if (input[i - 1] == rule[j - 1]) 
-            			{
-                			if (dp[i - 1][j - 1] != -1)
-                    			{
-                    				dp[i][j] = dp[i - 1][j - 1] + 1;
-                    			}
-                			else if (j >= 2 && rule[j - 2] == '*') 
-                			{
-                    				int tmp = j - 2;
-                    				while (tmp >= 0 && rule[tmp] == '*') tmp--;
-                    				tmp++;
-                    				if (dp[i - 1][tmp] != -1) 
-                    				{
-                			 		dp[i][j] = dp[i - 1][tmp] + 1;
-                    				}
-                			}
-            			}
+            	dp[i][j] = -1;
+            	if (input[i - 1] == rule[j - 1]) 
+            	{
+                	if (dp[i - 1][j - 1] != -1)
+                	{
+                		dp[i][j] = dp[i - 1][j - 1] + 1;
+                	}
+                	else if (j >= 2 && rule[j - 2] == '*') 
+                	{
+                		int tmp = j - 2;
+                		while (tmp >= 0 && rule[tmp] == '*')
+						{
+							tmp--;
+						}
+                		tmp++;
+                		if (dp[i - 1][tmp] != -1) 
+                		{
+							dp[i][j] = dp[i - 1][tmp] + 1;
+                		}
+                	}
+            	}
 			}
 		}
 	}
