@@ -213,7 +213,7 @@ char* my_find(char input[], char rule[])
 			count_ans = 0;
 			ans[count_ans++] = i - m;
 		}
-		else if (dp[i][len2] != -1 && dp[i][len2] == m)
+		else if (dp[i][len2] != -1 && dp[i][len2] == m && ans[count_ans] + m  <= i - m)
 		{
 			ans[count_ans++] = i - m;
 		}
