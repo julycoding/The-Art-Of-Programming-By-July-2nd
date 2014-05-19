@@ -130,7 +130,7 @@ void q_select( int a[ ], int k, int left, int right )
         else if( k > i + 1 )
             q_select( a, k, i + 1, right );
     }
-    else  /* Do an insertion sort on the subarray */
+    else  
         insert_sort( a + left, right - left + 1 );
 }
 
