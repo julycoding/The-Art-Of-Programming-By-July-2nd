@@ -30,6 +30,4 @@ int main(){
 	else{
 		printf("不存在");
 	}
-
-
 }
