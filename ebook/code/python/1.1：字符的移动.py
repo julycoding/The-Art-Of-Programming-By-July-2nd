@@ -17,19 +17,6 @@ import copy
 # Tools
 
 
-def swap(s, i, j):
-    '''交换s中i和i位置的元素
-    Author: Jasonwbw(Jasonwbw@yahoo.com)
-    Editor:
-
-    Args:
-        s : 要交换的列表
-        i : 索引位置i
-        j : 索引位置j
-    '''
-    s[i], s[j] = s[j], s[i]
-
-
 def left_shift_one(s, i, j):
     '''s从i(包含)到j(不包含)，左移一位
     Author: Jasonwbw(Jasonwbw@yahoo.com)
@@ -97,9 +84,7 @@ def invert(s, start, end):
     '''
     n = end - start + 1
     for i in xrange(n / 2):
-        t = s[start + i]
-        s[start + i] = s[end - i]
-        s[end - i] = t
+        s[start + i], s[end - i] = s[end - i], s[start +i]
 
 
 def invert_solution(s, m):
