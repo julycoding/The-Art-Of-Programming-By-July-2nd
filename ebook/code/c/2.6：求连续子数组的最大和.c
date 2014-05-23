@@ -22,7 +22,6 @@ int maxSubArray(int* A, int n)
 
 
 //解法二
-//updated@ 2014.5.21 July
 #include <iostream>
 using namespace std;
 
