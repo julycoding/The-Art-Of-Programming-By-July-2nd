@@ -46,9 +46,9 @@ def compare_2(long_string, short_string):
 
     return j == m
 
-def string_contain(long_str, short_str):
+def string_contain3(long_str, short_str):
   """
-  code example for section 1.3
+  code example for section 1.2 solution 3
   see https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/01.02.md
 
   author: jiang
@@ -67,11 +67,17 @@ def string_contain(long_str, short_str):
   return True
 
 
-def compare_4(long_string, short_string):
+def string_contain4(long_str, short_str):
     """
-    code example for section 2.1
+    code example for section 1.2 solution 4
+    see https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/01.02.md 
 
-    see https://github.com/julycoding/The-Art-Of-Programming-by-July/blob/master/ebook/zh/02.0.md#21-onm%E7%9A%84hashtable%E7%9A%84%E6%96%B9%E6%B3%95
+    modified by jiang
+    email   mail.jiang.cn@gmail.com
+
+    modified on 2014-5-25
+
+    work with both Python 2.7.X and Python 3.X
     """
 
     # 辅助数组
@@ -80,19 +86,21 @@ def compare_4(long_string, short_string):
     # 辅助数组中元素个数
     count = 0
 
-    # 扫描短字符串
-    for char in short_string:
-        index = ord(char) - ord('A')
-        if not hash_tmp[index]:
-            hash_tmp[index] += 1
-            count += 1
+    # 先扫描短字符串（提升第三种解法时间效率的关键点一）
+    for char in short_str:
+      index = ord(char) - ord('A')
+      if hash_tmp[index] == 0:    # 显式标明条件
+         hash_tmp[index] += 1
+         count += 1
 
     # 扫描长字符串
-    for char in long_string:
+    for char in long_str:
+      # 提升第三种解法时间效率的关键点二，没有这步则不能提高效率
+      if count > 0:
         index = ord(char) - ord('A')
         if hash_tmp[index] == 1:
-            hash_tmp[index] -= 1
-            count -= 1
+          hash_tmp[index] -= 1
+          count -= 1
 
     return count == 0
 
@@ -154,13 +162,13 @@ def compare_7(long_string, short_string):
 
 
 if __name__ == '__main__':
-    long = "ABCDEFGHLMNOPQRS"
-    short = "DCGSRQPX"
+    long_str = "ABCDEFGHLMNOPQRS"
+    short_str = "DCGSRQPX"
 
-    print compare_1(long, short)
-    print compare_2(long, short)
-    print string_contain(long,short)
-    print compare_4(long, short)
-    print compare_5(long, short)
-    print compare_6(long, short)
-    print compare_7(long, short)
+    print(compare_1(long_str, short_str))
+    print(compare_2(long_str, short_str))
+    print(string_contain3(long_str,short_str))
+    print(string_contain4(long_str, short_str))
+    print(compare_5(long_str, short_str))
+    print(compare_6(long_str, short_str))
+    print(compare_7(long_str, short_str))
