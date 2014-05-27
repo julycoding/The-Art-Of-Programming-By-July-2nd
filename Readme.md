@@ -35,7 +35,7 @@
 - 方法名以小写字母开头，后面紧跟的是大写字母开头的单词，比如veryLongVariableName
 - 类名一般都是大写字母开头的单词组合
 - 常量的命名都是大写字母的单词，之间用下划线隔开，比如MY_CONSTANT
-- 8..
+- ..
 
 ## Contributors
 为示鼓励，所有贡献了本 github 的朋友，可以随时向 July 索取他博客内所有博文集锦的最新CHM文件，或任何一个系列的最新PDF或WORD，甚者，本系列集结出版成书后，愿赠送所有contributors 一人一本新书，以此感谢所有贡献的朋友：https://github.com/julycoding/The-Art-Of-Programming-by-July/graphs/contributors ，并非常期待你的加入，thanks。
