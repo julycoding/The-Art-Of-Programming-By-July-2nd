@@ -25,6 +25,25 @@
 <https://github.com/julycoding/The-Art-Of-Programming-by-July/issues?state=open>。
 「如不知如何在github上提交及同步作者的更新，可参考此文：http://www.cnblogs.com/rubylouvre/archive/2013/01/24/2874694.html 」
 
+# 代码约定
+
+1、所有代码都用4格空格缩进。
+
+2、中文表述，使用全角的标点符号，如：（）、。，？
+数学公式（包括文中混排的公式）和英文代码，使用半角的标点符号，如：(),.?…
+
+3、尽可能让变量和方法的名称能够描述要实现的功能，比如n, ns, nsisd，和numTeamMembers, seatCount, numSeatsInStadium相比，后一种写法更好；
+
+4、il < 4384 和 inputLength < MAX_INPUT_LENGTH，后一种写法更好；
+
+5、方法名以小写字母开头，后面紧跟的是大写字母开头的单词，比如veryLongVariableName
+
+6、类名一般都是大写字母开头的单词组合
+
+7、常量的命名都是大写字母的单词，之间用下划线隔开，比如MY_CONSTANT
+
+8..
+
 # Contributors
 为示鼓励，所有贡献了本 github 的朋友，可以随时向 July 索取他博客内所有博文集锦的最新CHM文件，或任何一个系列的最新PDF或WORD，甚者，本系列集结出版成书后，愿赠送所有contributors 一人一本新书，以此感谢所有贡献的朋友：https://github.com/julycoding/The-Art-Of-Programming-by-July/graphs/contributors ，并非常期待你的加入，thanks。
 
