@@ -25,7 +25,7 @@
 <https://github.com/julycoding/The-Art-Of-Programming-by-July/issues?state=open>。
 「如不知如何在github上提交及同步作者的更新，可参考此文：http://www.cnblogs.com/rubylouvre/archive/2013/01/24/2874694.html 」
 
-# 代码约定
+# Code Style
 
 1、所有代码都用4格空格缩进。
 
