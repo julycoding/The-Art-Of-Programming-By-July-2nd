@@ -26,18 +26,25 @@
 「如不知如何在github上提交及同步作者的更新，可参考此文：http://www.cnblogs.com/rubylouvre/archive/2013/01/24/2874694.html 」
 
 ## Code Style
-
+ - 关于空格
 - 所有代码使用4个空格缩进
-- 用空行把大块代码分成逻辑上的“段落”
+- 运算符前后使用一个空格
+- ","和";"后面n跟上一个空格
+- 条件、分支保留字，if for while else switch, 前后留出一个空格
+- "[]", "."和"->"前后不留空格
+ - 用空行把大块代码分成逻辑上的“段落”
+ - 关于标点
 - 中文表述，使用全角的标点符号，如：（）、。，？
 - 数学公式（包括文中混排的公式）和英文代码，使用半角的标点符号，如：(),.?…
-- 注释统一用中文
-- 尽可能让变量和方法的名称能够描述要实现的功能，比如n、ns、nsisd，和numTeamMembers、seatCount、numSeatsInStadium相比，后一种写法更好；
+ - 注释统一用中文
+ - 关于变量命名
+- 变量尽量使用全名，能够描述所要实现的功能，如 highestTemprature；对于已经公认了的写法才使用缩写，如 tmp mid prev next
+- 变量名能“望文生义”，如v1, v2不如area, height
 - il < 4384 和 inputLength < MAX_INPUT_LENGTH，后一种写法更好
 - 方法名以小写字母开头，后面紧跟的是大写字母开头的单词，比如veryLongVariableName
 - 类名一般都是大写字母开头的单词组合
 - 常量的命名都是大写字母的单词，之间用下划线隔开，比如MY_CONSTANT
-- ..
+ - 一个函数只专注做一件事
 
 有何问题或补充意见，咱们可以随时到这里讨论：https://github.com/julycoding/The-Art-Of-Programming-By-July/issues/81 。
 
