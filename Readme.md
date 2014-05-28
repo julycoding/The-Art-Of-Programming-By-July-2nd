@@ -37,13 +37,13 @@
 - 中文表述，使用全角的标点符号，如：（）、。，？
 - 数学公式（包括文中混排的公式）和英文代码，使用半角的标点符号，如：(),.?…
  - 注释统一用中文
- - 关于变量命名
-- 变量尽量使用全名，能够描述所要实现的功能，如 highestTemprature；对于已经公认了的写法才使用缩写，如 tmp mid prev next
-- 变量名能“望文生义”，如v1, v2不如area, height
-- il < 4384 和 inputLength < MAX_INPUT_LENGTH，后一种写法更好
+ - 关于命名
 - 方法名以小写字母开头，后面紧跟的是大写字母开头的单词，比如veryLongVariableName
 - 类名一般都是大写字母开头的单词组合
 - 常量的命名都是大写字母的单词，之间用下划线隔开，比如MY_CONSTANT
+- 变量尽量使用全名，能够描述所要实现的功能，如 highestTemprature；对于已经公认了的写法才使用缩写，如 tmp mid prev next
+- 变量名能“望文生义”，如v1, v2不如area, height
+- il < 4384 和 inputLength < MAX_INPUT_LENGTH，后一种写法更好
  - 一个函数只专注做一件事
 
 有何问题或补充意见，咱们可以随时到这里讨论：https://github.com/julycoding/The-Art-Of-Programming-By-July/issues/81 。
