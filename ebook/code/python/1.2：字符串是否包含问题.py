@@ -46,62 +46,38 @@ def compare_2(long_string, short_string):
 
     return j == m
 
+def string_contain3(long_str, short_str):
+  """
+  code example for section 1.2 solution 3
+  see https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/01.02.md
 
-def compare_3(long_string, short_string):
+  author: jiang
+  email:  mail.jiang.cn@gmail.com
+
+  created on 2014-5-24
+
+  work with both Python 2.7.X and Python 3.X
+  """
+  have = [0] * 26
+  for char in long_str:
+    have[ord(char) - ord('A')] += 1
+  for char in short_str:
+    if have[ord(char) - ord('A')] == 0:
+      return False
+  return True
+
+
+def string_contain4(long_str, short_str):
     """
-    code example for section 1.3
+    code example for section 1.2 solution 4
+    see https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/01.02.md 
 
-    see https://github.com/julycoding/The-Art-Of-Programming-by-July/blob/master/ebook/zh/02.0.md#13-onm%E7%9A%84%E8%AE%A1%E6%95%B0%E6%8E%92%E5%BA%8F%E6%96%B9%E6%B3%95
-    """
+    modified by jiang
+    email   mail.jiang.cn@gmail.com
 
-    def count_sort(src):
-        #
-        dst = [''] * len(src)
+    modified on 2014-5-25
 
-        # 辅助计数数组
-        tmp = [0] * 26
-
-        # help[index]存放了等于index + 'A'的元素个数
-        for char in src:
-            tmp[ord(char) - ord('A')] += 1
-
-        # 求出每个元素对应的最终位置
-        for i in xrange(1, len(tmp)):
-            tmp[i] = tmp[i] + tmp[i - 1]
-
-        # 把每个元素放到其对应的最终位置
-        for i in xrange(len(src) - 1, -1, -1):
-            c = src[i]
-            index = ord(c) - ord('A')
-            dst[tmp[index] - 1] = c
-            tmp[index] -= 1
-
-        return ''.join(dst)
-
-    sorted_long_string = count_sort(long_string)
-    sorted_short_string = count_sort(short_string)
-
-    pos_long = 0
-    pos_short = 0
-    while (pos_short < len(sorted_short_string) and pos_long < len(sorted_long_string)):
-        # 如果pos_long递增直到long_str[pos_long] >= short_str[pos_short]
-        while (sorted_long_string[pos_long] < sorted_short_string[pos_short] and pos_long < len(
-                sorted_long_string) - 1):
-            pos_long += 1
-
-        if (sorted_long_string[pos_long] != sorted_short_string[pos_short]):
-            break
-
-        pos_short += 1
-
-    return pos_short == len(sorted_short_string)
-
-
-def compare_4(long_string, short_string):
-    """
-    code example for section 2.1
-
-    see https://github.com/julycoding/The-Art-Of-Programming-by-July/blob/master/ebook/zh/02.0.md#21-onm%E7%9A%84hashtable%E7%9A%84%E6%96%B9%E6%B3%95
+    work with both Python 2.7.X and Python 3.X
     """
 
     # 辅助数组
@@ -110,19 +86,21 @@ def compare_4(long_string, short_string):
     # 辅助数组中元素个数
     count = 0
 
-    # 扫描短字符串
-    for char in short_string:
-        index = ord(char) - ord('A')
-        if not hash_tmp[index]:
-            hash_tmp[index] += 1
-            count += 1
+    # 先扫描短字符串（提升第三种解法时间效率的关键点一）
+    for char in short_str:
+      index = ord(char) - ord('A')
+      if hash_tmp[index] == 0:    # 显式标明条件
+         hash_tmp[index] += 1
+         count += 1
 
     # 扫描长字符串
-    for char in long_string:
+    for char in long_str:
+      # 提升第三种解法时间效率的关键点二，没有这步则不能提高效率
+      if count > 0:
         index = ord(char) - ord('A')
         if hash_tmp[index] == 1:
-            hash_tmp[index] -= 1
-            count -= 1
+          hash_tmp[index] -= 1
+          count -= 1
 
     return count == 0
 
@@ -184,14 +162,13 @@ def compare_7(long_string, short_string):
 
 
 if __name__ == '__main__':
-    long = "ABCDEFGHLMNOPQRS"
-    short = "DCGSRQPX"
+    long_str = "ABCDEFGHLMNOPQRS"
+    short_str = "DCGSRQPX"
 
-    print compare_1(long, short)
-    print compare_2(long, short)
-    print compare_3(long, short)
-    # print compare_3('ABCDAK', 'AA')
-    print compare_4(long, short)
-    print compare_5(long, short)
-    print compare_6(long, short)
-    print compare_7(long, short)
+    print(compare_1(long_str, short_str))
+    print(compare_2(long_str, short_str))
+    print(string_contain3(long_str,short_str))
+    print(string_contain4(long_str, short_str))
+    print(compare_5(long_str, short_str))
+    print(compare_6(long_str, short_str))
+    print(compare_7(long_str, short_str))
