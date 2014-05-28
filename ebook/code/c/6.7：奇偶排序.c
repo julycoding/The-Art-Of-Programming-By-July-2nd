@@ -1,53 +1,114 @@
-//解法二
-//思路，很简答，俩指针，一首一尾  
-//如果第一个指针指向的数字是偶数而第二个指针指向的数字是奇数，  
-//我们就交换这两个数字  
+// 6.7 奇偶排序.cpp : 定义控制台应用程序的入口点。
+//实现一
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
 
-// 2 1 3 4 6 5 7   
-// 7 1 3 4 6 5 2  
-// 7 1 3 5 6 4 2  
-
-//如果限制空间复杂度为O（1），时间为O（N），且奇偶数之间相对顺序不变，就相当于正负数间顺序调整的那道题了。  
-
-//copyright@2010 zhedahht。
-void Reorder(int *pData, unsigned int length, bool (*func)(int));
-bool isEven(int n);
-void ReorderOddEven(int *pData, unsigned int length)
+//判断是否为奇数
+bool isOddNumber(int data)
 {
-	if (pData == NULL || length == 0)
-		return;
-
-	Reorder(pData, length, isEven);
+	return data & 1 == 1;
 }
-void Reorder(int *pData, unsigned int length, bool (*func)(int))
+
+//交换两个元素
+void swap(int* x, int* y)
+{
+	int temp = *x;
+	*x = *y;
+	*y = temp;
+}
+
+//奇偶互换
+void oddEvenSort(int *pData, unsigned int length)
 {
 	if (pData == NULL || length == 0)
 		return;
+
 	int *pBegin = pData;
 	int *pEnd = pData + length - 1;
+
 	while (pBegin < pEnd)
 	{
-		// if *pBegin does not satisfy func, move forward
-		if (!func(*pBegin))  //如果是奇数, 则向后移一个位置
+		//如果pBegin指针指向的是奇数，正常，向后移
+		if (isOddNumber(*pBegin))
 		{
-			pBegin ++;
-			continue;
+			pBegin++;
 		}
-
-		// if *pEnd does not satisfy func, move backward
-		if (func(*pEnd))     //如是是偶数, 则向前移一个位置
+		//如果pEnd指针指向的是偶数，正常，向前移
+		else if (!isOddNumber(*pEnd))
 		{
-			pEnd --;
-			continue;
+			pEnd--;
 		}
-		// if *pBegin satisfy func while *pEnd does not,
-		// swap these integers
-		int temp = *pBegin;
-		*pBegin = *pEnd;
-		*pEnd = temp;
+		else
+		{
+			//否则都不正常，交换
+			swap(*pBegin, *pEnd);
+		}
 	}
 }
-bool isEven(int n)
+
+int main(int argc, _TCHAR* argv[])
 {
-	return (n & 1) == 0;
+	int data[] = { 1, 2, 3, 4, 5 };
+	for (int i = 0; i < 5; i++)
+		cout << data[i] << " ";
+	cout << endl;
+	oddEvenSort(data, 5);
+	for (int i = 0; i < 5; i++)
+		cout << data[i] << " ";
+	cout << endl;
+	return 0;
+}
+
+
+
+//实现二
+// 6.7 奇偶排序.cpp : 定义控制台应用程序的入口点。
+//
+
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+
+//判断是否为奇数
+bool isOddNumber(int data)
+{
+	return data & 1 == 1;
+}
+
+//交换两个元素
+void swap(int* x, int* y)
+{
+	int temp = *x;
+	*x = *y;
+	*y = temp;
+}
+
+//奇偶互换
+void oddEvenSort2(int data[], int lo, int hi)
+{
+	int i = lo - 1;
+	for (int j = lo; j < hi; j++)
+	{
+		//data[j]指向奇数，交换
+		if ( isOddNumber(data[j]) )
+		{
+			i = i + 1;
+			swap(&data[i], &data[j]);
+		}
+	}
+	swap(&data[i + 1], &data[hi]);
+}
+
+int main(int argc, _TCHAR* argv[])
+{
+	int data[] = {1, 2, 3, 4, 5};
+	for (int i = 0; i < 5; i++)
+		cout << data[i] << " ";
+	cout << endl;
+	oddEvenSort2(data, 0, 4);
+	for (int i = 0; i < 5; i++)
+		cout << data[i] << " ";
+	cout << endl;
+	return 0;
 }
