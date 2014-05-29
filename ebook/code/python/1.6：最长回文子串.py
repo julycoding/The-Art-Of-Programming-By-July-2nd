@@ -126,7 +126,34 @@ def naiveLongestPalindromes(seq):
 
     return l
 
+
+# implement manacher algorithm
+def pre_process(seq):
+  res = ['#{}'.format(elem) for elem in seq]
+  res.append('#$')
+  res.insert(0,'^')
+  return ''.join(res)
+
+def manacher(seq):
+  T = pre_process(seq)
+  P = [0]*len(T)
+  c,r = 0,0
+  for i in range(1,len(T)):
+    i_mirror = 2*c - i
+    if r > i:
+      P[i] = min(r-i, P[i_mirror])
+    else:
+      P[i] = 0
+    while i+1+P[i] < len(T)-1 and i-1-P[i] >=0 and T[ i+1+P[i] ] == T[ i-1-P[i] ]:
+      P[i] += 1
+    if i + P[i] > r:
+      c = i
+      r = i+P[i]
+  return max(P)
+
+
 if __name__ == '__main__':
     s = 'madam'
+    print(manacher(s))
     print(max(fastLongestPalindromes(s), key=lambda x: x[0])[1])
     print(max(naiveLongestPalindromes(s), key=lambda x: x[0])[1])
