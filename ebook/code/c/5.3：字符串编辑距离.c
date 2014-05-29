@@ -16,26 +16,26 @@ int dp[31][31];
 char X[31];
 char Y[31];
 
-////dp[i][j]表示X[0-i)与Y[0-j)的编辑距离
-int calDistance2(char *ptrX, char *ptrY)
+//dp[i][j]表示X[0-i)与Y[0-j)的编辑距离
+int editDistance(char *pStringX, char *pStringY)
 {
-	int xlen = strlen(ptrX);
-	int ylen = strlen(ptrY);
+	int xLength = strlen(pStringX);
+	int yLength = strlen(pStringY);
 	int i, j;
 	//边界dp[i][0] = i，dp[0][j] = j  
-	for (i = 1; i <= xlen; ++i)
+	for (i = 1; i <= xLength; ++i)
 	{
 		dp[i][0] = i;
 	}
-	for (j = 1; j <= ylen; ++j)
+	for (j = 1; j <= yLength; ++j)
 	{
 		dp[0][j] = j;
 	}
-	for (i = 1; i <= xlen; ++i)
+	for (i = 1; i <= xLength; ++i)
 	{
-		for (j = 1; j <= ylen; ++j)
+		for (j = 1; j <= yLength; ++j)
 		{
-			if (ptrX[i - 1] == ptrY[j - 1])
+			if (pStringX[i - 1] == pStringY[j - 1])
 			{
 				dp[i][j] = dp[i - 1][j - 1];
 			}
@@ -45,13 +45,14 @@ int calDistance2(char *ptrX, char *ptrY)
 			}
 		}
 	}
-	return dp[xlen][ylen];
+	return dp[xLength][yLength];
 }
 
-void main()
+int main()
 {
 	cin.getline(X, 30);
 	cin.getline(Y, 30);
 
-	printf("%d\n", calDistance2(X, Y));
+	printf("%d\n", editDistance(X, Y));
+	return 0;
 }
