@@ -52,55 +52,30 @@ Comparable maxprod( const vector<Comparable>&v)
 }
 
 
-//解法三、代码①
-double func(double *a, const int n)
+//解法三
+#include "stdafx.h"
+#include <algorithm>
+#include <iostream>
+using namespace std;
+
+double maxProductSubstring(double *a, int length) 
 {
-	double *maxA = new double[n];
-	double *minA = new double[n];
-	maxA[0] = minA[0] = a[0];
-	double value = maxA[0];
-	for (int i = 1 ; i < n ; ++i)
+	double maxend = a[0];
+	double minend = a[0];
+	double result = a[0];
+	for (int i = 1; i < length; ++i) 
 	{
-		maxA[i] = max(max(a[i], maxA[i - 1] * a[i]), minA[i - 1] * a[i]);
-		minA[i] = min(min(a[i], maxA[i - 1] * a[i]), minA[i - 1] * a[i]);
-		value = max(value, maxA[i]);
+		double end1 = maxend * a[i], end2 = minend * a[i];
+		maxend = max(max(end1, end2), a[i]);
+		minend = min(min(end1, end2), a[i]);
+		result = max(result, maxend);
 	}
-	return value;
+	return result;
 }
 
-
-//解法三、代码②
-/*
- 给定一个浮点数数组，有正有负数，0，正数组成,数组下标从1算起
- 求最大连续子序列乘积，并输出这个序列，如果最大子序列乘积为负数，那么就输出-1
- 用Max[i]表示以a[i]结尾乘积最大的连续子序列
- 用Min[i]表示以a[i]结尾乘积最小的连续子序列  因为有复数，所以保存这个是必须的
-*/
-void longest_multiple(double *a, int n)
+int _tmain(int argc, _TCHAR* argv[])
 {
-    double *Min = new double[n + 1]();
-    double *Max = new double[n + 1]();
-    double *p = new double[n + 1]();
-    //初始化
-    for (int i = 0; i <= n; i++)
-    {
-        p[i] = -1;
-    }
-    Min[1] = a[1];
-    Max[1] = a[1];
-    double max_val = Max[1];
-    for (int i = 2; i <= n; i++)
-    {
-        Max[i] = max(Max[i - 1] * a[i], Min[i - 1] * a[i], a[i]);
-        Min[i] = min(Max[i - 1] * a[i], Min[i - 1] * a[i], a[i]);
-        if (max_val < Max[i])
-            max_val = Max[i];
-    }
-    if (max_val < 0)
-        printf("%d", -1);
-    else
-        printf("%d", max_val);
-    //内存释放
-    delete [] Max;
-    delete [] Min;
+	double a[] = { -2.5,4,0,3,0.5,8,-1};
+	cout << maxProductSubstring(a, 7) << endl;
+	return 0;
 }
