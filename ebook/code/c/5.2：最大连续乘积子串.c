@@ -35,20 +35,23 @@ int _tmain(int argc, _TCHAR* argv[])
 
 
 //解法二
-template <typename Comparable>
-Comparable maxprod( const vector<Comparable>&v)
+#include "stdafx.h"
+#include <algorithm>
+#include <iostream>
+using namespace std;
+
+double maxProductSubstring(double *a, int length)
 {
 	int i;
-	Comparable maxProduct = 1;
-	Comparable minProduct = 1;
-	Comparable maxCurrent = 1;
-	Comparable minCurrent = 1;
-	//Comparable t;
+	double maxProduct = 1;
+	double minProduct = 1;
+	double maxCurrent = 1;
+	double minCurrent = 1;
 
-	for ( i = 0; i < v.size() ; i++)
+	for (i = 0; i < length; i++)
 	{
-		maxCurrent *= v[i];
-		minCurrent *= v[i];
+		maxCurrent *= a[i];
+		minCurrent *= a[i];
 		if (maxCurrent > maxProduct)
 			maxProduct = maxCurrent;
 		if (minCurrent > maxProduct)
@@ -61,10 +64,15 @@ Comparable maxprod( const vector<Comparable>&v)
 			swap(maxCurrent, minCurrent);
 		if (maxCurrent < 1)
 			maxCurrent = 1;
-		//if(minCurrent>1)
-		//    minCurrent =1;
 	}
 	return maxProduct;
+}
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	double a[] = { -2.5, 4, 0, 3, 0.5, 8, -1 };
+	cout << maxProductSubstring(a, 7) << endl;
+	return 0;
 }
 
 
