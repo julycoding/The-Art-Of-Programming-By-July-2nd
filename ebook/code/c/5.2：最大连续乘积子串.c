@@ -1,20 +1,36 @@
 //解法一
-double max = 0;
-double start = 0;
-double end = 0;
-for (int i = 0; i < num; i++)
+#include "stdafx.h"
+#include <algorithm>
+#include <iostream>
+using namespace std;
+
+double maxProductSubstring(double *a, int length) 
 {
-	double x = arrs[i];
-	for (int j = i + 1; j < num; j++)
+	double maxResult = 0;
+	double start = 0;
+	double end = 0;
+	for (int i = 0; i < length; i++)
 	{
-		x *= arrs[j];
-		if (x > max)
+		double x = a[i];
+		for (int j = i + 1; j < length; j++)
 		{
-			max = x;
-			start = arrs[i];
-			end = arrs[j];
+			x *= a[j];
+			if (x > maxResult)
+			{
+				maxResult = x;
+				start = a[i];
+				end = a[j];
+			}
 		}
 	}
+	return maxResult;
+}
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	double a[] = { -2.5,4,0,3,0.5,8,-1};
+	cout << maxProductSubstring(a, 7) << endl;
+	return 0;
 }
 
 
@@ -60,17 +76,17 @@ using namespace std;
 
 double maxProductSubstring(double *a, int length) 
 {
-	double maxend = a[0];
-	double minend = a[0];
-	double result = a[0];
+	double maxEnd = a[0];
+	double minEnd = a[0];
+	double maxResult = a[0];
 	for (int i = 1; i < length; ++i) 
 	{
-		double end1 = maxend * a[i], end2 = minend * a[i];
-		maxend = max(max(end1, end2), a[i]);
-		minend = min(min(end1, end2), a[i]);
-		result = max(result, maxend);
+		double end1 = maxEnd * a[i], end2 = minEnd * a[i];
+		maxEnd = max(max(end1, end2), a[i]);
+		minEnd = min(min(end1, end2), a[i]);
+		maxResult = max(maxResult, maxEnd);
 	}
-	return result;
+	return maxResult;
 }
 
 int _tmain(int argc, _TCHAR* argv[])
