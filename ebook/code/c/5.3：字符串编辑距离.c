@@ -7,35 +7,35 @@
 using namespace std;
 
 //编辑距离
-//设每个字符串长度不超过 30
+//设每个字符串长度不超过 2000
 
-//存储子问题的解 i,j表示X，Y长度
-//dp[i][j]表示X[0-i)与Y[0-j)的编辑距离
+//存储子问题的解 i,j表示source，target长度
+//dp[i][j]表示source[0-i)与target[0-j)的编辑距离
 
-int dp[31][31];
-char X[31];
-char Y[31];
+int dp[2000][2000];
+char source[2000];
+char target[2000];
 
-//dp[i][j]表示X[0-i)与Y[0-j)的编辑距离
-int editDistance(char *pStringX, char *pStringY)
+//dp[i][j]表示source[0-i)与target[0-j)的编辑距离
+int editDistance(char *pSource, char *pTarget)
 {
-	int xLength = strlen(pStringX);
-	int yLength = strlen(pStringY);
+	int srcLength = strlen(pSource);
+	int targetLength = strlen(pTarget);
 	int i, j;
 	//边界dp[i][0] = i，dp[0][j] = j  
-	for (i = 1; i <= xLength; ++i)
+	for (i = 1; i <= srcLength; ++i)
 	{
 		dp[i][0] = i;
 	}
-	for (j = 1; j <= yLength; ++j)
+	for (j = 1; j <= targetLength; ++j)
 	{
 		dp[0][j] = j;
 	}
-	for (i = 1; i <= xLength; ++i)
+	for (i = 1; i <= srcLength; ++i)
 	{
-		for (j = 1; j <= yLength; ++j)
+		for (j = 1; j <= targetLength; ++j)
 		{
-			if (pStringX[i - 1] == pStringY[j - 1])
+			if (pSource[i - 1] == pTarget[j - 1])
 			{
 				dp[i][j] = dp[i - 1][j - 1];
 			}
@@ -45,14 +45,15 @@ int editDistance(char *pStringX, char *pStringY)
 			}
 		}
 	}
-	return dp[xLength][yLength];
+	return dp[srcLength][targetLength];
 }
 
 int main()
 {
-	cin.getline(X, 30);
-	cin.getline(Y, 30);
+	cout << "hello July" << endl;
+	cin.getline(source, 30);
+	cin.getline(target, 30);
 
-	printf("%d\n", editDistance(X, Y));
+	printf("%d\n", editDistance(source, target));
 	return 0;
 }
