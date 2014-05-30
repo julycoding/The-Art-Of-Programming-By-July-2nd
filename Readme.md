@@ -49,7 +49,8 @@
 - 变量名能“望文生义”，如v1, v2不如area, height
 - il < 4384 和 inputLength < MAX_INPUT_LENGTH，后一种写法更好
  - 一个函数只专注做一件事
- - 其余C++ 部分可参考Google C++ Style Guide，中文版见：http://zh-google-styleguide.readthedocs.org/en/latest/contents/ ；
+ - ..
+ - 此外，更多C++ 部分可参考Google C++ Style Guide，中文版见：http://zh-google-styleguide.readthedocs.org/en/latest/contents/ ；
 
 有何问题或补充意见，咱们可以随时到这里讨论：https://github.com/julycoding/The-Art-Of-Programming-By-July/issues/81 。
 
