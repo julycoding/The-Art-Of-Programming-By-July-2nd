@@ -1,54 +1,40 @@
 //解法一、代码①
-template <typename T>
-void CalcAllPermutation_R(T perm[], int first, int num)
+#include "stdafx.h"
+#include <algorithm>
+#include <iostream>
+using namespace std;
+
+void calcAllPermutation(char* perm, int from, int to)
 {
-	if (num <= 1)
+	if (to <= 1)
 	{
 		return;
 	}
 
-	for (int i = first; i < first + num; ++i)
+	if (from == to)
 	{
-		swap(perm[i], perm[first]);
-		CalcAllPermutation_R(perm, first + 1, num - 1);
-		swap(perm[i], perm[first]);
-	}
-}
-
-
-//解法一、代码②
-void Permutation(char* pStr, char* pBegin);
-
-void Permutation(char* pStr)
-{
-	Permutation(pStr, pStr);
-}
-
-void Permutation(char* pStr, char* pBegin)
-{
-	if (!pStr || !pBegin)
-		return;
-
-	if (*pBegin == '\0')
-	{
-		printf("%s\n", pStr);
+		for (int i = 0; i <= to; i++)
+			cout << perm[i];
+		cout << endl;
 	}
 	else
 	{
-		for (char* pCh = pBegin; *pCh != '\0'; ++ pCh)
+		for (int j = from; j <= to; j++)
 		{
-			// swap pCh and pBegin
-			char temp = *pCh;
-			*pCh = *pBegin;
-			*pBegin = temp;
-
-			Permutation(pStr, pBegin + 1);
-			// restore pCh and pBegin
-			temp = *pCh;
-			*pCh = *pBegin;
-			*pBegin = temp;
+			swap(perm[j], perm[from]);
+			calcAllPermutation(perm, from + 1, to);
+			swap(perm[j], perm[from]);
 		}
 	}
+}
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	char a[] = "abc";
+	cout << a << "所有全排列的结果为：" << endl;
+	calcAllPermutation(a, 0, 2);
+	system("pause");
+	return 0;
 }
 
 
