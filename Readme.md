@@ -49,6 +49,7 @@
 - 变量名能“望文生义”，如v1, v2不如area, height
 - il < 4384 和 inputLength < MAX_INPUT_LENGTH，后一种写法更好
  - 一个函数只专注做一件事
+ - 时间复杂度小写表示，如O(nlogn)，而不写成O(N*logN)
  - 正文中绝大部分采用C实现，少量C++代码，即以C为主，但不去刻意排斥回避C++；
  - ..
  - 此外，更多C++ 部分可参考Google C++ Style Guide，中文版见：http://zh-google-styleguide.readthedocs.org/en/latest/contents/ ；
