@@ -39,11 +39,24 @@ int _tmain(int argc, _TCHAR* argv[])
 
 
 //解法二
-template <typename T>
-void CalcAllPermutation(T perm[], int num)
+// 1.7 字符串的全排列.cpp : 定义控制台应用程序的入口点。
+//
+
+#include "stdafx.h"
+#include <algorithm>
+#include <iostream>
+using namespace std;
+
+void calcAllPermutation(char* perm, int num)
 {
 	if (num < 1)
 		return;
+
+	for (int i = 0; i < num; i++)
+	{
+		cout << perm[i];
+	}
+	cout << endl;
 
 	while (true)
 	{
@@ -53,21 +66,32 @@ void CalcAllPermutation(T perm[], int num)
 			if (perm[i] < perm[i + 1])
 				break;
 		}
-
 		if (i < 0)
+		{
 			break;  // 已经找到所有排列
-
+		}
 		int k;
 		for (k = num - 1; k > i; --k)
 		{
 			if (perm[k] > perm[i])
 				break;
 		}
-
 		swap(perm[i], perm[k]);
+		//reverse 左闭右开
 		reverse(perm + i + 1, perm + num);
-
+		for (int i = 0; i < num; i++)
+		{
+			cout <<perm[i];
+		}
+		cout << endl;
 	}
+}
+
+int main()
+{
+	char a[] = "123";
+	calcAllPermutation(a, 3);
+	return 0;
 }
 
 
