@@ -93,9 +93,7 @@ int main()
 
 
 
-// 1.7 字符串的全排列.cpp : 定义控制台应用程序的入口点。
 //解法二 代码二
-
 #include "stdafx.h"
 #include <algorithm>
 #include <iostream>
