@@ -38,7 +38,7 @@ int _tmain(int argc, _TCHAR* argv[])
 }
 
 
-//解法二
+//解法二 代码一
 #include "stdafx.h"
 #include <algorithm>
 #include <iostream>
@@ -90,6 +90,47 @@ int main()
 	calcAllPermutation(a, 3);
 	return 0;
 }
+
+
+
+// 1.7 字符串的全排列.cpp : 定义控制台应用程序的入口点。
+//解法二 代码二
+
+#include "stdafx.h"
+#include <algorithm>
+#include <iostream>
+using namespace std;
+
+bool calcAllPermutation(char* perm, int num){
+	int i;
+	for (i = num - 2; (i >= 0) && (perm[i] >= perm[i + 1]); --i){
+		;
+	}
+	// 已经找到所有排列
+	if (i < 0){
+		return false;  
+	}
+	int k;
+	for (k = num - 1; (k > i) && (perm[k] <= perm[i]); --k){
+		;
+	}
+	swap(perm[i], perm[k]);
+	//reverse 左闭右开
+	reverse(perm + i + 1, perm + num);
+	return true;
+}
+
+int main()
+{
+	char a[] = "123";
+	do{
+		for (int i = 0; i < 3; ++i)
+			cout << a[i];
+		cout << endl;
+	} while (calcAllPermutation(a, 3));
+	return 0;
+}
+
 
 
 //类似问题
