@@ -56,6 +56,16 @@
 
 有何问题或补充意见，咱们可以随时到这里讨论：https://github.com/julycoding/The-Art-Of-Programming-By-July/issues/81 。
 
+## Ver Note
+ - 2013年12月-2014年3月，转移结构之法算法之道blog部分经典文章到本github上；
+ - 2014年3月，通读全部文章，修正明显错误；
+ - 2014年4月，精简篇幅，调整目录
+ - 2014年5月，逐行逐句优化文字描述，测试优化每一段代码，确定代码基本风格
+ - 2014年6月
+- 第一周，压缩篇幅，宁愿量少，但求质精
+- 第二周，将逐步转移到线下word上修改
+
+
 ## Contributors
 为示鼓励，本系列集结出版成书后，愿赠送所有contributors 一人一本新书签名版，以此感谢所有贡献的朋友：https://github.com/julycoding/The-Art-Of-Programming-by-July/graphs/contributors ，并非常期待你的加入，thanks。
 
