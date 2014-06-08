@@ -94,26 +94,33 @@ int main()
 
 
 //解法二 代码二
+// 1.7 字符串的全排列.cpp : 定义控制台应用程序的入口点。
 #include "stdafx.h"
 #include <algorithm>
 #include <iostream>
 using namespace std;
 
-bool calcAllPermutation(char* perm, int num){
+bool CalcAllPermutation(char* perm, int num){
 	int i;
+
+	//①找到排列中最后（最右）一个升序的首位位置i，x = ai
 	for (i = num - 2; (i >= 0) && (perm[i] >= perm[i + 1]); --i){
 		;
 	}
 	// 已经找到所有排列
 	if (i < 0){
-		return false;  
+		return false;
 	}
+
 	int k;
+	//②找到排列中第i位右边最后一个比ai 大的位置j，y = aj
 	for (k = num - 1; (k > i) && (perm[k] <= perm[i]); --k){
 		;
 	}
+
+	//③交换x，y
 	swap(perm[i], perm[k]);
-	//reverse 左闭右开
+	//④把第(i+ 1)位到最后的部分翻转
 	reverse(perm + i + 1, perm + num);
 	return true;
 }
@@ -125,10 +132,9 @@ int main()
 		for (int i = 0; i < 3; ++i)
 			cout << a[i];
 		cout << endl;
-	} while (calcAllPermutation(a, 3));
+	} while (CalcAllPermutation(a, 3));
 	return 0;
 }
-
 
 
 //类似问题
