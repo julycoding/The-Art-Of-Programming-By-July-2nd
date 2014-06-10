@@ -64,7 +64,7 @@
  - 2014年5月，逐章逐节逐行逐字优化文字描述，测试重写优化每一段每一行每一个代码，确定代码基本风格；
  - 2014年6月
 - 第一周，压缩篇幅，宁愿量少，但求质精；
-- 第二周，review全部文章：https://github.com/julycoding/The-Art-Of-Programming-By-July/issues/330 ；
+- 第二周，review all：https://github.com/julycoding/The-Art-Of-Programming-By-July/issues/330 ；
 - 第三周，将逐步转移到线下word 上继续修改优化，在word 上做出最后彻底的改进，与出版社编辑沟通重绘所有图片；
 - 第四周，最后review；
 - 6月30日，截稿，交给出版社。
