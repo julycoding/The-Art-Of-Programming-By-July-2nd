@@ -75,7 +75,7 @@
 
 
 ## Contributors
-为示鼓励，本系列集结出版成书后，愿赠送所有contributors 一人一本新书签名版，以此感谢所有贡献的朋友：https://github.com/julycoding/The-Art-Of-Programming-by-July/graphs/contributors ，并非常期待你的加入，thanks。
+感谢所有贡献的朋友：https://github.com/julycoding/The-Art-Of-Programming-by-July/graphs/contributors ，并非常期待你的加入，thanks。
 
 同时，欢迎所有已经贡献过本github的85位朋友加入程序员编程艺术室QQ群：149638123，验证信息为你贡献本项目时用的github昵称。
 
