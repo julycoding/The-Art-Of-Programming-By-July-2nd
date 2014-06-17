@@ -6,20 +6,16 @@ using namespace std;
 
 double maxProductSubstring(double *a, int length) 
 {
-	double maxResult = 0;
-	double start = 0;
-	double end = 0;
+	double maxResult = a[0];
 	for (int i = 0; i < length; i++)
 	{
-		double x = a[i];
-		for (int j = i + 1; j < length; j++)
+		double x = 1;
+		for (int j = i; j < length; j++)
 		{
 			x *= a[j];
 			if (x > maxResult)
 			{
 				maxResult = x;
-				start = a[i];
-				end = a[j];
 			}
 		}
 	}
