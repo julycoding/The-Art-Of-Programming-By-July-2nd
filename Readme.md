@@ -69,7 +69,7 @@
 - 第二周，review all：https://github.com/julycoding/The-Art-Of-Programming-By-July/issues/330 ；
 - 第三周，开始陆续转移到线下word 上继续修改优化，在word 上做出最后彻底的改进，并密切关注github上的pull request或反馈；
 - 第四周，最后review；
-- 6月30日，截稿，交给出版社。
+- 6月30日，截稿，全部书稿交给出版社。
  - 2014年7月..
  - 2014年8月..
  - 2014年9月..
