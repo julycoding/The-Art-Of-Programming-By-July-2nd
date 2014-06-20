@@ -67,7 +67,7 @@
  - 2014年6月
 - 第一周，压缩篇幅，宁愿量少，但求质精；
 - 第二周，review all：https://github.com/julycoding/The-Art-Of-Programming-By-July/issues/330 ；
-- 第三周，开始陆续转移到线下word 上继续修改优化，在word 上做出最后彻底的改进，并密切关注github上的pull request或反馈；
+- 第三周，6月20日，全部文章已经从github转到本地word上，剩下10天，将在word 上做出最后彻底的改进，并密切关注github上的pull request或反馈；
 - 第四周，最后review；
 - 6月30日，截稿，全部书稿交给出版社。
  - 2014年7月..
