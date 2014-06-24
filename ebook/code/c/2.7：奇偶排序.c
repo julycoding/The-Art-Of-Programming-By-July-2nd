@@ -43,6 +43,11 @@ void oddEvenSort(int *pData, unsigned int length)
 		{
 			//否则都不正常，交换
 			swap(*pBegin, *pEnd);
+			//---以下是我的修改
+			//因为交换后pBegin,pEnd指向的都是正确的奇偶数，即pBegin指向奇数,pEnd指向偶数
+			//因此我想增加下面的代码可以减少两次循环，不知道是否正确。
+			pBegin++;
+			pEnd++;
 		}
 	}
 }
