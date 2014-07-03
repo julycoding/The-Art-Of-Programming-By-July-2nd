@@ -54,6 +54,10 @@
  - 一个函数只专注做一件事
  - 时间复杂度小写表示，如O(nlogn)，而不写成O(N*logN)
  - 正文中绝大部分采用C实现，少量C++代码，即以C为主，但不去刻意排斥回避C++；
+ - 关于的地得
+- 形容词（代词） + 的 + 名词，例如：我的小苹果
+- 副词 + 地 + 动词，例如：慢慢地走
+- 动词 + 得 + 副词，例如：走得很快 
  - ..
  - 此外，更多C++ 部分可参考Google C++ Style Guide，中文版见：http://zh-google-styleguide.readthedocs.org/en/latest/contents/ ；
 
