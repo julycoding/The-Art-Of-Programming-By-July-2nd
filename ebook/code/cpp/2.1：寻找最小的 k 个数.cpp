@@ -40,7 +40,7 @@ void Swap(int* pa, int* pb)
 //最大化堆过程，保持最大堆性质，即父节点元素值大于等于其子孙节点元素
 void MaxHeapify(int* pArray, const int nLength, const int nI)
 {
-  if((nI < 0) || (pArray == NULL) || (nI > nLength))
+    if((nI < 0) || (pArray == NULL) || (nI > nLength))
     {
         return;
     }
