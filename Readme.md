@@ -98,4 +98,5 @@
 * 《十五个经典算法研究与总结之PDF》：http://download.csdn.net/detail/v_july_v/4478027
 * 编程艺术HTML网页版：http://taop.marchtea.com/
 * 2014年4月29日《武汉华科大第5次面试&算法讲座PPT》：http://pan.baidu.com/s/1hqh1E9e ；
+* 新书初稿的4个PDF，B树的PDF：http://yun.baidu.com/s/1jGwup5k ；海量数据处理的PDF：http://yun.baidu.com/s/1dDreICL ；支持向量机的PDF：http://yun.baidu.com/s/1ntwof7j ；KMP的PDF：http://yun.baidu.com/s/1eQel3PK ；
 * 持续更新..
