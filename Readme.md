@@ -92,11 +92,15 @@
 本电子书的版权属于July 本人，严禁其他任何人出版，严禁用于任何商业用途，违者必究法律责任。July、二零一四年五月十一日晚。
 
 ## July' PDF
-* 《支持向量机通俗导论（理解SVM的三层境界）》Latex排版精细版：http://vdisk.weibo.com/s/zrFL6OXKgnlcp ；Latex版本②：https://raw.githubusercontent.com/liuzheng712/Intro2SVM/master/Intro2SVM.pdf 。
-* 原《程序员编程艺术第一~三十七章PDF》：http://download.csdn.net/detail/v_july_v/6694053 ，本github上的文章已经对此PDF进行了极大的优化和改进。
-* 《微软面试100题系列之PDF》：http://download.csdn.net/detail/v_july_v/4583815
-* 《十五个经典算法研究与总结之PDF》：http://download.csdn.net/detail/v_july_v/4478027
-* 编程艺术HTML网页版：http://taop.marchtea.com/
-* 2014年4月29日《武汉华科大第5次面试&算法讲座PPT》：http://pan.baidu.com/s/1hqh1E9e ；
-* 新书初稿的4个PDF，B树的PDF：http://yun.baidu.com/s/1jGwup5k ；海量数据处理的PDF：http://yun.baidu.com/s/1dDreICL ；支持向量机的PDF：http://yun.baidu.com/s/1ntwof7j ；KMP的PDF：http://yun.baidu.com/s/1eQel3PK ；
-* 持续更新..
+- 《支持向量机通俗导论（理解SVM的三层境界）》Latex排版精细版：http://vdisk.weibo.com/s/zrFL6OXKgnlcp ；Latex版本②：https://raw.githubusercontent.com/liuzheng712/Intro2SVM/master/Intro2SVM.pdf 。
+- 原《程序员编程艺术第一~三十七章PDF》：http://download.csdn.net/detail/v_july_v/6694053 ，本github上的文章已经对此PDF进行了极大的优化和改进。
+- 《微软面试100题系列之PDF》：http://download.csdn.net/detail/v_july_v/4583815
+- 《十五个经典算法研究与总结之PDF》：http://download.csdn.net/detail/v_july_v/4478027
+- 编程艺术HTML网页版：http://taop.marchtea.com/
+- 2014年4月29日《武汉华科大第5次面试&算法讲座PPT》：http://pan.baidu.com/s/1hqh1E9e ；
+- 新书初稿的4个PDF
+ - B树的PDF：http://yun.baidu.com/s/1jGwup5k ；
+ - 海量数据处理的PDF：http://yun.baidu.com/s/1dDreICL ；
+ - 支持向量机的PDF：http://yun.baidu.com/s/1ntwof7j ；
+ - KMP的PDF：http://yun.baidu.com/s/1eQel3PK ；
+- 持续更新..
