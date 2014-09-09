@@ -101,5 +101,5 @@
  - 海量数据处理的PDF：http://yun.baidu.com/s/1dDreICL ；
  - 支持向量机的PDF：http://yun.baidu.com/s/1ntwof7j ；
  - KMP的PDF：http://yun.baidu.com/s/1eQel3PK ；
-- 2014年9月3日西电第8次面试&算法讲座视频地址：http://v.youku.com/v_show/id_XNzc2MDYzNDg4.html ；PPT：http://pan.baidu.com/s/1pJ9HFqb ；
+- 2014年9月3日西电第8次面试&算法讲座视频：http://v.youku.com/v_show/id_XNzc2MDYzNDg4.html ；PPT：http://pan.baidu.com/s/1pJ9HFqb ；
 - 持续更新..
