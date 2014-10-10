@@ -80,7 +80,8 @@
  - 2014年6月
 - 第一周，压缩篇幅，宁愿量少，但求质精；
 - 第二周，全面 review；
-- 第三周，本github的部分Contributors 把全部文章从github转到word上，这部分contributors 包括包括：zhou1989_01、qiwsir-02、DogK_03、x140yu_04、ericxk_05、zhanglin0129_06、idouba.net、gaohua_07等。随后，我继续在word 上做出最后彻底的改进，若未发现bug或pull request，github将暂不再改动；
+- 第三周，本github的部分Contributors 把全部文章从github转到word上，这部分contributors 包括包括：zhou1989_01、qiwsir-02、DogK_03、x140yu_04、ericxk_05、zhanglin0129_06、idouba.net、gaohua_07等；
+- 第四周：继续在word 上做出最后彻底的改进，若未发现bug或pull request，github将暂不再改动；
 - 6月30日，稿件延期，理由：目前版本不是所能做到的最好的版本。
  - 2014年7月，邀请部分好友审稿，包括曹鹏、邹伟、林奔、王婷、何欢，其中曹鹏重写优化了部分代码；
  - 2014年8月下旬，重点修改SVM一节内容；
