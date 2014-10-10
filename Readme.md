@@ -68,8 +68,8 @@
 有何问题或补充意见，咱们可以随时到这里讨论：https://github.com/julycoding/The-Art-Of-Programming-By-July/issues/81 。
 
 ## Ver Note
- - 2010年10月11日，在CSDN上正式开博，近4年来，感谢博客上的所有读者的关注、支持、留言、评论、批评、指正；
- - 2013年12月-2014年3月，本github的Contributors 转移结构之法算法之道blog部分经典文章到本github上，感谢这近100位Contributors，包括：
+ - 2010年10月11日，在CSDN上正式开博，近4年来，感谢博客上所有读者的访问、浏览、关注、支持、留言、评论、批评、指正；
+ - 2013年12月-2014年3月，本github的Contributors 转移结构之法算法之道blog的部分经典文章到本github上，感谢这近100位Contributors，包括但不限于：
 - Boshen（贡献本github的次数最多）
 - sallen450
 - marchtea（专门为本github书稿弄了一个HTML网页）
