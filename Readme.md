@@ -69,7 +69,11 @@
 
 ## Ver Note
  - 2010年10月11日，在CSDN上正式开博，近4年来，感谢博客上的所有读者的关注、支持、指正；
- - 2013年12月-2014年3月，本github的Contributors 转移结构之法算法之道blog部分经典文章到本github上，感谢这近100位Contributors，包括Boshen（贡献本github的次数最多）、sallen450、marchtea（专门为本github书稿弄了一个HTML网页）、nateriver520（劝我把书稿放在github上）；
+ - 2013年12月-2014年3月，本github的Contributors 转移结构之法算法之道blog部分经典文章到本github上，感谢这近100位Contributors，包括：
+- Boshen（贡献本github的次数最多）
+- sallen450
+- marchtea（专门为本github书稿弄了一个HTML网页）
+- nateriver520（劝我把书稿放在github上）
  - 2014年3月，通读全部文章，修正明显错误，并邀请部分朋友review本github上的全部文章，包括尹珺、王威扬、邬勇、高增琪、武博文、杨忠宝等；
  - 2014年4月，精简篇幅，调整目录，Contributors 贡献其它语言代码，并翻译部分文章；
  - 2014年5月，逐章逐节逐行逐字优化文字描述，测试重写优化每一段每一行每一个代码，确定代码基本风格；
