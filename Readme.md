@@ -73,14 +73,14 @@
 - Boshen（贡献本github的次数最多）
 - sallen450
 - marchtea（专门为本github书稿弄了一个HTML网页）
-- nateriver520（劝我把书稿放在github上）
+- nateriver520（劝我把书稿放在github上，才有了本github）
  - 2014年3月，通读全部文章，修正明显错误，并邀请部分朋友review本github上的全部文章，包括尹珺、王威扬、邬勇、高增琪、武博文、杨忠宝等；
  - 2014年4月，精简篇幅，调整目录，Contributors 贡献其它语言代码，并翻译部分文章；
  - 2014年5月，逐章逐节逐行逐字优化文字描述，测试重写优化每一段每一行每一个代码，确定代码基本风格；
  - 2014年6月
 - 第一周，压缩篇幅，宁愿量少，但求质精；
 - 第二周，全面 review；
-- 第三周，全部文章从github转到word上，在word 上做出最后彻底的改进，若未发现bug或pull request，github将暂不再改动；
+- 第三周，本github的部分Contributors（包括：zhou1989_01、qiwsir-02、DogK_03、x140yu_04、ericxk_05、zhanglin0129_06、idouba.net、gaohua_07、idouba.net） 把全部文章从github转到word上，在word 上做出最后彻底的改进，若未发现bug或pull request，github将暂不再改动；
 - 6月30日，稿件延期，理由：目前版本不是所能做到的最好的版本。
  - 2014年7月，邀请部分好友审稿，包括曹鹏、邹伟、林奔、王婷、何欢，其中曹鹏重写优化了本github的部分代码；
  - 2014年8月下旬，重点修改SVM一节内容；
