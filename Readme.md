@@ -68,6 +68,7 @@
 有何问题或补充意见，咱们可以随时到这里讨论：https://github.com/julycoding/The-Art-Of-Programming-By-July/issues/81 。
 
 ## Ver Note
+ - 2010年10月11日，在CSDN上正式开博，近4年来，感谢博客上的所有读者的关注、支持、指正；
  - 2013年12月-2014年3月，本github的近100位Contributors 转移结构之法算法之道blog部分经典文章到本github上；
  - 2014年3月，通读全部文章，修正明显错误，并邀请部分朋友review本github上的全部文章，包括尹珺、王威扬、邬勇、高增琪、武博文、杨忠宝等；
  - 2014年4月，精简篇幅，调整目录，Contributors 贡献其它语言代码，并翻译部分文章；
