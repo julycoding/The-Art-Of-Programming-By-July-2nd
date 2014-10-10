@@ -73,7 +73,7 @@
  - 2011年10月， 当时在图灵教育出版社的杨海玲老师（现在人民邮电信息技术分社）再度联系出书，再度认为“时机未到”；
  - 2014年1月18日，正式确认今2014年之内要把拖了近3年之久的书出版出来；
  - 2013年12月-2014年3月，本github的Contributors 转移结构之法算法之道blog的部分经典文章到本github上，感谢这近100位Contributors，包括但不限于：
-- Boshen（贡献本github的次数最多）
+- Boshen（除我之外，贡献本github的次数最多）
 - sallen450
 - marchtea（专门为本github书稿弄了一个HTML网页）
 - nateriver520（劝我把书稿放在github上，才有了本github）
