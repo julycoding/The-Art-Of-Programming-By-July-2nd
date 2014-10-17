@@ -7,13 +7,14 @@
  - [1.1 - Left Rotating String](01.0.md)
 
 * Chapter 2  Array's Mystery
- - [2.6 - Maximum Subarray Problem](07.0.md)
+ - [2.1 - Find Smallest K Numbers](03.0.md)
+ - [2.6 - Maximum Subarray Problem](07.0.md) 
 
 * Chapter 3  Searching and Sorting
  - [3.1: Binary Search](25.0.md)
 
-* Chapter 4  Algorithm Optimization
- - [4.3: Perfect shuffle algorithm](35.0.md)
+* Chapter 4  Algorithm Optimization 
+ - [4.3: Perfect shuffle algorithm](35.0.md) 
 
 * Chapter 5  Dynamic Programming
  - [5.1 - Longest Common Subsequence](11.0.md)
