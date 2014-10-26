@@ -97,9 +97,12 @@
 - 9月下旬，再度邀请另一部分好友进行第二轮审稿，包括许利杰、王亮、陈赢、李祥老师、litaoye等，并在微博上公开征集部分读者审稿，包括李元超、刘琪等等；
  - 2014年10月
 - 10月8日起，开始一章一章陆续交稿给出版社初审
-- 10月下旬，出版社重绘全部图片和公式，编辑加工，复审，三审；
- - 2014年11月，发稿审批，排版校对；
- - 2014年12月，出胶片，印刷，装订成书；
+- 10月9日，第一章、字符串完成修改；
+- 10月10日，第二章、数组完成修改；
+- 10月22日，第三章、树完成修改；
+ - 2014年11月，出版社重绘全部图片和公式，编辑加工，复审，三审；
+ - 2014年12月，发稿审批，排版校对；
+ - 2015年1月，出胶片，印刷，装订成书；
 
 ## Contributors
 感谢所有贡献的朋友：https://github.com/julycoding/The-Art-Of-Programming-by-July/graphs/contributors ，并非常期待你的加入，thanks。
@@ -126,4 +129,5 @@
  - 支持向量机的PDF：http://yun.baidu.com/s/1ntwof7j ；
  - KMP的PDF：http://yun.baidu.com/s/1eQel3PK ；
 - 2014年9月3日西电第8次面试&算法讲座视频：http://v.youku.com/v_show/id_XNzc2MDYzNDg4.html ；PPT：http://pan.baidu.com/s/1pJ9HFqb ；
+- 北京10月机器学习班的所有上课PPT：http://pan.baidu.com/disk/home#from=share_pan_logo&path=%252F%25E5%258C%2597%25E4%25BA%25AC10%25E6%259C%2588%25E6%259C%25BA%25E5%2599%25A8%25E5%25AD%25A6%25E4%25B9%25A0%25E7%258F%25AD ；
 - 持续更新..
