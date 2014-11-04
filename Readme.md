@@ -87,7 +87,7 @@
 - 第一周，压缩篇幅，宁愿量少，但求质精；
 - 第二周，全面 review；
 - 第三周，本github的部分Contributors 把全部文章从github转到word上，这部分contributors 包括包括：zhou1989、qiwsir、DogK、x140yu、ericxk、zhanglin0129、idouba.net、gaohua、kelvinkuo等；
-- 第四周，继续在Word 上做出最后彻底的改进，若未发现bug或pull request，github将暂不再改动；
+- 第四周，继续在Word 上做出最后彻底的改进，若未发现bug或pull request，本github将暂不再改动；
 - 6月30日，与出版社约定的交稿日期延期，理由：目前版本不是所能做到的最好的版本。
  - 2014年7月，邀请部分好友进行第一轮审稿，包括曹鹏、邹伟、林奔、王婷、何欢，其中，曹鹏重写优化了部分代码。此外，葛立娜对书稿中的语言描述做了不少改进；
  - 2014年8月
