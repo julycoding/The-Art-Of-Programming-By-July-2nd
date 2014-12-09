@@ -137,4 +137,5 @@
  - KMP的PDF：http://yun.baidu.com/s/1eQel3PK ；
 - 2014年9月3日西电第8次面试&算法讲座视频：http://v.youku.com/v_show/id_XNzc2MDYzNDg4.html ；PPT：http://pan.baidu.com/s/1pJ9HFqb ；
 - 北京10月机器学习班的所有上课PPT：http://pan.baidu.com/disk/home#from=share_pan_logo&path=%252F%25E5%258C%2597%25E4%25BA%25AC10%25E6%259C%2588%25E6%259C%25BA%25E5%2599%25A8%25E5%25AD%25A6%25E4%25B9%25A0%25E7%258F%25AD ；
+- 截止到2014年12月9日，结构之法算法之道blog所有155篇博文集锦CHM文件下载地址：http://pan.baidu.com/s/1gdrJndp ；
 - 持续更新..
