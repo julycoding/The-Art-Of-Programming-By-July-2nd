@@ -105,10 +105,15 @@
 - 11月5日，第三章、树完成第二版修改，主要修正部分图片、公式、语言描述的错误；
  - 2014年12月
 - 12月1日，第四章、查找完成修改。至此，前4 章的修改稿交付出版社。 
-- 12月下旬，出版社重绘全部图片和公式，编辑加工，复审，三审；
- - 2015年1月，发稿审批，排版校对；
- - 2015年2月，出胶片，印刷，装订成书；
- - 2015年3月..
+- 12月8日，第五章、动态规划完成修改，等出版社反馈中。一个人坚持有点枯燥。
+- 12月31日，第六章仍未修改完。
+ - 2015年1月
+- 1月12日凌晨，第六章、海量数据处理完成修改，交付出版社。
+- 1月下旬，merge海玲姐第1-5章的反馈，和后续第6.7章的反馈，最终整体review一轮，争取年前交上定稿。
+ - 2015年3月，出版社重绘全部图片和公式，编辑加工，复审，三审；
+ - 2015年4月，发稿审批，排版校对；
+ - 2015年5月，出胶片，印刷，装订成书；
+ - ..
 
 ## Contributors
 感谢所有贡献的朋友：https://github.com/julycoding/The-Art-Of-Programming-by-July/graphs/contributors ，并非常期待你的加入，thanks。
@@ -135,5 +140,6 @@
  - 支持向量机的PDF：http://yun.baidu.com/s/1ntwof7j ；
  - KMP的PDF：http://yun.baidu.com/s/1eQel3PK ；
 - 2014年9月3日西电第8次面试&算法讲座视频：http://v.youku.com/v_show/id_XNzc2MDYzNDg4.html ；PPT：http://pan.baidu.com/s/1pJ9HFqb ；
-- 北京10月机器学习班的所有上课PPT：http://pan.baidu.com/disk/home#from=share_pan_logo&path=%252F%25E5%258C%2597%25E4%25BA%25AC10%25E6%259C%2588%25E6%259C%25BA%25E5%2599%25A8%25E5%25AD%25A6%25E4%25B9%25A0%25E7%258F%25AD ；
+- 北京10月机器学习班的所有上课PPT：http://yun.baidu.com/share/home?uk=4214456744&view=share#category/type=0；
+- 截止到2014年12月9日，结构之法算法之道blog所有155篇博文集锦CHM文件下载地址：http://pan.baidu.com/s/1gdrJndp ；
 - 持续更新..
