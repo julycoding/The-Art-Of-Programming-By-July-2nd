@@ -127,8 +127,8 @@
  - 2015年8月
 - 8月6日，三审结束。书稿取得阶段性的胜利。 
 - 8月下旬，发稿审批，排版校对，出胶片、印刷、装订成书；
- - 2015年9月，上市；
- - ..
+-  2015年9月
+ - 预计新书《编程之法：面试和算法心得》2015年9月第三周正式上市。
 
 ## Contributors
 感谢所有贡献的朋友：https://github.com/julycoding/The-Art-Of-Programming-by-July/graphs/contributors ，并非常期待你的加入，thanks。
