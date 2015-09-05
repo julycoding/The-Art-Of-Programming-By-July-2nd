@@ -129,7 +129,7 @@
 - 8月下旬，发稿审批。
 -  2015年9月
  - 9月上旬，排版校对，出胶片、印刷、装订成书 
- - 预计新书《编程之法：面试和算法心得》2015年9月低正式上市。
+ - 预计新书《编程之法：面试和算法心得》2015年9月底正式上市。
 
 ## Contributors
 感谢所有贡献的朋友：https://github.com/julycoding/The-Art-Of-Programming-by-July/graphs/contributors ，并非常期待你的加入，thanks。
