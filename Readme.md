@@ -1,7 +1,7 @@
 ## About
 
 **July的新书《编程之法》纸质版在本github上的基础上做了极大彻底的改进、优化，无论是完整度、还是最新度、或质量上，都远非博客、github所能相比。
-目前正在印刷中，预计2015年10月15日左右能第一时间在这里买到：http://www.epubit.com.cn/book/details/4051。后面则陆续上架京东、当当、亚马逊、互动出版网等各大网店。**
+目前正在印刷中，预计2015年10月15日左右能第一时间在这里买到：http://www.epubit.com.cn/book/details/4051 。后面则陆续上架京东、当当、亚马逊、互动出版网等各大网店。**
 
 看过[结构之法算法之道blog](http://blog.csdn.net/v_july_v)的朋友可能知道，从2010年10月起，[July](http://weibo.com/julyweibo) 开始整理一个微软面试100题的系列，他在整理这个系列的过程当中，越来越强烈的感觉到，可以从那100题中精选一些更为典型的题，每一题详细阐述成章，不断优化，于此，便成了程序员编程艺术系列。
 
@@ -137,7 +137,7 @@
  - 2015年10月
 - 进入10月份，万众期待的《编程之法》，终于终于要来了！
 - 预计10月13日作者July能拿到第一本样书
-- 预计2015年10月15日左右能第一时间在这里买到：http://www.epubit.com.cn/book/details/4051。后面则陆续上架京东、当当、亚马逊、互动出版网等各大网店。
+- 预计2015年10月15日左右能第一时间在这里买到：http://www.epubit.com.cn/book/details/4051 。后面则陆续上架京东、当当、亚马逊、互动出版网等各大网店。
 
 ## Contributors
 感谢所有贡献的朋友：https://github.com/julycoding/The-Art-Of-Programming-by-July/graphs/contributors ，并非常期待你的加入，thanks。
