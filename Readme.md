@@ -137,8 +137,8 @@
 - 9月22日，开始印刷。
  - 2015年10月
 - 进入10月份，万众期待的《编程之法》，终于终于要来了！
-- 预计10月13日作者July能拿到第一本样书
-- 预计2015年10月15日左右能第一时间在这里买到：http://www.epubit.com.cn/book/details/4051 。后面则陆续上架京东、当当、亚马逊、互动出版网等各大网店。
+- 10月13日晚，终于拿到第一批样书。
+- 10月14日下午三点半，我的新书《编程之法》终于上架开卖！抢购地址：http://www.epubit.com.cn/book/details/4051 。后面会陆续上架京东、当当、亚马逊、互动出版网等各大网店。。
 
 ## Contributors
 感谢所有贡献的朋友：https://github.com/julycoding/The-Art-Of-Programming-by-July/graphs/contributors ，并非常期待你的加入，thanks。
