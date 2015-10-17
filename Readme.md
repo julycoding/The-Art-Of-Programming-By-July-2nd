@@ -6,7 +6,7 @@
 
 《编程之法》纸质版已于2015年10月14日陆续开卖！
  - 异步社区：http://www.epubit.com.cn/book/details/4051。
- - 互动出版网（7.7折且包邮且移动端首单再减5元）：http://product.china-pub.com/4880112。
+ - 互动出版网（7.7折且包邮且移动端首单再减5元）：http://product.china-pub.com/4880112 。
 
 后面会陆续上架京东、当当、亚马逊等各大网店。
 
