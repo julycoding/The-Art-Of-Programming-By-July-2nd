@@ -7,10 +7,9 @@
 《编程之法》纸质版已于2015年10月14日陆续开卖！
  - 当当：http://product.dangdang.com/23796222.html，北京的第一天下单，预计最快第二天即可送达。
  - 京东预售：http://item.jd.com/11786791.html ，很快就能抢购。
- - 亚马逊预售：http://www.amazon.cn/%E7%BC%96%E7%A8%8B%E4%B9%8B%E6%B3%95-%E9%9D%A2%E8%AF%95%E5%92%8C%E7%AE%97%E6%B3%95%E5%BF%83%E5%BE%97-July/dp/B016N0UUJG/ref=sr_1_1?ie=UTF8&qid=1445501216&sr=8-1&keywords=%E7%BC%96%E7%A8%8B%E4%B9%8B%E6%B3%95 。
+ - 亚马逊预售。
  - 异步社区：http://www.epubit.com.cn/book/details/4051 。
  - 互动出版网：http://product.china-pub.com/4880112 。
-
 
 看过[结构之法算法之道blog](http://blog.csdn.net/v_july_v)的朋友可能知道，从2010年10月起，[July](http://weibo.com/julyweibo) 开始整理一个微软面试100题的系列，他在整理这个系列的过程当中，越来越强烈的感觉到，可以从那100题中精选一些更为典型的题，每一题详细阐述成章，不断优化，于此，便成了程序员编程艺术系列。
 
