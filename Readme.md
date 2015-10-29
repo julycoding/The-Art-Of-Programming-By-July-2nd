@@ -4,10 +4,10 @@
 
 **此外，散落在网上其他任何地方的“编程之法”电子材料均是盗版自本github，更无质量可言。所以，July只唯一推荐《编程之法》纸质版。**
 
-《编程之法》纸质版已于2015年10月14日陆续开卖！
- - 当当：http://product.dangdang.com/23796222.html ，北京的第一天下单，预计最快第二天即可送达。
- - 京东预售：http://item.jd.com/11786791.html ，很快就能抢购。
- - 亚马逊预售。
+《编程之法》纸质版已于2015年10月14日陆续开卖！目前，京东、当当、亚马逊等各大网店均已有现货销售。
+ - 京东：http://item.jd.com/11786791.html 。
+ - 当当：http://product.dangdang.com/23796222.html 。
+ - 亚马逊：[点击进入](http://www.amazon.cn/%E7%BC%96%E7%A8%8B%E4%B9%8B%E6%B3%95-%E9%9D%A2%E8%AF%95%E5%92%8C%E7%AE%97%E6%B3%95%E5%BF%83%E5%BE%97-July/dp/B016N0UUJG/ref=sr_1_1?ie=UTF8&qid=1445598929&sr=8-1&keywords=%E7%BC%96%E7%A8%8B%E4%B9%8B%E6%B3%95)。
  - 异步社区：http://www.epubit.com.cn/book/details/4051 。
  - 互动出版网：http://product.china-pub.com/4880112 。
 
