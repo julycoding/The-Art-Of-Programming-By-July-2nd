@@ -147,9 +147,7 @@
 ## Contributors
 感谢所有贡献的朋友：https://github.com/julycoding/The-Art-Of-Programming-by-July/graphs/contributors ，并非常期待你的加入，thanks。
 
-同时，任何人都可以加入编程艺术讨论QQ群：74631723，需要写验证信息。
-
-此外，欢迎所有已经贡献过本github的99位朋友加入程序员编程艺术室QQ群：149638123，验证信息为你贡献本项目时用的github昵称，thanks。
+同时，欢迎加入《编程之法》讨论交流QQ群：74631723，需要写验证信息。
 
 孤军奋战的时代早已远去，我们只有团结起来，才能帮助到更多人。[@研究者July](http://weibo.com/julyweibo)，始于二零一三年十二月十四日。
 
