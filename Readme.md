@@ -166,7 +166,7 @@
 感谢以上诸位，正因为他们的帮助，纸书《编程之法：面试和算法心得》的质量才不断提升，从而给广大读者呈现的是更好的作品。
 
 ## Copyright
-本电子书的版权属于July 本人，严禁其他任何人出版，严禁用于任何商业用途，违者必究法律责任。July、二零一四年五月十一日晚。
+本电子书的版权属于July 本人，严禁他人出版或用于商业用途，违者必究法律责任。July、二零一四年五月十一日晚。
 
 ## July' PDF
 - 《支持向量机通俗导论（理解SVM的三层境界）》Latex排版精细版：http://vdisk.weibo.com/s/zrFL6OXKgnlcp ；Latex版本②：https://raw.githubusercontent.com/liuzheng712/Intro2SVM/master/Intro2SVM.pdf 。
@@ -183,4 +183,5 @@
 - 2014年9月3日西电第8次面试&算法讲座视频：http://v.youku.com/v_show/id_XNzc2MDYzNDg4.html ；PPT：http://pan.baidu.com/s/1pJ9HFqb ；
 - 北京10月机器学习班的所有上课PPT：http://yun.baidu.com/share/home?uk=4214456744&view=share#category/type=0；
 - 截止到2014年12月9日，结构之法算法之道blog所有155篇博文集锦CHM文件下载地址：http://pan.baidu.com/s/1gdrJndp ；
+- 4 月机器学习在线班：http://www.julyedu.com/course/getDetail?course_id=35 。历时一年打磨、入门实战首选、实时答疑。
 - 持续更新..
