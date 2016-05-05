@@ -184,4 +184,5 @@
 - 北京10月机器学习班的所有上课PPT：http://yun.baidu.com/share/home?uk=4214456744&view=share#category/type=0；
 - 截止到2014年12.9日，结构之法算法之道blog所有155篇博文集锦CHM文件下载地址：http://pan.baidu.com/s/1gdrJndp
 - 4 月机器学习在线班：http://www.julyedu.com/course/getDetail?course_id=35 。历时一年打磨、入门实战首选、实时答疑。
+- 5 月深度学习班：http://www.julyedu.com/course/getDetail/37 。由浅入深、涵盖CNN、RNN及其工程应用。
 - 持续更新..
