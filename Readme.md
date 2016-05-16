@@ -185,4 +185,5 @@
 - 截止到2014年12.9日，结构之法算法之道blog所有155篇博文集锦CHM文件下载地址：http://pan.baidu.com/s/1gdrJndp
 - 4 月机器学习在线班：http://www.julyedu.com/course/getDetail?course_id=35 。历时一年打磨、入门实战首选、实时答疑。
 - 5 月深度学习班：http://www.julyedu.com/course/getDetail/37 。由浅入深、涵盖CNN、RNN及其工程应用。
+- 数据挖掘班：http://www.julyedu.com/course/getDetail/40 ，海量真实数据、包含大量工程应用、实践案例。课程咨询QQ群：151888952。
 - 持续更新..
