@@ -186,5 +186,6 @@
 - 4 月机器学习在线班：https://web.julyedu.com/course/getDetail/35 。历时一年打磨、入门实战首选、实时答疑。
 - 5 月深度学习班：https://web.julyedu.com/course/getDetail/37 。由浅入深、涵盖CNN、RNN及其工程应用。
 - 《6 月数据挖掘班》：https://web.julyedu.com/course/getDetail/40 ，海量真实数据、包含大量工程应用、实践案例。
-- 《机器学习中的数学班》：https://www.julyedu.com/course/getDetail/41 。专为复习、巩固机器学习中所需的数学基础。微信拼团最低99元，7.9日开班。
+- 《机器学习中的数学班》：https://www.julyedu.com/course/getDetail/41 。专为复习、巩固机器学习中所需的数学基础。
+- 《Python数据分析班》：https://www.julyedu.com/course/getDetail/43 ，入门数学科学的最佳课程。
 - 持续更新..
