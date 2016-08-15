@@ -183,9 +183,9 @@
 - 2014年9月3日西电第8次面试&算法讲座视频：http://v.youku.com/v_show/id_XNzc2MDYzNDg4.html ；PPT：http://pan.baidu.com/s/1pJ9HFqb ；
 - 北京10月机器学习班的所有上课PPT：http://yun.baidu.com/share/home?uk=4214456744&view=share#category/type=0；
 - 截止到2014年12.9日，结构之法算法之道blog所有155篇博文集锦CHM文件下载地址：http://pan.baidu.com/s/1gdrJndp
-- 4 月机器学习在线班：https://web.julyedu.com/course/getDetail/35 。历时一年打磨、入门实战首选、实时答疑。
-- 5 月深度学习班：https://web.julyedu.com/course/getDetail/37 。由浅入深、涵盖CNN、RNN及其工程应用。
-- 《6 月数据挖掘班》：https://web.julyedu.com/course/getDetail/40 ，海量真实数据、包含大量工程应用、实践案例。
+- 4 月机器学习在线班：https://www.julyedu.com/course/getDetail/35 。历时一年打磨、入门实战首选、实时答疑。
+- 5 月深度学习班：https://www.julyedu.com/course/getDetail/37 。由浅入深、涵盖CNN、RNN及其工程应用。
+- 《6 月数据挖掘班》：https://www.julyedu.com/course/getDetail/40 ，海量真实数据、包含大量工程应用、实践案例。
 - 《机器学习中的数学班》：https://www.julyedu.com/course/getDetail/41 。专为复习、巩固机器学习中所需的数学基础。
 - 《Python数据分析班》：https://www.julyedu.com/course/getDetail/43 ，入门数学科学的最佳课程。
 - 持续更新..
