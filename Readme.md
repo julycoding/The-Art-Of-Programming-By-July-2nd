@@ -188,4 +188,5 @@
 - 《6 月数据挖掘班》：https://www.julyedu.com/course/getDetail/40 ，海量真实数据、包含大量工程应用、实践案例。
 - 《机器学习中的数学班》：https://www.julyedu.com/course/getDetail/41 。专为复习、巩固机器学习中所需的数学基础。
 - 《Python数据分析班》：https://www.julyedu.com/course/getDetail/43 ，入门数学科学的最佳课程。
+- 《计算视觉班》：https://www.julyedu.com/course/getDetail/44 ，从CV基础到深度学习实战，9.3日开班。
 - 持续更新..
