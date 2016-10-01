@@ -185,8 +185,8 @@
 - July blog
  - CNN笔记：通俗理解卷积神经网络 http://blog.csdn.net/v_july_v/article/details/51812459
  - 教你从头到尾利用DL学梵高作画
- - CPU教程：http://blog.csdn.net/v_july_v/article/details/52683959
- - GPU教程：http://blog.csdn.net/v_july_v/article/details/52658965
+  - CPU教程：http://blog.csdn.net/v_july_v/article/details/52683959
+  - GPU教程：http://blog.csdn.net/v_july_v/article/details/52658965
  - 结构之法算法之道ML/DL系列博客：http://blog.csdn.net/v_JULY_v/article/category/1061301
 - 七月在线经典课程
  - 4 月机器学习在线班：https://www.julyedu.com/course/getDetail/35 。历时一年打磨、入门实战首选、实时答疑。
