@@ -183,10 +183,6 @@
  - 海量数据处理的PDF：http://yun.baidu.com/s/1dDreICL ；
  - 支持向量机的PDF：http://yun.baidu.com/s/1ntwof7j ；
  - KMP的PDF：http://yun.baidu.com/s/1eQel3PK ；
-- July’ blog
- - CNN笔记：通俗理解卷积神经网络 http://blog.csdn.net/v_july_v/article/details/51812459
- - 教你从头到尾利用DL学梵高作画 ① CPU教程：http://blog.csdn.net/v_july_v/article/details/52683959 ；② GPU教程：http://blog.csdn.net/v_july_v/article/details/52658965
- - 结构之法 算法之道ML/DL系列博客：http://blog.csdn.net/v_JULY_v/article/category/1061301
 - 七月在线经典课程
  - 4 月机器学习在线班：https://www.julyedu.com/course/getDetail/35 。历时一年打磨、入门实战首选、实时答疑。
  - 5 月深度学习班：https://www.julyedu.com/course/getDetail/37 。由浅入深、涵盖CNN、RNN及其工程应用。
@@ -196,4 +192,8 @@
  - 《计算机视觉班》：https://www.julyedu.com/course/getDetail/44 ，从CV基础到深度学习实战，9.3日开班。
  - 《机器学习与量化交易项目班》：https://www.julyedu.com/course/getDetail/46 ，项目驱动、真实数据，市场上极为难得的项目班，16年9.24日开班。
  - 9 月机器学习算法班 [王牌课程 八大升级]：https://www.julyedu.com/course/getDetail/47 。课程上一起做ML/DL实验、实战性极强。16年10.15日开班。
+- July’ blog
+ - CNN笔记：通俗理解卷积神经网络 http://blog.csdn.net/v_july_v/article/details/51812459
+ - 教你从头到尾利用DL学梵高作画 ① CPU教程：http://blog.csdn.net/v_july_v/article/details/52683959 ；② GPU教程：http://blog.csdn.net/v_july_v/article/details/52658965
+ - 结构之法 算法之道ML/DL系列博客：http://blog.csdn.net/v_JULY_v/article/category/1061301
 - 持续更新..
