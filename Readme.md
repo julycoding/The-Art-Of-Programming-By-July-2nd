@@ -188,7 +188,7 @@
 - 《计算视觉班》：https://www.julyedu.com/course/getDetail/44 ，从CV基础到深度学习实战，9.3日开班。
 - 《机器学习与量化交易项目班》：https://www.julyedu.com/course/getDetail/46 ，项目驱动、真实数据，市场上极为难得的项目班，16年9.24日开班。
 - 教你从头到尾利用DL学梵高作画
- - CPU教程：http://blog.csdn.net/v_july_v/article/details/52658965
- - GPU教程：http://blog.csdn.net/v_july_v/article/details/52683959
+ - CPU教程：http://blog.csdn.net/v_july_v/article/details/52683959
+ - GPU教程：http://blog.csdn.net/v_july_v/article/details/52658965
 - 9 月机器学习算法班 [王牌课程 八大升级]：https://www.julyedu.com/course/getDetail/47 。课程上一起做ML/DL实验、实战性极强。16年10.15日开班。
 - 持续更新..
