@@ -166,29 +166,35 @@
 本电子书的版权属于July 本人，严禁他人出版或用于商业用途，违者必究法律责任。July、二零一四年五月十一日晚。
 
 ## July' PDF
-- 《支持向量机通俗导论（理解SVM的三层境界）》Latex排版精细版：http://vdisk.weibo.com/s/zrFL6OXKgnlcp ；Latex版本②：https://raw.githubusercontent.com/liuzheng712/Intro2SVM/master/Intro2SVM.pdf 。
-- 原《程序员编程艺术第一~三十七章PDF》：http://download.csdn.net/detail/v_july_v/6694053 ，本github上的文章已经对此PDF进行了极大的优化和改进。
-- 《微软面试100题系列之PDF》：http://download.csdn.net/detail/v_july_v/4583815
-- 《十五个经典算法研究与总结之PDF》：http://download.csdn.net/detail/v_july_v/4478027
-- 编程艺术HTML网页版：http://taop.marchtea.com/
-- 2014年4月29日《武汉华科大第5次面试&算法讲座PPT》：http://pan.baidu.com/s/1hqh1E9e ；
-- 新书初稿的4个PDF
+- July’ PDF
+ - 《支持向量机通俗导论（理解SVM的三层境界）》Latex排版精细版：http://vdisk.weibo.com/s/zrFL6OXKgnlcp ；Latex版本②：https://raw.githubusercontent.com/liuzheng712/Intro2SVM/master/Intro2SVM.pdf 。
+ - 原《程序员编程艺术第一~三十七章PDF》：http://download.csdn.net/detail/v_july_v/6694053 ，本github上的文章已经对此PDF进行了极大的优化和改进。
+ - 《微软面试100题系列之PDF》：http://download.csdn.net/detail/v_july_v/4583815
+ - 《十五个经典算法研究与总结之PDF》：http://download.csdn.net/detail/v_july_v/4478027
+ - 编程艺术HTML网页版：http://taop.marchtea.com/
+ - 截止到2014年12.9日，结构之法算法之道blog所有155篇博文集锦CHM文件下载地址：http://pan.baidu.com/s/1gdrJndp
+- July团队高校讲座PPT
+ - 2014年4月29日《武汉华科大第5次面试&算法讲座PPT》：http://pan.baidu.com/s/1hqh1E9e ；
+ - 2014年9月3日西电第8次面试&算法讲座视频：http://v.youku.com/v_show/id_XNzc2MDYzNDg4.html ；PPT：http://pan.baidu.com/s/1pJ9HFqb ；
+ - 北京10月机器学习班的所有上课PPT：http://yun.baidu.com/share/home?uk=4214456744&view=share#category/type=0；
+- July新书初稿的4个PDF
  - B树的PDF：http://yun.baidu.com/s/1jGwup5k ；
  - 海量数据处理的PDF：http://yun.baidu.com/s/1dDreICL ；
  - 支持向量机的PDF：http://yun.baidu.com/s/1ntwof7j ；
  - KMP的PDF：http://yun.baidu.com/s/1eQel3PK ；
-- 2014年9月3日西电第8次面试&算法讲座视频：http://v.youku.com/v_show/id_XNzc2MDYzNDg4.html ；PPT：http://pan.baidu.com/s/1pJ9HFqb ；
-- 北京10月机器学习班的所有上课PPT：http://yun.baidu.com/share/home?uk=4214456744&view=share#category/type=0；
-- 截止到2014年12.9日，结构之法算法之道blog所有155篇博文集锦CHM文件下载地址：http://pan.baidu.com/s/1gdrJndp
-- 4 月机器学习在线班：https://www.julyedu.com/course/getDetail/35 。历时一年打磨、入门实战首选、实时答疑。
-- 5 月深度学习班：https://www.julyedu.com/course/getDetail/37 。由浅入深、涵盖CNN、RNN及其工程应用。
-- 《6 月数据挖掘班》：https://www.julyedu.com/course/getDetail/40 ，海量真实数据、包含大量工程应用、实践案例。
-- 《机器学习中的数学班》：https://www.julyedu.com/course/getDetail/41 。专为复习、巩固机器学习中所需的数学基础。
-- 《Python数据分析班》：https://www.julyedu.com/course/getDetail/43 ，入门数学科学的最佳课程。
-- 《计算视觉班》：https://www.julyedu.com/course/getDetail/44 ，从CV基础到深度学习实战，9.3日开班。
-- 《机器学习与量化交易项目班》：https://www.julyedu.com/course/getDetail/46 ，项目驱动、真实数据，市场上极为难得的项目班，16年9.24日开班。
+- 七月在线经典课程
+ - 4 月机器学习在线班：https://www.julyedu.com/course/getDetail/35 。历时一年打磨、入门实战首选、实时答疑。
+ - 5 月深度学习班：https://www.julyedu.com/course/getDetail/37 。由浅入深、涵盖CNN、RNN及其工程应用。
+ - 《6 月数据挖掘班》：https://www.julyedu.com/course/getDetail/40 ，海量真实数据、包含大量工程应用、实践案例。
+ - 《机器学习中的数学班》：https://www.julyedu.com/course/getDetail/41 。专为复习、巩固机器学习中所需的数学基础。
+ - 《Python数据分析班》：https://www.julyedu.com/course/getDetail/43 ，入门数学科学的最佳课程。
+ - 《计算视觉班》：https://www.julyedu.com/course/getDetail/44 ，从CV基础到深度学习实战，9.3日开班。
+ - 《机器学习与量化交易项目班》：https://www.julyedu.com/course/getDetail/46 ，项目驱动、真实数据，市场上极为难得的项目班，16年9.24日开班。
+ - 9 月机器学习算法班 [王牌课程 八大升级]：https://www.julyedu.com/course/getDetail/47 。课程上一起做ML/DL实验、实战性极强。16年10.15日开班。
+ July blog
+- CNN笔记：通俗理解卷积神经网络 http://blog.csdn.net/v_july_v/article/details/51812459
 - 教你从头到尾利用DL学梵高作画
  - CPU教程：http://blog.csdn.net/v_july_v/article/details/52683959
  - GPU教程：http://blog.csdn.net/v_july_v/article/details/52658965
-- 9 月机器学习算法班 [王牌课程 八大升级]：https://www.julyedu.com/course/getDetail/47 。课程上一起做ML/DL实验、实战性极强。16年10.15日开班。
+- 结构之法算法之道ML/DL系列博客：http://blog.csdn.net/v_JULY_v/article/category/1061301
 - 持续更新..
