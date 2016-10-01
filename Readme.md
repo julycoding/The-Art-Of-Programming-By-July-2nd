@@ -194,6 +194,6 @@
  - 9 月机器学习算法班 [王牌课程 八大升级]：https://www.julyedu.com/course/getDetail/47 。课程上一起做ML/DL实验、实战性极强。16年10.15日开班。
 - July’ blog
  - CNN笔记：通俗理解卷积神经网络 http://blog.csdn.net/v_july_v/article/details/51812459
- - 教你从头到尾利用DL学梵高作画 ① CPU教程：http://blog.csdn.net/v_july_v/article/details/52683959 ；② GPU教程：http://blog.csdn.net/v_july_v/article/details/52658965
+ - 教你从头到尾利用DL学梵高作画 ① CPU版教程：http://blog.csdn.net/v_july_v/article/details/52683959 ；② GPU版教程：http://blog.csdn.net/v_july_v/article/details/52658965
  - 结构之法 算法之道ML/DL系列博客：http://blog.csdn.net/v_JULY_v/article/category/1061301
 - 持续更新..
