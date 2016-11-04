@@ -192,7 +192,7 @@
  - 《计算机视觉班》：https://www.julyedu.com/course/getDetail/44 ，从CV基础到深度学习实战，9.3日开班。
  - 《机器学习与量化交易项目班》：https://www.julyedu.com/course/getDetail/46 ，项目驱动、真实数据，市场上极为难得的项目班，16年9.24日开班。
  - 10 月机器学习算法班 [王牌课程 八大升级]：https://www.julyedu.com/course/getDetail/47 。课程实战性极强。16年10.15日开班。
- - 11月深度学习班：https://www.julyedu.com/course/getDetail/49 。专注直播答疑、解决疑难问题、入门DL首选、BAT技术主管上课。
+ - 11月深度学习班 [通向无人驾驶的必经之路]：https://www.julyedu.com/course/getDetail/49 。专注直播答疑、解决疑难问题、入门DL首选、BAT技术主管上课。
 - July’ blog
  - CNN笔记：通俗理解卷积神经网络 http://blog.csdn.net/v_july_v/article/details/51812459
   - 结构之法 算法之道ML/DL系列博客：http://blog.csdn.net/v_JULY_v/article/category/1061301
@@ -200,4 +200,5 @@
  - 学汪峰作词 MAC torch char-rnn 教程：https://ask.julyedu.com/question/7405
  - 基于torch学汪峰写歌词、聊天机器人、图像着色/生成、看图说话、字幕生成：http://blog.csdn.net/v_july_v/article/details/52796239
  - 教你从头到尾利用DQN自动玩flappy bird（全程命令提示，GPU+CPU版）：http://blog.csdn.net/v_july_v/article/details/52810219
+ - beautiful soup和网络爬虫初步：http://mp.weixin.qq.com/s?__biz=MzI4MTQ2NjU5NA==&mid=2247483666&idx=1&sn=af802b39d42d9073e24c086790457004&chksm=eba9829fdcde0b8929ae724f0b41d49091c88fc1e07f697c5030516f33b1bcfcffdace83bcf7&mpshare=1&scene=23&srcid=1102C9RJJ1RXE6bHwFQzLy6W#rd
 - 持续更新..
