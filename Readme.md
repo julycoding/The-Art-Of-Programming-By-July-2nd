@@ -192,7 +192,7 @@
  - 《计算机视觉班》：https://www.julyedu.com/course/getDetail/44 ，从CV基础到深度学习实战，9.3日开班。
  - 《机器学习与量化交易项目班》：https://www.julyedu.com/course/getDetail/46 ，项目驱动、真实数据，市场上极为难得的项目班，16年9.24日开班。
  - 10 月机器学习算法班 [王牌课程 八大升级]：https://www.julyedu.com/course/getDetail/47 。课程实战性极强。16年10.15日开班。
- - 11月深度学习班 [通向无人驾驶的必经之路]：https://www.julyedu.com/course/getDetail/49 。专注直播答疑、解决疑难问题、入门DL首选、BAT技术主管上课。
+ - 11月深度学习班 [通向无人驾驶的必经之路]：https://www.julyedu.com/course/getDetail/49 。国内首个GPU云实验平台，秒杀同品类课程。
 - July’ blog
  - CNN笔记：通俗理解卷积神经网络 http://blog.csdn.net/v_july_v/article/details/51812459
   - 结构之法 算法之道ML/DL系列博客：http://blog.csdn.net/v_JULY_v/article/category/1061301
