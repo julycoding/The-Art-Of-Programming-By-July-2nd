@@ -202,4 +202,5 @@
  - 基于torch学汪峰写歌词、聊天机器人、图像着色/生成、看图说话、字幕生成：http://blog.csdn.net/v_july_v/article/details/52796239
  - 教你从头到尾利用DQN自动玩flappy bird（全程命令提示，GPU+CPU版）：http://blog.csdn.net/v_july_v/article/details/52810219
  - beautiful soup和网络爬虫初步：http://mp.weixin.qq.com/s?__biz=MzI4MTQ2NjU5NA==&mid=2247483666&idx=1&sn=af802b39d42d9073e24c086790457004&chksm=eba9829fdcde0b8929ae724f0b41d49091c88fc1e07f697c5030516f33b1bcfcffdace83bcf7&mpshare=1&scene=23&srcid=1102C9RJJ1RXE6bHwFQzLy6W#rd
+ - 16年度最火课程TOP 10免费试听：https://www.julyedu.com/sale/christmas
 - 持续更新..
