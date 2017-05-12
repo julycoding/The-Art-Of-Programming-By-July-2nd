@@ -1,0 +1,15 @@
+\documentclass[tikz, convert, multi=false]{standalone}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usetikzlibrary{shapes.multipart, chains, arrows, positioning}
+\begin{document}
+\input{include.tex}
+\begin{tikzpicture}
+  \node[split node, rectangle split parts=10](seq) {
+    \nodeparts{a}{b}{c}{d}{e}{f}{g}{h}{i}
+
+    \nodepart{ten} j
+  };
+  \arrowtext{seq.one}{seq.four}
+\end{tikzpicture}
+\end{document}
