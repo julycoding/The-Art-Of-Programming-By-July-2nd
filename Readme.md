@@ -4,12 +4,9 @@
 
 **此外，散落在网上其他任何地方的“编程之法”电子材料均是盗版自本github，更无质量可言。所以，July只唯一推荐《编程之法》纸质版。**
 
-《编程之法》纸质版已于2015年10月14日陆续开卖！目前，京东、当当、亚马逊等各大网店均已有现货销售。
- - 京东：http://item.jd.com/11786791.html 。
- - 当当：http://product.dangdang.com/23796222.html 。
- - 亚马逊：[点击进入](http://www.amazon.cn/%E7%BC%96%E7%A8%8B%E4%B9%8B%E6%B3%95-%E9%9D%A2%E8%AF%95%E5%92%8C%E7%AE%97%E6%B3%95%E5%BF%83%E5%BE%97-July/dp/B016N0UUJG/ref=sr_1_1?ie=UTF8&qid=1445598929&sr=8-1&keywords=%E7%BC%96%E7%A8%8B%E4%B9%8B%E6%B3%95)。
+《编程之法》纸质版已于2015年10月14日陆续开卖！目前，京东、当当、亚马逊等各大网店均已有现货销售。比如京东：http://item.jd.com/11786791.html 。
 
-新书《编程之法：面试和算法心得》的勘误在此文最末：http://blog.csdn.net/v_july_v/article/details/49302193
+另，新书《编程之法：面试和算法心得》的勘误在此文最末：http://blog.csdn.net/v_july_v/article/details/49302193
 
 看过[结构之法算法之道blog](http://blog.csdn.net/v_july_v)的朋友可能知道，从2010年10月起，[July](http://weibo.com/julyweibo) 开始整理一个微软面试100题的系列，他在整理这个系列的过程当中，越来越强烈的感觉到，可以从那100题中精选一些更为典型的题，每一题详细阐述成章，不断优化，于此，便成了程序员编程艺术系列。
 
@@ -84,6 +81,7 @@
  - 2010年10月11日，在CSDN上正式开博，感谢博客上所有读者的访问、浏览、关注、支持、留言、评论、批评、指正；
  - 2011年1月，在学校的时候，第一家出版社联系出书，因“时机未到，尚需积累”的原因婉拒，随后第二家、第三家出版社陆续联系，因总感觉写书的时机还没到，一律婉拒；
  - 2011年10月， 当时在图灵教育的杨海玲老师（现在人民邮电信息技术分社）再度联系出书，再度认为“时机未到”；
+ - 2013年12月30日，本项目在众多朋友的努力之下，冲到github流行趋势排行榜全球第一，自己也在众人助推下冲到全球开发者第一。
  - 2014年1月18日，想通了一件事：如果什么都不去尝试，那么将年年一事无成，所以元旦一过，便正式确认今2014年之内要把拖了近3年之久的书出版出来；
  - 2013年12月-2014年3月，本github的Contributors 转移结构之法算法之道blog的部分经典文章到本github上，感谢这近100位Contributors，包括但不限于：
 - Boshen（除我之外，贡献本github的次数最多）
@@ -147,7 +145,7 @@
 - 10月28日，新书正式上架京东。目前京东、当当、亚马逊等各大网店均已有现货销售。
 
 ## Contributors
-感谢所有贡献的朋友：https://github.com/julycoding/The-Art-Of-Programming-by-July/graphs/contributors ，并非常期待你的加入，thanks。
+感谢所有贡献的朋友：https://github.com/julycoding/The-Art-Of-Programming-by-July/graphs/contributors ，因为有各位之力，本项目才能于13年年底冲到github流行趋势排行榜全球第一。非常期待你的加入，thanks。
 
 同时，欢迎加入《编程之法》讨论交流QQ群：74631723，需要写验证信息。
 
@@ -169,19 +167,44 @@
 本电子书的版权属于July 本人，严禁他人出版或用于商业用途，违者必究法律责任。July、二零一四年五月十一日晚。
 
 ## July' PDF
-- 《支持向量机通俗导论（理解SVM的三层境界）》Latex排版精细版：http://vdisk.weibo.com/s/zrFL6OXKgnlcp ；Latex版本②：https://raw.githubusercontent.com/liuzheng712/Intro2SVM/master/Intro2SVM.pdf 。
-- 原《程序员编程艺术第一~三十七章PDF》：http://download.csdn.net/detail/v_july_v/6694053 ，本github上的文章已经对此PDF进行了极大的优化和改进。
-- 《微软面试100题系列之PDF》：http://download.csdn.net/detail/v_july_v/4583815
-- 《十五个经典算法研究与总结之PDF》：http://download.csdn.net/detail/v_july_v/4478027
-- 编程艺术HTML网页版：http://taop.marchtea.com/
-- 2014年4月29日《武汉华科大第5次面试&算法讲座PPT》：http://pan.baidu.com/s/1hqh1E9e ；
-- 新书初稿的4个PDF
+- July’ PDF
+ - 《支持向量机通俗导论（理解SVM的三层境界）》Latex排版精细版：http://vdisk.weibo.com/s/zrFL6OXKgnlcp ；Latex版本②：https://raw.githubusercontent.com/liuzheng712/Intro2SVM/master/Intro2SVM.pdf 。
+ - 原《程序员编程艺术第一~三十七章PDF》：http://download.csdn.net/detail/v_july_v/6694053 ，本github上的文章已经对此PDF进行了极大的优化和改进。
+ - 《微软面试100题系列之PDF》：http://download.csdn.net/detail/v_july_v/4583815
+ - 《十五个经典算法研究与总结之PDF》：http://download.csdn.net/detail/v_july_v/4478027
+ - 编程艺术HTML网页版：http://taop.marchtea.com/
+ - 截止到2014年12.9日，结构之法算法之道blog所有155篇博文集锦CHM文件下载地址：http://pan.baidu.com/s/1gdrJndp
+- July团队高校讲座PPT
+ - 2014年4月29日《武汉华科大第5次面试&算法讲座PPT》：http://pan.baidu.com/s/1hqh1E9e ；
+ - 2014年9月3日西电第8次面试&算法讲座视频：http://v.youku.com/v_show/id_XNzc2MDYzNDg4.html ；PPT：http://pan.baidu.com/s/1pJ9HFqb ；
+ - 北京10月机器学习班的所有上课PPT：http://yun.baidu.com/share/home?uk=4214456744&view=share#category/type=0；
+- July新书初稿的4个PDF
  - B树的PDF：http://yun.baidu.com/s/1jGwup5k ；
  - 海量数据处理的PDF：http://yun.baidu.com/s/1dDreICL ；
  - 支持向量机的PDF：http://yun.baidu.com/s/1ntwof7j ；
  - KMP的PDF：http://yun.baidu.com/s/1eQel3PK ；
-- 2014年9月3日西电第8次面试&算法讲座视频：http://v.youku.com/v_show/id_XNzc2MDYzNDg4.html ；PPT：http://pan.baidu.com/s/1pJ9HFqb ；
-- 北京10月机器学习班的所有上课PPT：http://yun.baidu.com/share/home?uk=4214456744&view=share#category/type=0；
-- 截止到2014年12.9日，结构之法算法之道blog所有155篇博文集锦CHM文件下载地址：http://pan.baidu.com/s/1gdrJndp
-- 4 月机器学习在线班：http://www.julyedu.com/course/getDetail?course_id=35 。历时一年打磨、入门实战首选、实时答疑。
+- 七月在线经典课程
+ - 4 月机器学习在线班：https://www.julyedu.com/course/getDetail/35 。历时一年打磨、入门实战首选、实时答疑。
+ - 5 月深度学习班：https://www.julyedu.com/course/getDetail/37 。由浅入深、涵盖CNN、RNN及其工程应用。
+ - 《6 月数据挖掘班》：https://www.julyedu.com/course/getDetail/40 ，海量真实数据、包含大量工程应用、实践案例。
+ - 《机器学习中的数学班》：https://www.julyedu.com/course/getDetail/41 。专为复习、巩固机器学习中所需的数学基础。
+ - 《Python数据分析班》：https://www.julyedu.com/course/getDetail/43 ，入门数学科学的最佳课程。
+ - 《计算机视觉班》：https://www.julyedu.com/course/getDetail/44 ，从CV基础到深度学习实战，9.3日开班。
+ - 《机器学习与量化交易项目班》：https://www.julyedu.com/course/getDetail/46 ，项目驱动、真实数据，市场上极为难得的项目班，16年9.24日开班。
+ - 10 月机器学习算法班 [王牌课程 八大升级]：https://www.julyedu.com/course/getDetail/47 。课程实战性极强。16年10.15日开班。
+ - 11月深度学习班 [通向无人驾驶的必经之路]：https://www.julyedu.com/course/getDetail/49 。国内首个GPU云实验平台，秒杀同品类课程。
+ - 《kaggle案例实战班 [100%纯实战]》：https://www.julyedu.com/course/getDetail/54 ，本周六12.24日起在线直播
+ - ¥2999包揽2017年全套数据课程和全年GPU：https://www.julyedu.com/sale/vip ，包含论文班、GAN、迁移学习、强化学习、TensorFlow框架实战班等等..
+ 
+ -《第8期机器学习算法班》：https://www.julyedu.com/course/getDetail/65 ，BAT工业实战、kaggle案例，国内最好ML课程。
+- July’ blog
+ - CNN笔记：通俗理解卷积神经网络 http://blog.csdn.net/v_july_v/article/details/51812459
+  - 结构之法 算法之道ML/DL系列博客：http://blog.csdn.net/v_JULY_v/article/category/1061301
+ - 教你从头到尾利用DL学梵高作画 ① CPU版教程：http://blog.csdn.net/v_july_v/article/details/52683959 ；② GPU版教程：http://blog.csdn.net/v_july_v/article/details/52658965
+ - 学汪峰作词 MAC torch char-rnn 教程：https://ask.julyedu.com/question/7405
+ - 基于torch学汪峰写歌词、聊天机器人、图像着色/生成、看图说话、字幕生成：http://blog.csdn.net/v_july_v/article/details/52796239
+ - 教你从头到尾利用DQN自动玩flappy bird（全程命令提示，GPU+CPU版）：http://blog.csdn.net/v_july_v/article/details/52810219
+ - beautiful soup和网络爬虫初步：http://mp.weixin.qq.com/s?__biz=MzI4MTQ2NjU5NA==&mid=2247483666&idx=1&sn=af802b39d42d9073e24c086790457004&chksm=eba9829fdcde0b8929ae724f0b41d49091c88fc1e07f697c5030516f33b1bcfcffdace83bcf7&mpshare=1&scene=23&srcid=1102C9RJJ1RXE6bHwFQzLy6W#rd
+ - 16年度最火课程TOP 10免费试听：https://www.julyedu.com/sale/christmas
+ - 如何学习数据科学、机器学习与深度学习（附学习路线）：http://blog.csdn.net/v_july_v/article/details/54561427
 - 持续更新..
