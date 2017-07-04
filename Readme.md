@@ -191,8 +191,9 @@
  - 11月深度学习班 [通向无人驾驶的必经之路]：https://www.julyedu.com/course/getDetail/49 。国内首个GPU云实验平台，秒杀同品类课程。
  - 《kaggle案例实战班 [100%纯实战]》：https://www.julyedu.com/course/getDetail/54 ，本周六12.24日起在线直播
  - ¥2999包揽2017年全套数据课程和全年GPU：https://www.julyedu.com/sale/vip ，包含论文班、GAN、迁移学习、强化学习、TensorFlow框架实战班等等..
- -《第8期机器学习算法班》：https://www.julyedu.com/course/getDetail/65 ，BAT工业实战、kaggle案例，国内最好ML课程。
+ - 《第8期机器学习算法班》：https://www.julyedu.com/course/getDetail/65 ，BAT工业实战、kaggle案例，国内最好ML课程。
  - 七月在线「机器学习集训营」，线上线下项目实训，线下BAT专家面对面、手把手教学，尤为突出BAT级工业项目实战辅导 + 一对一面试求职辅导：https://www.julyedu.com/weekend/train 。且提供3个月GPU实战，更精讲面试常见考点。
+ 
 - July’ blog
  - CNN笔记：通俗理解卷积神经网络 http://blog.csdn.net/v_july_v/article/details/51812459
   - 结构之法 算法之道ML/DL系列博客：http://blog.csdn.net/v_JULY_v/article/category/1061301
