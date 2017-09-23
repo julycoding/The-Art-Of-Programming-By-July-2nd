@@ -203,4 +203,5 @@
  - beautiful soup和网络爬虫初步：http://mp.weixin.qq.com/s?__biz=MzI4MTQ2NjU5NA==&mid=2247483666&idx=1&sn=af802b39d42d9073e24c086790457004&chksm=eba9829fdcde0b8929ae724f0b41d49091c88fc1e07f697c5030516f33b1bcfcffdace83bcf7&mpshare=1&scene=23&srcid=1102C9RJJ1RXE6bHwFQzLy6W#rd
  - 16年度最火课程TOP 10免费试听：https://www.julyedu.com/sale/christmas
  - 如何学习数据科学、机器学习与深度学习（附学习路线）：http://blog.csdn.net/v_july_v/article/details/54561427
+ - 《机器学习集训营第二期》：https://www.julyedu.com/weekend/train2 ，学习机器学习的最佳选择，三个月挑战起薪三十万。
 - 持续更新..
