@@ -192,7 +192,7 @@
  - 《kaggle案例实战班 [100%纯实战]》：https://www.julyedu.com/course/getDetail/54 ，本周六12.24日起在线直播
  - ¥2999包揽2017年全套数据课程和全年GPU：https://www.julyedu.com/sale/vip ，包含论文班、GAN、迁移学习、强化学习、TensorFlow框架实战班等等..
  - 《第8期机器学习算法班》：https://www.julyedu.com/course/getDetail/65 ，BAT工业实战、kaggle案例，国内最好ML课程。
- - 七月在线「机器学习集训营」，线上线下项目实训，线下BAT专家面对面、手把手教学，尤为突出BAT级工业项目实战辅导 + 一对一面试求职辅导：https://www.julyedu.com/weekend/train 。且提供3个月GPU实战，更精讲面试常见考点。
+ - 七月在线「机器学习集训营」，线上线下项目实训，线下BAT专家面对面、手把手教学，尤为突出BAT级工业项目实战辅导 + 一对一面试求职辅导：https://www.julyedu.com/category/index/2/32 。且提供3个月GPU实战，更精讲面试常见考点。
 - July’ blog
  - CNN笔记：通俗理解卷积神经网络 http://blog.csdn.net/v_july_v/article/details/51812459
   - 结构之法 算法之道ML/DL系列博客：http://blog.csdn.net/v_JULY_v/article/category/1061301
@@ -203,5 +203,6 @@
  - beautiful soup和网络爬虫初步：http://mp.weixin.qq.com/s?__biz=MzI4MTQ2NjU5NA==&mid=2247483666&idx=1&sn=af802b39d42d9073e24c086790457004&chksm=eba9829fdcde0b8929ae724f0b41d49091c88fc1e07f697c5030516f33b1bcfcffdace83bcf7&mpshare=1&scene=23&srcid=1102C9RJJ1RXE6bHwFQzLy6W#rd
  - 16年度最火课程TOP 10免费试听：https://www.julyedu.com/sale/christmas
  - 如何学习数据科学、机器学习与深度学习（附学习路线）：http://blog.csdn.net/v_july_v/article/details/54561427
- - 《机器学习集训营第二期》：https://www.julyedu.com/weekend/train2 ，学习机器学习的最佳选择，三个月挑战起薪三十万。
+ - 《机器学习集训营第三期》：http://www.julyedu.com/weekend/train3 ，学习机器学习的最佳选择，三个月挑战起薪三十万。
+ - 国内首个AI题库陆续发布，「BAT机器学习面试1000题」：http://blog.csdn.net/column/details/17609.html
 - 持续更新..
