@@ -15,7 +15,8 @@
 若发现任何问题、错误、bug，或可以优化的每一段代码，欢迎随时pull request或发issue反馈，thanks。
 
 update
-July已于2015年正式创业，任七月在线创始人兼CEO，公司官网：七月在线（https://www.julyedu.com/） ，致力于培养100万AI人才。
+
+July于2015年正式创业，任七月在线创始人兼CEO，公司官网：七月在线（https://www.julyedu.com/） ，致力于培养100万AI人才。
 
 ## Start Reading
  * [中文目录](ebook/zh/Readme.md) Enhancement in progress
