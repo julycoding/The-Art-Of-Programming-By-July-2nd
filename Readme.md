@@ -234,5 +234,5 @@ July’ blog
  - 如何学习数据科学、机器学习与深度学习（附学习路线）：http://blog.csdn.net/v_july_v/article/details/54561427
  - 《机器学习集训营第4期》：http://www.julyedu.com/weekend/train4 ，学习机器学习的最佳选择，三个月挑战起薪四十万。
  - 国内首个AI题库陆续发布，「BAT机器学习面试1000题」：http://blog.csdn.net/column/details/17609.html
- - 迄今为止，这几篇是我见过阐述最为通俗易懂的文章：①KMPhttp://blog.csdn.net/v_july_v/article/details/7041827 ，②SVMOhttp://blog.csdn.net/v_july_v/article/details/7624837 ，③CNNhttps://www.julyedu.com/question/big/kp_id/26/ques_id/2084 ，④RNNhttps://www.julyedu.com/question/big/kp_id/26/ques_id/1717 ，⑤LSTMhttps://www.julyedu.com/question/big/kp_id/26/ques_id/1851 ， ⑥物体检测https://www.julyedu.com/question/big/kp_id/26/ques_id/2103 ， ⑦区块链https://www.julyedu.com/question/big/kp_id/29/ques_id/2110 。看过无数资料，可能都不如这些好懂。 ​​​​
+ - 迄今为止，这几篇是我见过阐述最为通俗易懂的文章：①KMP http://blog.csdn.net/v_july_v/article/details/7041827 ，②SVM http://blog.csdn.net/v_july_v/article/details/7624837 ，③CNN https://www.julyedu.com/question/big/kp_id/26/ques_id/2084 ，④RNN https://www.julyedu.com/question/big/kp_id/26/ques_id/1717 ，⑤LSTM https://www.julyedu.com/question/big/kp_id/26/ques_id/1851 ， ⑥物体检测 https://www.julyedu.com/question/big/kp_id/26/ques_id/2103 ， ⑦区块链 https://www.julyedu.com/question/big/kp_id/29/ques_id/2110 。看过无数资料，可能都不如这些好懂。 ​​​​
 - 持续更新..
