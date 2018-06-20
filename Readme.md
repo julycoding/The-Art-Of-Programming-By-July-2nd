@@ -228,7 +228,7 @@ July’ blog
  - beautiful soup和网络爬虫初步：http://mp.weixin.qq.com/s?__biz=MzI4MTQ2NjU5NA==&mid=2247483666&idx=1&sn=af802b39d42d9073e24c086790457004&chksm=eba9829fdcde0b8929ae724f0b41d49091c88fc1e07f697c5030516f33b1bcfcffdace83bcf7&mpshare=1&scene=23&srcid=1102C9RJJ1RXE6bHwFQzLy6W#rd
  - 16年度最火课程TOP 10免费试听：https://www.julyedu.com/sale/christmas
  - 如何学习数据科学、机器学习与深度学习（附学习路线）：http://blog.csdn.net/v_july_v/article/details/54561427
- - 《机器学习集训营第4期》：http://www.julyedu.com/weekend/train4 ，学习机器学习的最佳选择，三个月挑战起薪四十万。
+ - 《机器学习集训营第5期》：http://www.julyedu.com/weekend/train5 ，学习机器学习的最佳选择，三个月挑战起薪四十万。
  - 国内首个AI题库陆续发布，「BAT机器学习面试1000题」：http://blog.csdn.net/column/details/17609.html
  - 迄今为止，这几篇是我见过阐述最为通俗易懂的文章：①KMP http://blog.csdn.net/v_july_v/article/details/7041827 ，②SVM http://blog.csdn.net/v_july_v/article/details/7624837 ，③CNN https://www.julyedu.com/question/big/kp_id/26/ques_id/2084 ，④RNN https://www.julyedu.com/question/big/kp_id/26/ques_id/1717 ，⑤LSTM https://www.julyedu.com/question/big/kp_id/26/ques_id/1851 ， ⑥物体检测 https://www.julyedu.com/question/big/kp_id/26/ques_id/2103 ， ⑦区块链 https://www.julyedu.com/question/big/kp_id/29/ques_id/2110 。看过无数资料，可能都不如这些好懂。 ​​​​
 - 持续更新..
