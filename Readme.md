@@ -14,6 +14,10 @@
 
 若发现任何问题、错误、bug，或可以优化的每一段代码，欢迎随时pull request或发issue反馈，thanks。
 
+update
+
+July于2015年正式创业，任七月在线创始人兼CEO，公司官网为：https://www.julyedu.com/ ，致力于培养100万AI人才。
+
 ## Start Reading
  * [中文目录](ebook/zh/Readme.md) Enhancement in progress
  * [English Contents](ebook/en/Readme.md) Translation in progress
@@ -35,24 +39,28 @@
 
 ## Code Style
 本项目暂约定以下代码风格(不断逐条添加中)：
- - 关于空格
+关于空格
 - 所有代码使用4个空格缩进
 - 运算符后使用一个空格
 - "," 和for循环语句中的";" 后面跟上一个空格
 - 条件、分支保留字，如 if for while else switch 后留出一个空格
 - "[]", "."和"->" 前后不留空格
  - 用空行把大块代码分成逻辑上的“段落
- - 关于括号 
+ 
+关于括号 
 - 大括号另起一行
 - 即便只有一行代码也加大括号
  - C 指针中的指针符靠近类型名，如写成int* p，而不写成int *p
- - 关于标点
+ 
+关于标点
 - 中文表述，使用中文全角的标点符号，如：（）、。，？
 - 数学公式（包括文中混排的公式）和英文代码，使用英文半角的标点符号，如：(),.?…
- - 关于注释
+
+关于注释
 - 注释统一用中文
 - 尽量统一用"//"，一般不用"/\*...\*/"
- - 关于命名
+
+关于命名
 - 类名为大写字母开头的单词组合
 - 函数名比较长，由多个单词组成的，每个单词的首字母大写，如int MaxSubArray()；函数名很短，由一个单词组成，首字母小写，比如int swap()
 - 变量名比较长，由多个单词组成的，首个单词的首字母小写，后面紧跟单词的首字母大写，如maxEnd；变量名很短，由一个单词组成，首字母小写，如left
@@ -60,14 +68,17 @@
 - 变量名能“望文生义”，如v1, v2不如area, height
 - 常量的命名都是大写字母的单词，之间用下划线隔开，比如MY_CONSTANT
 - il < 4384 和 inputLength < MAX_INPUT_LENGTH，后一种写法更好
+
  - 一个函数只专注做一件事
  - 时间复杂度小写表示，如O(nlogn)，而不写成O(N*logN)
  - 正文中绝大部分采用C实现，少量C++代码，即以C为主，但不去刻意排斥回避C++；
- - 关于的地得
+ 
+关于的地得
 - 形容词（代词） + 的 + 名词，例如：我的小苹果
 - 副词 + 地 + 动词，例如：慢慢地走
 - 动词 + 得 + 副词，例如：走得很快
- - 关于参考文献
+
+关于参考文献
 - 格式：主要责任者.书名〔文献类型标识 ] .其他责任者.版本.出版地：出版者，出版年.文献数量.丛编项.附注项.文献标准编号。例子：1 刘少奇.论共产党员的修养.修订 2 版.北京：人民出版社，1962.76 页.
  - 专业术语
 - 统一一律用“树结点”，而不是“树节点”。
@@ -89,56 +100,71 @@
 - marchtea（专门为本github书稿弄了一个HTML网页）
 - nateriver520（劝我把书稿放在github上，才有了本github）
  - 2014年3月，通读全部文章，修正明显错误，并邀请部分朋友review本github上的全部文章，包括cherry、王威扬、邬勇、高增琪、武博文、杨忠宝等；
- - 2014年4月
+ 
+2014年4月
 - 整个4月，精简篇幅，调整目录，Contributors 贡献其它语言代码，并翻译部分文章；
 - 4月25日，跟人民邮电出版社信息技术分社签订合同，书名暂定《程序员编程艺术：面试和算法心得》，有更好的名字再替换。
  - 2014年5月，逐章逐节逐行逐字优化文字描述，测试重写优化每一段每一行每一个代码，确定代码基本风格；
- - 2014年6月
+ 
+2014年6月
 - 第一周，压缩篇幅，宁愿量少，但求质精；
 - 第二周，全面 review；
 - 第三周，本github的部分Contributors 把全部文章从github转到word上，这部分contributors 包括包括：zhou1989、qiwsir、DogK、x140yu、ericxk、zhanglin0129、idouba.net、gaohua、kelvinkuo等；
 - 第四周，继续在Word 上做出最后彻底的改进，若未发现bug或pull request，本github将暂不再改动；
 - 6月30日，与出版社约定的交稿日期延期，理由：目前版本不是所能做到的最好的版本。
- - 2014年7月，邀请部分好友进行第一轮审稿，包括曹鹏、邹伟、林奔、王婷、何欢，其中，曹鹏重写优化了部分代码。此外，葛立娜对书稿中的语言描述做了不少改进；
- - 2014年8月
+2014年7月，邀请部分好友进行第一轮审稿，包括曹鹏、邹伟、林奔、王婷、何欢，其中，曹鹏重写优化了部分代码。此外，葛立娜对书稿中的语言描述做了不少改进；
+ 
+2014年8月
 - 8月上旬，新增KMP一节内容；
 - 8月下旬，重点修改SVM一节内容；
- - 2014年9月
+
+2014年9月
 - 9月上旬，和一些朋友一起重绘稿件中的部分图和公式，这部分朋友包括顾运（@陈笙）、mastermay、在山东大学读研二的丰俊丙、厦门大学电子工程系陈友和等等；
 - 9月下旬，再度邀请另一部分好友进行第二轮审稿，包括许利杰、王亮、陈赢、李祥老师、litaoye等，并在微博上公开征集部分读者审稿，包括李元超、刘琪等等；
- - 2014年10月
+
+2014年10月
 - 10月8日起，开始一章一章陆续交Word 稿给出版社初审
 - 10月9日，第一章、字符串完成修改；
 - 10月10日，第二章、数组完成修改；
 - 10月22日，第三章、树完成修改；
- - 2014年11月
+
+2014年11月
 - 11月5日，第三章、树完成第二版修改，主要修正部分图片、公式、语言描述的错误；
- - 2014年12月
+
+2014年12月
 - 12月1日，第四章、查找完成修改。至此，前4 章的修改稿交付出版社。 
 - 12月8日，第五章、动态规划完成修改，等出版社反馈中。一个人坚持有点枯燥。
 - 12月31日，第六章仍未修改完。
- - 2015年1月
+
+2015年1月
 - 1月12日凌晨，第六章、海量数据处理完成修改，交付出版社。
- - 2015年4月
+
+2015年4月
 - 4月27日凌晨，交完第七章初稿，接下来编辑老师反馈，我修改审阅反馈稿。且书名由原来的《程序员编程艺术：面试和算法心得》暂时改为《编程之法：面试和算法心得》。
- - 2015年5月
+
+2015年5月
 - 5月2日，开始写书的前言，大致是：为何要写这本书，写的过程是怎样的；这是本什么书，有何特色，内容是什么，为什么这么写；写给谁看，怎么看更好。当然我还会加一些自己觉得比较个性化的内容。
 - 5月5日，审阅完编辑老师的第一章反馈，并合并。
 - 5月6日，审阅完第二章的一半。海玲姐两位老师给出了大量细致、详尽的修改建议，包括文字表述、语言表达、标点符号、字体格式、出版规范，尤其是正斜体、大小写、上下角。
 - 5月15日，和海玲姐审完第一、二章，标点、术语、表述、逻辑、图片、代码等一切细节。书稿进入一审阶段。
- - 2015年6月
+
+2015年6月
 - 6月28日，经过反复修改、确认，书稿第一、二、三章基本定稿。 
- - 2015年7月
+
+2015年7月
 - 7月10日，书稿全部七章基本定稿，即将进入二审。
 - 7月23日，补齐前言、封底、内容提要、邀请曹鹏、邹伟两位博士写推荐序，书稿进入二审，出版社重绘全部图片和公式。
- - 2015年8月
+
+2015年8月
 - 8月6日，三审结束。书稿取得阶段性的胜利。 
 - 8月下旬，发稿审批。
- - 2015年9月
+
+2015年9月
 - 9月上旬，排版校对，出胶片、印刷、装订成书 
 - 9月21日，几经易稿，终于敲定新书封面。
 - 9月22日，开始印刷。
- - 2015年10月
+
+2015年10月
 - 进入10月份，万众期待的《编程之法》，终于终于要来了！
 - 10月13日晚，终于拿到第一批样书。
 - 10月14日下午三点半，我的新书《编程之法》终于在异步社区上首发开卖！
@@ -167,14 +193,15 @@
 本电子书的版权属于July 本人，严禁他人出版或用于商业用途，违者必究法律责任。July、二零一四年五月十一日晚。
 
 ## July' PDF
-- July’ PDF
+July’ PDF
  - 《支持向量机通俗导论（理解SVM的三层境界）》Latex排版精细版：http://vdisk.weibo.com/s/zrFL6OXKgnlcp ；Latex版本②：https://raw.githubusercontent.com/liuzheng712/Intro2SVM/master/Intro2SVM.pdf 。
  - 原《程序员编程艺术第一~三十七章PDF》：http://download.csdn.net/detail/v_july_v/6694053 ，本github上的文章已经对此PDF进行了极大的优化和改进。
  - 《微软面试100题系列之PDF》：http://download.csdn.net/detail/v_july_v/4583815
  - 《十五个经典算法研究与总结之PDF》：http://download.csdn.net/detail/v_july_v/4478027
  - 编程艺术HTML网页版：http://taop.marchtea.com/
  - 截止到2014年12.9日，结构之法算法之道blog所有155篇博文集锦CHM文件下载地址：http://pan.baidu.com/s/1gdrJndp
-- July团队高校讲座PPT
+ 
+July团队高校讲座PPT
  - 2014年4月29日《武汉华科大第5次面试&算法讲座PPT》：http://pan.baidu.com/s/1hqh1E9e ；
  - 2014年9月3日西电第8次面试&算法讲座视频：http://v.youku.com/v_show/id_XNzc2MDYzNDg4.html ；PPT：http://pan.baidu.com/s/1pJ9HFqb ；
  - 北京10月机器学习班的所有上课PPT：http://yun.baidu.com/share/home?uk=4214456744&view=share#category/type=0；
@@ -183,17 +210,15 @@
  - 海量数据处理的PDF：http://yun.baidu.com/s/1dDreICL ；
  - 支持向量机的PDF：http://yun.baidu.com/s/1ntwof7j ；
  - KMP的PDF：http://yun.baidu.com/s/1eQel3PK ；
-- 七月在线经典课程
- - 《机器学习中的数学班》：https://www.julyedu.com/course/getDetail/41 。专为复习、巩固机器学习中所需的数学基础。
- - 《Python数据分析班》：https://www.julyedu.com/course/getDetail/43 ，入门数学科学的最佳课程。
- - 《计算机视觉班》：https://www.julyedu.com/course/getDetail/44 ，从CV基础到深度学习实战，9.3日开班。
+ 
+七月在线经典课程
  - 《机器学习与量化交易项目班》：https://www.julyedu.com/course/getDetail/46 ，项目驱动、真实数据，市场上极为难得的项目班，16年9.24日开班。
- - 11月深度学习班 [通向无人驾驶的必经之路]：https://www.julyedu.com/course/getDetail/49 。国内首个GPU云实验平台，秒杀同品类课程。
  - 《kaggle案例实战班 [100%纯实战]》：https://www.julyedu.com/course/getDetail/54 ，本周六12.24日起在线直播
- - ¥2999包揽2017年全套数据课程和全年GPU：https://www.julyedu.com/sale/vip ，包含论文班、GAN、迁移学习、强化学习、TensorFlow框架实战班等等..
- - 《第8期机器学习算法班》：https://www.julyedu.com/course/getDetail/65 ，BAT工业实战、kaggle案例，国内最好ML课程。
- - 七月在线「机器学习集训营」，线上线下项目实训，线下BAT专家面对面、手把手教学，尤为突出BAT级工业项目实战辅导 + 一对一面试求职辅导：https://www.julyedu.com/weekend/train 。且提供3个月GPU实战，更精讲面试常见考点。
-- July’ blog
+ - ¥2499包揽2018年全套AI课程和全年GPU：https://www.julyedu.com/vip/vip_18 ，包含机器学习、深度学习、迁移学习、强化学习、TensorFlow框架实战班等等..
+ - 《机器学习 第八期》：https://www.julyedu.com/course/getDetail/65 ，BAT工业实战、kaggle案例，国内最好ML课程。
+ - 七月在线「机器学习集训营」，线上线下项目实训，线下BAT专家面对面、手把手教学，尤为突出BAT级工业项目实战辅导 + 一对一面试求职辅导：https://www.julyedu.com/category/index/2/32 。且提供3个月GPU实战，更精讲面试常见考点。且第4期ML集训营4增加入学测评，增加每周在线考试，增加作业和考试1v1批改，增大ML DL内容的所占比重，更增加到了北上深广杭沈济郑成等9大线下点。
+ 
+July’ blog
  - CNN笔记：通俗理解卷积神经网络 http://blog.csdn.net/v_july_v/article/details/51812459
   - 结构之法 算法之道ML/DL系列博客：http://blog.csdn.net/v_JULY_v/article/category/1061301
  - 教你从头到尾利用DL学梵高作画 ① CPU版教程：http://blog.csdn.net/v_july_v/article/details/52683959 ；② GPU版教程：http://blog.csdn.net/v_july_v/article/details/52658965
@@ -203,5 +228,7 @@
  - beautiful soup和网络爬虫初步：http://mp.weixin.qq.com/s?__biz=MzI4MTQ2NjU5NA==&mid=2247483666&idx=1&sn=af802b39d42d9073e24c086790457004&chksm=eba9829fdcde0b8929ae724f0b41d49091c88fc1e07f697c5030516f33b1bcfcffdace83bcf7&mpshare=1&scene=23&srcid=1102C9RJJ1RXE6bHwFQzLy6W#rd
  - 16年度最火课程TOP 10免费试听：https://www.julyedu.com/sale/christmas
  - 如何学习数据科学、机器学习与深度学习（附学习路线）：http://blog.csdn.net/v_july_v/article/details/54561427
- - 《机器学习集训营第二期》：https://www.julyedu.com/weekend/train2 ，学习机器学习的最佳选择，三个月挑战起薪三十万。
+ - 《机器学习集训营第5期》：http://www.julyedu.com/weekend/train5 ，学习机器学习的最佳选择，三个月挑战起薪四十万。
+ - 国内首个AI题库陆续发布，「BAT机器学习面试1000题」：http://blog.csdn.net/column/details/17609.html
+ - 迄今为止，这几篇是我见过阐述最为通俗易懂的文章：①KMP http://blog.csdn.net/v_july_v/article/details/7041827 ，②SVM http://blog.csdn.net/v_july_v/article/details/7624837 ，③CNN https://www.julyedu.com/question/big/kp_id/26/ques_id/2084 ，④RNN https://www.julyedu.com/question/big/kp_id/26/ques_id/1717 ，⑤LSTM https://www.julyedu.com/question/big/kp_id/26/ques_id/1851 ， ⑥物体检测 https://www.julyedu.com/question/big/kp_id/26/ques_id/2103 ， ⑦区块链 https://www.julyedu.com/question/big/kp_id/29/ques_id/2110 。看过无数资料，可能都不如这些好懂。 ​​​​
 - 持续更新..
