@@ -216,11 +216,14 @@ July团队高校讲座PPT
  - 《NLP高级小班 第七期》：http://www.julyedu.com/weekend/nlp7 ，不止精讲HMM/CRF/Transformer/BERT且不止四大企业级项目，和在百度、字节、华为的同学共同提升。
  - 《推荐高级班 第十期》：https://www.julyedu.com/employment/rs10 ，不止购买预测、文本推荐、行为预测、电商推荐，与已在大厂做推荐的同学共同提升。
  - 七月在线「机器学习集训营」，http://www.julyedu.com/weekend/train15 ，一站式掌握大数据、机器学习、深度学习和CV/N LP/推荐项目实战，已帮助2000多人成功就业/转型。
+ - 国内首个AI题库陆续发布，「BAT机器学习面试1000题」：https://www.julyedu.com/questions/interview 
  
 机器学习十大算法系列
+我在CSDN上有写一个「机器学习十大算法系列」（链接：http://blog.csdn.net/v_JULY_v/article/category/1061301 ），后远不止十大，现30篇，总阅读量500万，平均一篇16万多阅读，同事整理成PDF，竞达800页!其中最经典的五篇文章分别是
+- SVM http://blog.csdn.net/v_july_v/article/details/7624837
+- xgboost：https://www.julyedu.com/questions/interview-detail?kp_id=23&cate=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&quesId=2590 
 - CNN笔记：通俗理解卷积神经网络 http://blog.csdn.net/v_july_v/article/details/51812459
-- 结构之法 算法之道ML/DL系列博客：http://blog.csdn.net/v_JULY_v/article/category/1061301
-- 国内首个AI题库陆续发布，「BAT机器学习面试1000题」：https://www.julyedu.com/questions/interview 
-- 迄今为止，这几篇是我见过阐述最为通俗易懂的文章：①KMP http://blog.csdn.net/v_july_v/article/details/7041827 ，②SVM http://blog.csdn.net/v_july_v/article/details/7624837 ，③CNN https://www.julyedu.com/question/big/kp_id/26/ques_id/2084 ，④RNN https://www.julyedu.com/question/big/kp_id/26/ques_id/1717 ，⑤LSTM https://www.julyedu.com/question/big/kp_id/26/ques_id/1851 ， ⑥物体检测 https://www.julyedu.com/question/big/kp_id/26/ques_id/2103 ， ⑦区块链 https://www.julyedu.com/question/big/kp_id/29/ques_id/2110 。看过无数资料，可能都不如这些好懂。 ​​​​
+- RNN/LSTM https://www.julyedu.com/question/big/kp_id/26/ques_id/1851 
+- 一文掌握目标检测：https://www.julyedu.com/question/big/kp_id/26/ques_id/2103
  
 - 持续更新..
