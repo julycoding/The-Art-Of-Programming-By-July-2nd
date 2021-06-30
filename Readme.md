@@ -218,9 +218,9 @@ July团队高校讲座PPT
  - 七月在线「机器学习集训营」，http://www.julyedu.com/weekend/train15 ，一站式掌握大数据、机器学习、深度学习和CV/N LP/推荐项目实战，已帮助2000多人成功就业/转型。
  
 机器学习十大算法系列
- - CNN笔记：通俗理解卷积神经网络 http://blog.csdn.net/v_july_v/article/details/51812459
-  - 结构之法 算法之道ML/DL系列博客：http://blog.csdn.net/v_JULY_v/article/category/1061301
- - 国内首个AI题库陆续发布，「BAT机器学习面试1000题」：http://blog.csdn.net/column/details/17609.html
- - 迄今为止，这几篇是我见过阐述最为通俗易懂的文章：①KMP http://blog.csdn.net/v_july_v/article/details/7041827 ，②SVM http://blog.csdn.net/v_july_v/article/details/7624837 ，③CNN https://www.julyedu.com/question/big/kp_id/26/ques_id/2084 ，④RNN https://www.julyedu.com/question/big/kp_id/26/ques_id/1717 ，⑤LSTM https://www.julyedu.com/question/big/kp_id/26/ques_id/1851 ， ⑥物体检测 https://www.julyedu.com/question/big/kp_id/26/ques_id/2103 ， ⑦区块链 https://www.julyedu.com/question/big/kp_id/29/ques_id/2110 。看过无数资料，可能都不如这些好懂。 ​​​​
+- CNN笔记：通俗理解卷积神经网络 http://blog.csdn.net/v_july_v/article/details/51812459
+- 结构之法 算法之道ML/DL系列博客：http://blog.csdn.net/v_JULY_v/article/category/1061301
+- 国内首个AI题库陆续发布，「BAT机器学习面试1000题」：http://blog.csdn.net/column/details/17609.html
+- 迄今为止，这几篇是我见过阐述最为通俗易懂的文章：①KMP http://blog.csdn.net/v_july_v/article/details/7041827 ，②SVM http://blog.csdn.net/v_july_v/article/details/7624837 ，③CNN https://www.julyedu.com/question/big/kp_id/26/ques_id/2084 ，④RNN https://www.julyedu.com/question/big/kp_id/26/ques_id/1717 ，⑤LSTM https://www.julyedu.com/question/big/kp_id/26/ques_id/1851 ， ⑥物体检测 https://www.julyedu.com/question/big/kp_id/26/ques_id/2103 ， ⑦区块链 https://www.julyedu.com/question/big/kp_id/29/ques_id/2110 。看过无数资料，可能都不如这些好懂。 ​​​​
  
 - 持续更新..
