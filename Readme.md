@@ -219,7 +219,8 @@ July团队高校讲座PPT
  - 国内首个AI题库陆续发布，「BAT机器学习面试1000题」：https://www.julyedu.com/questions/interview 
  
 机器学习十大算法系列
-- 我在CSDN上有写一个「机器学习十大算法系列」（链接：http://blog.csdn.net/v_JULY_v/article/category/1061301 ），后远不止十大，现30篇，总阅读量500万，平均一篇16万多阅读，同事整理成PDF，竞达800页!其中最经典的五篇文章分别是
+
+我在CSDN上有写一个「机器学习十大算法系列」（链接：http://blog.csdn.net/v_JULY_v/article/category/1061301 ），后远不止十大，现30篇，总阅读量500万，平均一篇16万多阅读，同事整理成PDF，竞达800页!其中最经典的五篇文章分别是
 - SVM http://blog.csdn.net/v_july_v/article/details/7624837
 - xgboost：https://www.julyedu.com/questions/interview-detail?kp_id=23&cate=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&quesId=2590 
 - CNN笔记：通俗理解卷积神经网络 http://blog.csdn.net/v_july_v/article/details/51812459
