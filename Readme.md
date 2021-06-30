@@ -226,5 +226,5 @@ July团队高校讲座PPT
 - CNN笔记：通俗理解卷积神经网络 http://blog.csdn.net/v_july_v/article/details/51812459
 - RNN/LSTM https://www.julyedu.com/question/big/kp_id/26/ques_id/1851 
 - 一文掌握目标检测：https://www.julyedu.com/question/big/kp_id/26/ques_id/2103
- 
-- 持续更新..
+
+持续更新..
