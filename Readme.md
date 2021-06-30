@@ -1,4 +1,4 @@
-## About
+## 编程艺术系列(脱胎于微软面试100题系列)
 
 **July的新书《编程之法：面试和算法心得》纸质版在本github上的基础上做了极大彻底的改进、优化，无论是完整度、还是最新度、或质量上，都远非博客、github所能相比。换言之，新书《编程之法》的质量远高于博客、github。**
 
@@ -211,24 +211,16 @@ July团队高校讲座PPT
  - 支持向量机的PDF：http://yun.baidu.com/s/1ntwof7j ；
  - KMP的PDF：http://yun.baidu.com/s/1eQel3PK ；
  
-七月在线经典课程
- - 《机器学习与量化交易项目班》：https://www.julyedu.com/course/getDetail/46 ，项目驱动、真实数据，市场上极为难得的项目班，16年9.24日开班。
- - 《kaggle案例实战班 [100%纯实战]》：https://www.julyedu.com/course/getDetail/54 ，本周六12.24日起在线直播
- - ¥2499包揽2018年全套AI课程和全年GPU：https://www.julyedu.com/vip/vip_18 ，包含机器学习、深度学习、迁移学习、强化学习、TensorFlow框架实战班等等..
- - 《机器学习 第八期》：https://www.julyedu.com/course/getDetail/65 ，BAT工业实战、kaggle案例，国内最好ML课程。
- - 七月在线「机器学习集训营」，线上线下项目实训，线下BAT专家面对面、手把手教学，尤为突出BAT级工业项目实战辅导 + 一对一面试求职辅导：https://www.julyedu.com/category/index/2/32 。且提供3个月GPU实战，更精讲面试常见考点。且第4期ML集训营4增加入学测评，增加每周在线考试，增加作业和考试1v1批改，增大ML DL内容的所占比重，更增加到了北上深广杭沈济郑成等9大线下点。
+转型/就业与在职提升的最佳课程
+ - 《CV高级小班 第八期》：http://www.julyedu.com/Employment/cv8 ，在Facebook已年薪百万的都来学的CV高级班，不止精讲Vision Transformer 更实战6大企业级项目。
+ - 《NLP高级小班 第七期》：http://www.julyedu.com/weekend/nlp7 ，不止精讲HMM/CRF/Transformer/BERT且不止四大企业级项目，和在百度、字节、华为的同学共同提升。
+ - 《推荐高级班 第十期》：https://www.julyedu.com/employment/rs10 ，不止购买预测、文本推荐、行为预测、电商推荐，与已在大厂做推荐的同学共同提升。
+ - 七月在线「机器学习集训营」，http://www.julyedu.com/weekend/train15 ，一站式掌握大数据、机器学习、深度学习和CV/N LP/推荐项目实战，已帮助2000多人成功就业/转型。
  
-July’ blog
+机器学习十大算法系列
  - CNN笔记：通俗理解卷积神经网络 http://blog.csdn.net/v_july_v/article/details/51812459
   - 结构之法 算法之道ML/DL系列博客：http://blog.csdn.net/v_JULY_v/article/category/1061301
- - 教你从头到尾利用DL学梵高作画 ① CPU版教程：http://blog.csdn.net/v_july_v/article/details/52683959 ；② GPU版教程：http://blog.csdn.net/v_july_v/article/details/52658965
- - 学汪峰作词 MAC torch char-rnn 教程：https://ask.julyedu.com/question/7405
- - 基于torch学汪峰写歌词、聊天机器人、图像着色/生成、看图说话、字幕生成：http://blog.csdn.net/v_july_v/article/details/52796239
- - 教你从头到尾利用DQN自动玩flappy bird（全程命令提示，GPU+CPU版）：http://blog.csdn.net/v_july_v/article/details/52810219
- - beautiful soup和网络爬虫初步：http://mp.weixin.qq.com/s?__biz=MzI4MTQ2NjU5NA==&mid=2247483666&idx=1&sn=af802b39d42d9073e24c086790457004&chksm=eba9829fdcde0b8929ae724f0b41d49091c88fc1e07f697c5030516f33b1bcfcffdace83bcf7&mpshare=1&scene=23&srcid=1102C9RJJ1RXE6bHwFQzLy6W#rd
- - 16年度最火课程TOP 10免费试听：https://www.julyedu.com/sale/christmas
- - 如何学习数据科学、机器学习与深度学习（附学习路线）：http://blog.csdn.net/v_july_v/article/details/54561427
- - 《机器学习集训营第5期》：http://www.julyedu.com/weekend/train5 ，学习机器学习的最佳选择，三个月挑战起薪四十万。
  - 国内首个AI题库陆续发布，「BAT机器学习面试1000题」：http://blog.csdn.net/column/details/17609.html
  - 迄今为止，这几篇是我见过阐述最为通俗易懂的文章：①KMP http://blog.csdn.net/v_july_v/article/details/7041827 ，②SVM http://blog.csdn.net/v_july_v/article/details/7624837 ，③CNN https://www.julyedu.com/question/big/kp_id/26/ques_id/2084 ，④RNN https://www.julyedu.com/question/big/kp_id/26/ques_id/1717 ，⑤LSTM https://www.julyedu.com/question/big/kp_id/26/ques_id/1851 ， ⑥物体检测 https://www.julyedu.com/question/big/kp_id/26/ques_id/2103 ， ⑦区块链 https://www.julyedu.com/question/big/kp_id/29/ques_id/2110 。看过无数资料，可能都不如这些好懂。 ​​​​
+ 
 - 持续更新..
