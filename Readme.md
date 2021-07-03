@@ -195,9 +195,7 @@ July于2015年正式创业，任七月在线创始人兼CEO，公司官网为：
 ## July' PDF
 July’ PDF
  - 《支持向量机通俗导论（理解SVM的三层境界）》Latex排版精细版：http://vdisk.weibo.com/s/zrFL6OXKgnlcp ；Latex版本②：https://raw.githubusercontent.com/liuzheng712/Intro2SVM/master/Intro2SVM.pdf 。
- - 原《程序员编程艺术第一~三十七章PDF》：http://download.csdn.net/detail/v_july_v/6694053 ，本github上的文章已经对此PDF进行了极大的优化和改进。
  - 《微软面试100题系列之PDF》：http://download.csdn.net/detail/v_july_v/4583815
- - 《十五个经典算法研究与总结之PDF》：http://download.csdn.net/detail/v_july_v/4478027
  - 编程艺术HTML网页版：http://taop.marchtea.com/
  - 截止到2014年12.9日，结构之法算法之道blog所有155篇博文集锦CHM文件下载地址：http://pan.baidu.com/s/1gdrJndp
  
