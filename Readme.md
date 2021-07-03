@@ -214,7 +214,10 @@ July团队高校讲座PPT
  - 《CV高级小班 第八期》：http://www.julyedu.com/Employment/cv8 ，在Facebook已年薪百万的都来学的CV高级班，不止精讲Vision Transformer 更实战6大企业级项目。
  - 《NLP高级小班 第七期》：http://www.julyedu.com/weekend/nlp7 ，不止精讲HMM/CRF/Transformer/BERT且不止四大企业级项目，和在百度、字节、华为的同学共同提升。
  - 《推荐高级班 第十期》：https://www.julyedu.com/employment/rs10 ，不止购买预测、文本推荐、行为预测、电商推荐，与已在大厂做推荐的同学共同提升。
+
+面试题集锦
  - 国内首个AI题库陆续发布，「BAT机器学习面试1000题」：https://www.julyedu.com/questions/interview 
+ - 2021大厂最新AI面试题 [含答案和解析, 更新到前105题]：https://www.julyedu.com/course/getDetail/369
  
 机器学习十大算法系列
 
