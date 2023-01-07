@@ -1,4 +1,4 @@
-## 程序员编程技艺(原编程艺术系列，最先脱胎于微软面试100题系列，后成书为编程之法)
+## 程序员编程技艺(原编程艺术系列，脱胎于微软面试100题系列，后成书为编程之法)
 
 看过[结构之法算法之道blog](http://blog.csdn.net/v_july_v)的朋友可能知道，从2010年10月起，[July](http://weibo.com/julyweibo) 开始整理一个微软面试100题的系列，他在整理这个系列的过程当中，越来越强烈的感觉到，可以从那100题中精选一些更为典型的题，每一题详细阐述成章，不断优化，于此，便成了程序员编程艺术系列。
 
@@ -213,7 +213,7 @@ July团队高校讲座PPT
  
 机器学习十大算法系列
 
-July在CSDN上有写一个「机器学习十大算法系列」（链接：https://blog.csdn.net/v_july_v/category_9270295.html ），后远不止十大，现30篇，总阅读量500万，平均一篇16万多阅读，同事整理成PDF，竞达800页!其中最经典的五篇文章分别是：
+July在CSDN上有写一个「机器学习十大算法系列」（链接：https://blog.csdn.net/v_july_v/category_9261611.html ），后远不止十大，现30篇，总阅读量500万，平均一篇16万多阅读，同事整理成PDF，竞达800页!其中最经典的五篇文章分别是：
 - SVM http://blog.csdn.net/v_july_v/article/details/7624837
 - xgboost：https://www.julyedu.com/questions/interview-detail?kp_id=23&cate=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&quesId=2590 
 - CNN笔记：通俗理解卷积神经网络 http://blog.csdn.net/v_july_v/article/details/51812459
