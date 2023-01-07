@@ -1,12 +1,4 @@
-## 编程艺术系列(脱胎于微软面试100题系列)
-
-**July的新书《编程之法：面试和算法心得》纸质版在本github上的基础上做了极大彻底的改进、优化，无论是完整度、还是最新度、或质量上，都远非博客、github所能相比。换言之，新书《编程之法》的质量远高于博客、github。**
-
-**此外，散落在网上其他任何地方的“编程之法”电子材料均是盗版自本github，更无质量可言。所以，July只唯一推荐《编程之法》纸质版。**
-
-《编程之法》纸质版已于2015年10月14日陆续开卖！目前，京东、当当、亚马逊等各大网店均已有现货销售。比如京东：http://item.jd.com/11786791.html 。
-
-另，新书《编程之法：面试和算法心得》的勘误在此文最末：http://blog.csdn.net/v_july_v/article/details/49302193
+## 程序员编程技艺(原编程艺术系列，最先脱胎于微软面试100题系列，后成书为编程之法)
 
 看过[结构之法算法之道blog](http://blog.csdn.net/v_july_v)的朋友可能知道，从2010年10月起，[July](http://weibo.com/julyweibo) 开始整理一个微软面试100题的系列，他在整理这个系列的过程当中，越来越强烈的感觉到，可以从那100题中精选一些更为典型的题，每一题详细阐述成章，不断优化，于此，便成了程序员编程艺术系列。
 
@@ -227,5 +219,8 @@ July在CSDN上有写一个「机器学习十大算法系列」（链接：https:
 - CNN笔记：通俗理解卷积神经网络 http://blog.csdn.net/v_july_v/article/details/51812459
 - RNN/LSTM https://www.julyedu.com/question/big/kp_id/26/ques_id/1851 
 - 一文掌握目标检测：https://www.julyedu.com/question/big/kp_id/26/ques_id/2103
+- 通俗理解kaggle比赛大杀器xgboost，2018年8月：https://blog.csdn.net/v_JULY_v/article/details/81410574
+- 如何从RNN起步，一步一步通俗理解LSTM，2019年5月：https://blog.csdn.net/v_JULY_v/article/details/89894058
+- BERT通俗笔记：从Word2Vec/Transformer逐步理解到BERT，2022年10月：https://blog.csdn.net/v_JULY_v/article/details/127411638
 
 持续更新..
