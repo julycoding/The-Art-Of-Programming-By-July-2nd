@@ -202,10 +202,10 @@ July团队高校讲座PPT
  - KMP的PDF：http://yun.baidu.com/s/1eQel3PK ；
  
 转型/就业与在职提升的最佳课程
-  - 七月在线「机器学习集训营」，http://www.julyedu.com/weekend/train15 ，一站式掌握大数据、机器学习、深度学习和CV/N LP/推荐项目实战，已帮助2000多人成功就业/转型。
- - 《CV高级小班 第八期》：http://www.julyedu.com/Employment/cv8 ，在Facebook已年薪百万的都来学的CV高级班，不止精讲Vision Transformer 更实战6大企业级项目。
- - 《NLP高级小班 第七期》：http://www.julyedu.com/weekend/nlp7 ，不止精讲HMM/CRF/Transformer/BERT且不止四大企业级项目，和在百度、字节、华为的同学共同提升。
- - 《推荐高级班 第十期》：https://www.julyedu.com/employment/rs10 ，不止购买预测、文本推荐、行为预测、电商推荐，与已在大厂做推荐的同学共同提升。
+  - 七月在线「机器学习集训营」，http://www.julyedu.com/weekend/train18 ，一站式掌握大数据、机器学习、深度学习和CV/N LP/推荐项目实战，已帮助2000多人成功就业/转型。
+ - 《CV高级小班 第十二期》：http://www.julyedu.com/Employment/cv12 ，在Facebook已年薪百万的都来学的CV高级班，不止精讲Vision Transformer 更实战6大企业级项目。
+ - 《NLP高级小班 第十一期》：http://www.julyedu.com/weekend/nlp11 ，不止精讲HMM/CRF/Transformer/BERT且不止四大企业级项目，和在百度、字节、华为的同学共同提升。
+ - 《推荐高级班 第十三期》：https://www.julyedu.com/employment/rs13 ，不止购买预测、文本推荐、行为预测、电商推荐，与已在大厂做推荐的同学共同提升。
 
 面试题集锦
  - 国内首个AI题库陆续发布，「BAT机器学习面试1000题」：https://www.julyedu.com/questions/interview 
@@ -213,7 +213,7 @@ July团队高校讲座PPT
  
 机器学习十大算法系列
 
-July在CSDN上有写一个「机器学习十大算法系列」（链接：https://blog.csdn.net/v_july_v/category_9261611.html ），后远不止十大，现30篇，总阅读量500万，平均一篇16万多阅读，同事整理成PDF，竞达800页!其中最经典的五篇文章分别是：
+July在CSDN上有写一个「机器学习十大算法系列」（链接：https://blog.csdn.net/v_july_v/category_9261611.html ），后远不止十大，现30篇，总阅读量500万，平均一篇16万多阅读，同事整理成PDF，竞达800页!其中最经典的十篇文章分别是：
 - SVM http://blog.csdn.net/v_july_v/article/details/7624837
 - xgboost：https://www.julyedu.com/questions/interview-detail?kp_id=23&cate=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&quesId=2590 
 - CNN笔记：通俗理解卷积神经网络 http://blog.csdn.net/v_july_v/article/details/51812459
