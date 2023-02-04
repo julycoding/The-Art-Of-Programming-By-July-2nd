@@ -7,6 +7,7 @@
 若发现任何问题、错误、bug，或可以优化的每一段代码，欢迎随时pull request或发issue反馈，thanks。
 
 update
+
 2023年2.4日July更新：这本编程之法，17-19年特别想出修订版，但当时公司事情多，顾不上来，是个遗憾
 今天看了下这书的京东页面，在已购买者那98%好评，今年要弥补此前遗憾，出第二版，且还计划4本新书 未来三年逐一出版，类似：ChatGPT背后技术拆解、机器学习通俗笔记、RL极简入门、AI数学基础入门
 
@@ -186,7 +187,7 @@ July个人微博：https://weibo.com/julyweibo，并于2015年正式创业，任
 ## Copyright
 本电子书的版权属于July 本人，严禁他人出版或用于商业用途，违者必究法律责任。July、二零一四年五月十一日晚。
 
-## July' PDF
+## 干货集锦
 July’ PDF
  - 《支持向量机通俗导论（理解SVM的三层境界）》Latex排版精细版：http://vdisk.weibo.com/s/zrFL6OXKgnlcp ；Latex版本②：https://raw.githubusercontent.com/liuzheng712/Intro2SVM/master/Intro2SVM.pdf 。
  - 《微软面试100题系列之PDF》：http://download.csdn.net/detail/v_july_v/4583815
@@ -202,12 +203,6 @@ July团队高校讲座PPT
  - 海量数据处理的PDF：http://yun.baidu.com/s/1dDreICL ；
  - 支持向量机的PDF：http://yun.baidu.com/s/1ntwof7j ；
  - KMP的PDF：http://yun.baidu.com/s/1eQel3PK ；
- 
-转型/就业与在职提升的最佳课程
-  - 七月在线「机器学习集训营」，http://www.julyedu.com/weekend/train18 ，一站式掌握大数据、机器学习、深度学习和CV/N LP/推荐项目实战，已帮助2000多人成功就业/转型
- - 《CV高级小班 第十二期》：http://www.julyedu.com/Employment/cv12 ，在Facebook已年薪百万的都来学的CV高级班，不止精讲Vision Transformer 更实战6大企业级项目
- - 《NLP高级小班 第十一期》：http://www.julyedu.com/weekend/nlp11 ，不止精讲HMM/CRF/Transformer/BERT且不止四大企业级项目，和在百度、字节、华为的同学共同提升
- - 《推荐高级班 第十三期》：https://www.julyedu.com/employment/rs13 ，不止购买预测、文本推荐、行为预测、电商推荐，与已在大厂做推荐的同学共同提升
 
 面试题集锦
  - 国内首个AI题库陆续发布，「BAT机器学习面试1000题」：https://www.julyedu.com/questions/interview 
@@ -227,3 +222,9 @@ July在CSDN上有写一个「机器学习十大算法系列」（链接：https:
 - ChatGPT通俗笔记：从GPT-N、RL之PPO算法到instructGPT、ChatGPT，2023年1月：https://blog.csdn.net/v_JULY_v/article/details/128579457
 
 持续更新..
+
+## AI课程
+  - 七月在线「机器学习集训营」，http://www.julyedu.com/weekend/train18 ，一站式掌握大数据、机器学习、深度学习和CV/N LP/推荐项目实战，已帮助2000多人成功就业/转型
+ - 《CV高级小班 第十二期》：http://www.julyedu.com/Employment/cv12 ，在Facebook已年薪百万的都来学的CV高级班，不止精讲Vision Transformer 更实战6大企业级项目
+ - 《NLP高级小班 第十一期》：http://www.julyedu.com/weekend/nlp11 ，不止精讲HMM/CRF/Transformer/BERT且不止四大企业级项目，和在百度、字节、华为的同学共同提升
+ - 《推荐高级班 第十三期》：https://www.julyedu.com/employment/rs13 ，不止购买预测、文本推荐、行为预测、电商推荐，与已在大厂做推荐的同学共同提升
