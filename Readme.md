@@ -2,18 +2,20 @@
 
 看过[结构之法算法之道blog](http://blog.csdn.net/v_july_v)的朋友可能知道，从2010年10月起，[July](http://weibo.com/julyweibo) 开始整理一个微软面试100题的系列，他在整理这个系列的过程当中，越来越强烈的感觉到，可以从那100题中精选一些更为典型的题，每一题详细阐述成章，不断优化，于此，便成了程序员编程艺术系列。
 
-原编程艺术系列从2011年4月至今，写了42个编程问题，在创作的过程当中，得到了很多朋友的支持，特别是博客上随时都会有朋友不断留言，或提出改进建议，或show出自己的思路、代码，或指正bug。为更好的改进、优化、增补编程艺术系列，特把博客上的这个**程序员编程艺术系列和博客内其它部分经典文章**同步到此，成立本项目。
+原编程艺术系列从2011年4月至今，写了42个编程问题，在创作的过程当中，得到了很多朋友的支持，特别是博客上随时都会有朋友不断留言，或提出改进建议，或show出自己的思路、代码，或指正bug。为更好的改进、优化、增补编程艺术系列，特把博客上的这个**程序员编程艺术系列和博客内其它部分经典文章**同步到此，成立本项目，最后成书为：《编程之法：面试和算法心得》。
 
 若发现任何问题、错误、bug，或可以优化的每一段代码，欢迎随时pull request或发issue反馈，thanks。
 
 update
+2023年2.4日July更新：这本编程之法，17-19年特别想出修订版，但当时公司事情多，顾不上来，是个遗憾
+今天看了下这书的京东页面，在已购买者那98%好评，今年要弥补此前遗憾，出第二版，且还计划4本新书 未来三年逐一出版，类似：ChatGPT背后技术拆解、机器学习通俗笔记、RL极简入门、AI数学基础入门
 
-July于2015年正式创业，任七月在线创始人兼CEO，公司官网为：https://www.julyedu.com/ ，致力于培养100万AI人才。
+## Contact me
+July个人微博：https://weibo.com/julyweibo，并于2015年正式创业，任七月在线创始人兼CEO，公司官网为：https://www.julyedu.com/ ，致力于培养100万AI人才
 
 ## Start Reading
  * [中文目录](ebook/zh/Readme.md) Enhancement in progress
  * [English Contents](ebook/en/Readme.md) Translation in progress
-
 
 ## How To Contribute
  * 邀请大家帮忙把github上的文章导出到word上，欢迎到这里认领：https://github.com/julycoding/The-Art-Of-Programming-By-July/issues/337 」
@@ -202,10 +204,10 @@ July团队高校讲座PPT
  - KMP的PDF：http://yun.baidu.com/s/1eQel3PK ；
  
 转型/就业与在职提升的最佳课程
-  - 七月在线「机器学习集训营」，http://www.julyedu.com/weekend/train18 ，一站式掌握大数据、机器学习、深度学习和CV/N LP/推荐项目实战，已帮助2000多人成功就业/转型。
- - 《CV高级小班 第十二期》：http://www.julyedu.com/Employment/cv12 ，在Facebook已年薪百万的都来学的CV高级班，不止精讲Vision Transformer 更实战6大企业级项目。
- - 《NLP高级小班 第十一期》：http://www.julyedu.com/weekend/nlp11 ，不止精讲HMM/CRF/Transformer/BERT且不止四大企业级项目，和在百度、字节、华为的同学共同提升。
- - 《推荐高级班 第十三期》：https://www.julyedu.com/employment/rs13 ，不止购买预测、文本推荐、行为预测、电商推荐，与已在大厂做推荐的同学共同提升。
+  - 七月在线「机器学习集训营」，http://www.julyedu.com/weekend/train18 ，一站式掌握大数据、机器学习、深度学习和CV/N LP/推荐项目实战，已帮助2000多人成功就业/转型
+ - 《CV高级小班 第十二期》：http://www.julyedu.com/Employment/cv12 ，在Facebook已年薪百万的都来学的CV高级班，不止精讲Vision Transformer 更实战6大企业级项目
+ - 《NLP高级小班 第十一期》：http://www.julyedu.com/weekend/nlp11 ，不止精讲HMM/CRF/Transformer/BERT且不止四大企业级项目，和在百度、字节、华为的同学共同提升
+ - 《推荐高级班 第十三期》：https://www.julyedu.com/employment/rs13 ，不止购买预测、文本推荐、行为预测、电商推荐，与已在大厂做推荐的同学共同提升
 
 面试题集锦
  - 国内首个AI题库陆续发布，「BAT机器学习面试1000题」：https://www.julyedu.com/questions/interview 
@@ -222,5 +224,6 @@ July在CSDN上有写一个「机器学习十大算法系列」（链接：https:
 - 通俗理解kaggle比赛大杀器xgboost，2018年8月：https://blog.csdn.net/v_JULY_v/article/details/81410574
 - 如何从RNN起步，一步一步通俗理解LSTM，2019年5月：https://blog.csdn.net/v_JULY_v/article/details/89894058
 - BERT通俗笔记：从Word2Vec/Transformer逐步理解到BERT，2022年10月：https://blog.csdn.net/v_JULY_v/article/details/127411638
+- ChatGPT通俗笔记：从GPT-N、RL之PPO算法到instructGPT、ChatGPT，2023年1月：https://blog.csdn.net/v_JULY_v/article/details/128579457
 
 持续更新..
