@@ -15,7 +15,7 @@ update
 
 有意参与读者审阅的欢迎随时联系我
 
-且还在谋划4本新书 未来三年逐一出版，类似：ChatGPT背后技术拆解、机器学习通俗笔记、RL极简入门、AI数学基础入门
+另，还在谋划4本新书 未来三年逐一出版，类似：ChatGPT背后技术拆解、机器学习通俗笔记、RL极简入门、AI数学基础入门
 
 ## Contact me
 July个人微博：https://weibo.com/julyweibo ，并于2015年正式创业，任七月在线创始人兼CEO，公司官网为：https://www.julyedu.com/ ，致力于培养100万AI人才
