@@ -12,7 +12,7 @@ update
 今天看了下这书的京东页面，在已购买者那98%好评，今年要弥补此前遗憾，出第二版，且还计划4本新书 未来三年逐一出版，类似：ChatGPT背后技术拆解、机器学习通俗笔记、RL极简入门、AI数学基础入门
 
 ## Contact me
-July个人微博：https://weibo.com/julyweibo，并于2015年正式创业，任七月在线创始人兼CEO，公司官网为：https://www.julyedu.com/ ，致力于培养100万AI人才
+July个人微博：https://weibo.com/julyweibo ，并于2015年正式创业，任七月在线创始人兼CEO，公司官网为：https://www.julyedu.com/ ，致力于培养100万AI人才
 
 ## Start Reading
  * [中文目录](ebook/zh/Readme.md) Enhancement in progress
@@ -184,8 +184,7 @@ July个人微博：https://weibo.com/julyweibo，并于2015年正式创业，任
 
 感谢以上诸位，正因为他们的帮助，纸书《编程之法：面试和算法心得》的质量才不断提升，从而给广大读者呈现的是更好的作品。
 
-## Copyright
-本电子书的版权属于July 本人，严禁他人出版或用于商业用途，违者必究法律责任。July、二零一四年五月十一日晚。
+声明：本电子书的版权属于July 本人，严禁他人出版或用于商业用途，违者必究法律责任。July、二零一四年五月十一日晚。
 
 ## 干货集锦
 July’ PDF
