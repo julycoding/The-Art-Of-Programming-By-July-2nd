@@ -16,7 +16,7 @@ update
 有意参与读者审阅的欢迎随时联系我
 
 另，还在谋划4本新书，类似：
-- ChatGPT背后技术拆解，包括且不限于：1 微积分/概率统计基础、2 ML基础/梯度上升/损失函数、3 RL基础与PPO算法、4 transformer/自注意力机制、5 GPT3/prompt学习、6 chatgpt训练三阶段/多轮对话、7 chatgpt引发的火爆
+- ChatGPT背后技术拆解，包括且不限于：1 微积分/概率统计基础、2 ML基础/梯度上升/损失函数、3 RL/RLHF与TRPO/PPO算法、4 transformer/自注意力机制、5 GPT-N/prompt学习、6 chatgpt训练三阶段/多轮对话、7 chatgpt引发的火爆
 - 机器学习通俗笔记
 - RL极简入门
 - AI数学基础入门
