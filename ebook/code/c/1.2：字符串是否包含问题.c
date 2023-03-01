@@ -108,7 +108,7 @@ void countSort(char * oldArr, char * newArr)
         pos = count[*(oldArr + i) - 'A'];
         while (newArr[pos - 1] != 0)
         {
-            pos++;
+            pos--;
         }
         newArr[pos - 1] = *(oldArr + i);
     }
@@ -154,6 +154,7 @@ bool contain2(char * stra, char * strb)
     int lena = strlen(tmpA);
     int lenb = strlen(tmpB);
     int i, j;
+    /*
     for (i = 0, j = 0; j < lena && i < lenb; j++)
     {
         if (tmpA[j] == tmpB[i])
@@ -173,6 +174,24 @@ bool contain2(char * stra, char * strb)
     {
         return false;
     }
+    */
+    for(i = 0,j = 0;i < lena && j < lenb;){
+		if(tmpA[i] == tmpB[j]){
+			j++;
+			while(tmpA[i] == tmpB[i + 1]){
+				i++;
+			}
+		}else if(tmpA[i] > tmpB[j]){
+			return false;
+		}else{
+			i++;
+		}
+	}
+	if(j == lenb){
+		return TRUE;
+	}else{
+		return false;
+	}
 }
 //hash测试法
 bool contain3(char * stra, char * strb)
