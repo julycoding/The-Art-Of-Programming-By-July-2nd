@@ -108,7 +108,7 @@ void countSort(char * oldArr, char * newArr)
         pos = count[*(oldArr + i) - 'A'];
         while (newArr[pos - 1] != 0)
         {
-            pos++;
+            pos--;//pos++;
         }
         newArr[pos - 1] = *(oldArr + i);
     }
