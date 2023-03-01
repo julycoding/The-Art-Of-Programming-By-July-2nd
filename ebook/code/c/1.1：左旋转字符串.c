@@ -14,9 +14,14 @@ void leftShift1(char * arr, int n)
     size_t tmpLen = strlen(arr);
     char tmpChar;
     int i, j;
+
+	if (tmpLen == 0)
+		return ;
+
     if (n >= 0)
     {
-        for (i = 0; i < n; i++)
+        n %= tmpLen;
+		for (i = 0; i < n; i++)
         {
             tmpChar = *arr;
             for (j = 0; j < tmpLen - 1; j++)
@@ -28,7 +33,8 @@ void leftShift1(char * arr, int n)
     }
     else
     {
-        for (i = 0; i < -n; i++)
+        n = -((-n) % tmpLen)
+		for (i = 0; i < -n; i++)
         {
             tmpChar = *(arr + tmpLen - 1);
             for (j = tmpLen - 1; j > 0; j--)
@@ -39,22 +45,37 @@ void leftShift1(char * arr, int n)
         }
     }
 }
+
 //指针移位法
 void leftShift2(char * arr, int len, int n)
 {
     int i;
     size_t tmpLen = len;
-    int p0 = 0;
-    int p1 = n;
+    int p0 = 0, p1;
     char tmpChar;
+
+	if (n == 0)
+		return ;
+
+	if (n < 0)
+		n = len - (-1 * n) % len;
+	n %= len;
+	if (n == 0)
+		return ;
+
+	p1 = n;
+
     /*  O(m - n - k)  k is the last section*/
     while (p1 + n - 1 < tmpLen)
     {
-        tmpChar = *(arr + p0);
-        *(arr + p0) = *(arr + p1);
-        *(arr + p1) = tmpChar;
-        p0++;
-        p1++;
+		for (i = 0; i < n; ++i)
+		{
+			tmpChar = *(arr + p0);
+			*(arr + p0) = *(arr + p1);
+			*(arr + p1) = tmpChar;
+			p0++;
+			p1++;
+		}
     }
     /*
      *  not good O(k * (n + k)) k = tmpLen - p1
@@ -79,34 +100,47 @@ void leftShift2(char * arr, int len, int n)
         p1++;
     }
 }
-//指针移位法,尾部处理用递归
-void leftShift3(char * arr, int len, int n)
-{
-    size_t tmpLen = len;
-    int p0 = 0;
-    int p1 = n;
-    char tmpChar;
-    /*  O(m - n - k)  k is the last section*/
-    while (p1 + n - 1 < tmpLen)
-    {
-        tmpChar = *(arr + p0);
-        *(arr + p0) = *(arr + p1);
-        *(arr + p1) = tmpChar;
-        p0++;
-        p1++;
-    }
-    if (p1 < tmpLen)
-    {
-        leftShift2(arr + p0, len - p0, n);
-    }
-}
+
+//指针移位法,尾部处理用递归   算法与leftshift2雷同 没有意义 没有递归
+//void leftShift3(char * arr, int len, int n)
+//{
+//    size_t tmpLen = len;
+//    int p0 = 0;
+//    int p1 = n;
+//    char tmpChar;
+//    /*  O(m - n - k)  k is the last section*/
+//    while (p1 + n - 1 < tmpLen)
+//    {
+//        tmpChar = *(arr + p0);
+//        *(arr + p0) = *(arr + p1);
+//        *(arr + p1) = tmpChar;
+//        p0++;
+//        p1++;
+//    }
+//    if (p1 < tmpLen)
+//    {
+//        leftShift2(arr + p0, len - p0, n);
+//    }
+//}
+
 //指针移位法,递归
 void leftShift4(char * arr, int len, int n)
 {
     size_t tmpLen = len;
-    int p0 = 0;
-    int p1 = n;
+    int p0 = 0, p1;
     char tmpChar;
+
+	if (len == 0)
+		return ;
+
+	if (n < 0)
+		n = len - (-1 * n) % len;
+	n %= len;
+	if (n == 0)
+		return ;
+
+	p1 = n;
+
     /*  O(m - n - k)  k is the last section*/
     while (p1 < tmpLen)
     {
@@ -139,10 +173,21 @@ void myinvert(char * start, char * end)
 //翻转法
 void leftShift5(char * arr, int len, int n)
 {
-    myinvert(arr, arr + n - 1);
+	if (len == 0)
+		return ;
+
+	if (n < 0)
+		n = len - (-1 * n) % len;
+	n %= len;
+
+	if (n == 0)
+		return ;
+
+	myinvert(arr, arr + n - 1);
     myinvert(arr + n, arr + len - 1);
     myinvert(arr, arr + len - 1);
 }
+
 int gcd(int m, int n)
 {
     int r;
@@ -153,13 +198,26 @@ int gcd(int m, int n)
     }
     return n;
 }
+
 //循环移位法
 void leftShift6(char * arr, int len, int n)
 {
-    int group = gcd(len, n);
-    char tmpChar;
-    int x = len / group;
-    int i, j;
+	int group, x, i, j;
+	char tmpChar;
+
+	if (len == 0)
+		return ;
+
+	if (n < 0)
+		n = len - (-1 * n) % len;
+	n %= len;
+
+	if (n == 0)
+		return ;
+
+	group = gcd(len, n);
+	x = len / group;
+
     for (i = 0; i < group; i++)
     {
         tmpChar = *(arr + i);
@@ -172,70 +230,70 @@ void leftShift6(char * arr, int len, int n)
 }
 int main()
 {
-    char str[50];
-    sprintf(str, "abcdefghijk");
-    printf("The origin str is :%s\tlen is :%zu\n", str, strlen(str));
-    printf("\n");
-    leftShift1(str, 2);
-    printf("The leftShift1 str is :%s\n", str);
-    leftShift1(str, -2);
-    printf("The leftShift1 str is :%s\n", str);
-    leftShift1(str, 3);
-    printf("The leftShift1 str is :%s\n", str);
-    leftShift1(str, strlen(str) - 3);
-    printf("The leftShift1 str is :%s\n", str);
-    printf("\n");
+	char str[50];
+	sprintf(str, "123456");
+	printf("The origin str is :%s\tlen is :%zu\n", str, strlen(str));
+	printf("\n");
+	leftShift1(str, 2);
+	printf("The leftShift1 str is :%s\n", str);
+	leftShift1(str, -2);
+	printf("The leftShift1 str is :%s\n", str);
+	leftShift1(str, 3);
+	printf("The leftShift1 str is :%s\n", str);
+	leftShift1(str, strlen(str) - 3);
+	printf("The leftShift1 str is :%s\n", str);
+	printf("\n");
 
-    leftShift2(str, strlen(str), 3);
-    printf("The leftShift2 str is :%s\n", str);
-    leftShift2(str, strlen(str), strlen(str) - 3);
-    printf("The leftShift2 str is :%s\n", str);
-    leftShift2(str + 2, strlen(str) - 2, 2);
-    printf("The leftShift2 str is :%s\n", str);
-    leftShift2(str + 2, strlen(str) - 2, strlen(str) - 2 - 2);
-    printf("The leftShift2 str is :%s\n", str);
-    printf("\n");
+	leftShift2(str, strlen(str), 3);
+	printf("The leftShift2 str is :%s\n", str);
+	leftShift2(str, strlen(str), strlen(str) - 3);
+	printf("The leftShift2 str is :%s\n", str);
+	leftShift2(str + 2, strlen(str) - 2, 2);
+	printf("The leftShift2 str is :%s\n", str);
+	leftShift2(str + 2, strlen(str) - 2, strlen(str) - 2 - 2);
+	printf("The leftShift2 str is :%s\n", str);
+	printf("\n");
 
 
-    leftShift3(str, strlen(str), 3);
-    printf("The leftShift3 str is :%s\n", str);
-    leftShift3(str, strlen(str), strlen(str) - 3);
-    printf("The leftShift3 str is :%s\n", str);
-    leftShift3(str + 2, strlen(str) - 2, 2);
-    printf("The leftShift3 str is :%s\n", str);
-    leftShift3(str + 2, strlen(str) - 2, strlen(str) - 2 - 2);
-    printf("The leftShift3 str is :%s\n", str);
-    printf("\n");
+	leftShift3(str, strlen(str), 3);
+	printf("The leftShift3 str is :%s\n", str);
+	leftShift3(str, strlen(str), strlen(str) - 3);
+	printf("The leftShift3 str is :%s\n", str);
+	leftShift3(str + 2, strlen(str) - 2, 2);
+	printf("The leftShift3 str is :%s\n", str);
+	leftShift3(str + 2, strlen(str) - 2, strlen(str) - 2 - 2);
+	printf("The leftShift3 str is :%s\n", str);
+	printf("\n");
 
-    leftShift4(str, strlen(str), 3);
-    printf("The leftShift4 str is :%s\n", str);
-    leftShift4(str, strlen(str), strlen(str) - 3);
-    printf("The leftShift4 str is :%s\n", str);
-    leftShift4(str + 2, strlen(str) - 2, 2);
-    printf("The leftShift4 str is :%s\n", str);
-    leftShift4(str + 2, strlen(str) - 2, strlen(str) - 2 - 2);
-    printf("The leftShift4 str is :%s\n", str);
-    printf("\n");
+	leftShift4(str, strlen(str), 3);
+	printf("The leftShift4 str is :%s\n", str);
+	leftShift4(str, strlen(str), strlen(str) - 3);
+	printf("The leftShift4 str is :%s\n", str);
+	leftShift4(str + 2, strlen(str) - 2, 2);
+	printf("The leftShift4 str is :%s\n", str);
+	leftShift4(str + 2, strlen(str) - 2, strlen(str) - 2 - 2);
+	printf("The leftShift4 str is :%s\n", str);
+	printf("\n");
 
-    leftShift5(str, strlen(str), 3);
-    printf("The leftShift5 str is :%s\n", str);
-    leftShift5(str, strlen(str), strlen(str) - 3);
-    printf("The leftShift5 str is :%s\n", str);
-    leftShift5(str + 2, strlen(str) - 2, 2);
-    printf("The leftShift5 str is :%s\n", str);
-    leftShift5(str + 2, strlen(str) - 2, strlen(str) - 2 - 2);
-    printf("The leftShift5 str is :%s\n", str);
-    printf("\n");
+	leftShift5(str, strlen(str), 3);
+	printf("The leftShift5 str is :%s\n", str);
+	leftShift5(str, strlen(str), strlen(str) - 3);
+	printf("The leftShift5 str is :%s\n", str);
+	leftShift5(str + 2, strlen(str) - 2, 2);
+	printf("The leftShift5 str is :%s\n", str);
+	leftShift5(str + 2, strlen(str) - 2, strlen(str) - 2 - 2);
+	printf("The leftShift5 str is :%s\n", str);
+	printf("\n");
 
-    leftShift6(str, strlen(str), 3);
-    printf("The leftShift6 str is :%s\n", str);
-    leftShift6(str, strlen(str), strlen(str) - 3);
-    printf("The leftShift6 str is :%s\n", str);
-    leftShift6(str + 2, strlen(str) - 2, 2);
-    printf("The leftShift6 str is :%s\n", str);
-    leftShift6(str + 2, strlen(str) - 2, strlen(str) - 2 - 2);
-    printf("The leftShift6 str is :%s\n", str);
-    printf("\n");
+	leftShift6(str, strlen(str), 3);
+	printf("The leftShift6 str is :%s\n", str);
+	leftShift6(str, strlen(str), strlen(str) - 3);
+	printf("The leftShift6 str is :%s\n", str);
+	leftShift6(str + 2, strlen(str) - 2, 2);
+	printf("The leftShift6 str is :%s\n", str);
+	leftShift6(str + 2, strlen(str) - 2, strlen(str) - 2 - 2);
+	printf("The leftShift6 str is :%s\n", str);
+	printf("\n");
 
-    return 0;
+	return 0;
 }
